@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+208787,Adrien Thomasson,Adrien,Thomasson,81,CM,CDM,Stade Rennais,France,58,72,79,80,68,76,81
+204883,Brice Samba,Brice,Samba,81,GK,,Stade Rennais,France,55,20,30,48,14,54,82
+70415,Estéban Lepaul,Estéban,Lepaul,81,ST,,Stade Rennais,France,76,82,60,77,42,73,84
+223874,Valentin Rongier,Valentin,Rongier,80,CDM,CM,Stade Rennais,France,61,67,71,79,72,77,80
+254121,Charlie Cresswell,Charlie,Cresswell,78,CB,,Stade Rennais,England,56,35,46,60,79,78,83
+246242,Boulaye Dia,Boulaye,Dia,78,ST,CAM,Stade Rennais,Senegal,83,79,62,77,46,69,82
+261616,Quentin Merlin,Quentin,Merlin,77,LB,LM,Stade Rennais,France,75,63,74,77,71,69,82
+259191,Mousa Al Tamari,Mousa,Al Tamari,77,LM,RM LW RW,Stade Rennais,Jordan,89,72,67,82,54,70,77
+243631,Mahdi Camara,Mahdi,Camara,77,CM,CDM CAM,Stade Rennais,France,74,65,68,75,75,79,78
+235973,Sebastian Szymański,Sebastian,Szymański,77,CM,CAM RM CDM,Stade Rennais,Poland,77,71,79,78,61,70,80
+252512,Anthony Rouault,Anthony,Rouault,76,CB,,Stade Rennais,France,58,33,54,67,77,75,81
+231102,Ludovic Blas,Ludovic,Blas,76,RM,CAM RW CM,Stade Rennais,France,71,77,75,77,58,64,79
+212138,Przemysław Frankowski,Przemysław,Frankowski,76,RB,RM,Stade Rennais,Poland,87,72,72,75,67,73,79
+253121,Issa Soumaré,Issa,Soumaré,75,LM,ST LW,Stade Rennais,Senegal,83,67,64,74,42,66,78
+242907,Bryan Reynolds,Bryan,Reynolds,74,RB,RM RW,Stade Rennais,United States,69,48,61,68,68,75,79
+236518,Arnaud Nordin,Arnaud,Nordin,73,RM,LM RW LW,Stade Rennais,France,77,68,67,74,42,63,74
+73192,Abdelhamid Aït Boudlal,Abdelhamid,Aït Boudlal,73,CB,,Stade Rennais,Morocco,72,35,51,60,72,74,82
+71114,Djaoui Cissé,Djaoui,Cissé,73,CM,CDM,Stade Rennais,France,63,64,64,71,66,67,81
+271248,Eliezer Mayenda,Eliezer,Mayenda,72,ST,RM RW,Stade Rennais,Spain,82,70,61,70,37,69,80
+279557,Mahamadou Nagida,Mahamadou,Nagida,70,LB,RB LM RM,Stade Rennais,Cameroon,77,49,55,71,64,58,81
+228255,Nicolas Lemaître,Nicolas,Lemaître,70,GK,,Stade Rennais,France,33,23,25,37,17,31,71
+79690,Gonçalo Oliveira,Gonçalo,Calisto Oliveira,65,CB,,Stade Rennais,Portugal,60,37,44,57,64,70,79
+276787,Ayanda Sishuba,Ayanda,Sishuba,63,CAM,LW CM,Stade Rennais,Belgium,69,58,58,73,33,40,77
+76534,Henrick Do Marcolino,Henrick,Do Marcolino,62,CAM,CM ST,Stade Rennais,Gabon,73,54,59,63,28,47,79
+82427,Elías Legendre Quiñonez,Elías,Legendre Quiñonez,61,RM,RW,Stade Rennais,Ecuador,72,50,50,63,34,53,77

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+261987,Antonio Blanco,Antonio,Blanco Conde,78,CDM,CM,Deportivo Alavés,Spain,50,59,71,70,73,68,82
+234826,Toni Martínez,Antonio,Martínez López,78,ST,,Deportivo Alavés,Spain,75,79,60,72,36,80,80
+222041,Lucas Boyé,Lucas,Boyé,78,ST,CAM,Deportivo Alavés,Argentina,69,77,67,75,55,81,80
+240953,Nahuel Tenaglia,Nahuel,Tenaglia,77,CB,RB,Deportivo Alavés,Argentina,69,48,59,75,77,80,77
+222464,Sivera,Antonio,Sivera Salvá,77,GK,,Deportivo Alavés,Spain,57,24,29,46,16,50,79
+210455,Jonny,Jonathan,Castro Otto,76,RB,LB CB RM,Deportivo Alavés,Spain,72,56,69,75,75,72,81
+240458,Ander Guevara,Ander,Guevara Lajo,74,CDM,CM,Deportivo Alavés,Spain,42,58,67,72,69,68,76
+233113,Aleñá,Carles,Aleñá Castillo,74,LM,CM RM LB,Deportivo Alavés,Spain,67,68,73,73,55,63,76
+205192,Denis Suárez,Denis,Suárez Fernández,74,CM,LM CDM LW,Deportivo Alavés,Spain,63,69,76,74,60,57,80
+76768,Ángel Pérez,Ángel,Pérez Hidalgo,74,RM,RB LM RW,Deportivo Alavés,Spain,88,61,64,70,67,74,81
+270834,Abde Rebbach,Abde,Rebbach,73,LW,LM LB,Deportivo Alavés,Algeria,79,69,68,71,54,72,77
+267681,Nicolás Valentini,Nicolás,Valentini,73,CB,,Deportivo Alavés,Argentina,69,36,54,64,74,76,79
+264160,Pablo Ibáñez,Pablo,Ibáñez Lumbreras,73,CM,CDM,Deportivo Alavés,Spain,69,60,65,70,68,68,77
+244948,Carlos Protesoni,Carlos,Protesoni,73,CDM,CM CB,Deportivo Alavés,Uruguay,66,51,59,68,71,72,76
+258730,Miguel Rodríguez,Miguel,Rodríguez Vidal,72,RW,RM,Deportivo Alavés,Spain,81,63,63,72,53,69,79
+278003,Yusi,Youssef,Enríquez Lekhedim,70,LB,LM,Deportivo Alavés,Morocco,80,47,62,72,65,64,79
+221639,Mariano,Mariano,Díaz Mejía,70,ST,,Deportivo Alavés,Dominican Republic,70,72,61,67,45,71,80
+81776,Ville Koski,Ville,Koski,70,CB,CDM,Deportivo Alavés,Finland,66,30,46,58,71,69,80
+253216,Adrián Rodríguez,Adrián,Rodríguez Giménez,68,GK,,Deportivo Alavés,Argentina,30,13,19,32,12,43,77
+79186,Mikel Rodríguez,Mikel,Rodríguez Ulacia,67,CM,CDM,Deportivo Alavés,Spain,71,60,67,71,51,63,74
+278402,Selu Diallo,Mamadou Selu,Diallo Diallo,64,CM,CDM CAM,Deportivo Alavés,Guinea,77,59,60,71,55,74,73
+258041,Hugo Novoa,Hugo,Novoa Ramos,64,RM,RB,Deportivo Alavés,Spain,79,61,56,68,51,56,71
+70183,Aitor Mañas,Aitor,Mañas Buenadicha,64,ST,,Deportivo Alavés,Spain,56,63,42,61,34,58,76
+82833,Xanet Oláiz,Xanet,Oláiz Ibarzábal,63,CB,LB,Deportivo Alavés,Spain,64,36,40,53,63,64,77
+267958,Tomás Mendes,Tomás,Mendes Mendes,62,CM,CDM,Deportivo Alavés,Spain,62,49,49,59,49,61,75

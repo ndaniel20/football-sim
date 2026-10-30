@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+260601,Exequiel Zeballos,Exequiel,Zeballos,76,LW,RW LM RM,Monza,Argentina,85,66,68,79,30,57,81
+251988,Andrea Colpani,Andrea,Colpani,76,CAM,RM CM RW,Monza,Italy,76,74,75,75,66,66,79
+239613,Matteo Pessina,Matteo,Pessina,76,CM,CDM,Monza,Italy,67,69,72,73,71,74,79
+237003,Samuele Birindelli,Samuele,Birindelli,75,RB,CB RM,Monza,Italy,87,57,64,75,69,66,76
+268683,Michael Folorunsho,Michael,Folorunsho,74,CM,ST CAM,Monza,Italy,76,74,69,68,70,83,76
+237715,Patrick Cutrone,Patrick,Cutrone,74,ST,CAM,Monza,Italy,74,74,63,72,36,72,77
+234147,Dany Mota,Dany,Mota Carvalho,74,ST,CAM,Monza,Portugal,77,73,64,75,37,66,76
+240020,Ricardo Mangas,Ricardo Luís,Chaby Mangas,73,LB,LM,Monza,Portugal,75,64,64,74,66,77,74
+255900,Noel Törnqvist,Noel,Törnqvist,73,GK,,Monza,Sweden,46,20,30,33,14,49,81
+246457,Cyril Ngonge,Cyril,Ngonge,72,RM,ST RW CAM,Monza,Belgium,80,70,66,72,40,64,74
+237127,Demba Thiam,Demba,Thiam,72,GK,,Monza,Senegal,61,15,23,39,14,47,74
+219812,Patrick Ciurria,Patrick,Ciurria,72,CAM,RM CM RW,Monza,Italy,79,71,72,76,57,57,79
+257000,Andrea Carboni,Andrea,Carboni,71,CB,,Monza,Italy,50,40,52,64,73,69,76
+233396,Idrissa Touré,Idrissa,Touré,71,RM,RB,Monza,Germany,69,58,65,70,63,78,71
+215785,Keita Baldé,Keita,Baldé,71,ST,CAM,Monza,Senegal,83,68,67,71,35,73,82
+276680,Jan Ziółkowski,Jan,Ziółkowski,70,CB,,Monza,Poland,64,31,39,54,70,70,78
+278305,Lorenzo Lucchesi,Lorenzo,Lucchesi,68,CB,,Monza,Italy,55,33,41,56,68,75,76
+72337,Gustavo Varela,Gustavo Miguel,Pereira S. Varela,68,ST,,Monza,Portugal,68,69,48,65,28,61,79
+70252,Saba Goglichidze,Saba,Goglichidze,68,CB,,Monza,Georgia,53,28,38,51,69,71,77
+70471,Ebenezer Akinsanmiro,Ebenezer,Akinsanmiro,67,CM,CDM,Monza,Nigeria,73,67,66,69,61,68,80
+248199,Valentin Antov,Valentin,Antov,67,CB,,Monza,Bulgaria,55,43,45,62,67,66,74
+268437,Omari Forson,Omari,Forson,65,RM,RW,Monza,England,73,59,61,68,31,47,74
+80893,Adam Bakoune,Adam,Bakoune,65,RB,RM,Monza,Italy,64,37,45,54,63,64,75
+78184,Jay Robinson,Jay,Robinson,65,CAM,RM ST RW,Monza,England,76,63,58,69,31,57,80
+71805,Leonardo Colombo,Leonardo,Colombo,65,CM,CDM,Monza,Italy,69,51,54,64,63,67,76

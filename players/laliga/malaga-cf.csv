@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+235312,Alfonso Herrero,Alfonso,Herrero Peinador,76,GK,,Málaga CF,Spain,50,20,29,47,14,47,78
+258494,Larrubia,David,Larrubia Romano,75,RW,RM,Málaga CF,Spain,84,64,68,81,39,63,80
+243312,Pablo Martínez,Pablo,Martínez Andrés,75,CM,LM CDM CAM,Málaga CF,Spain,70,71,74,74,62,70,78
+240289,Calero,Fernando,Calero Villa,75,CB,,Málaga CF,Spain,54,44,61,67,76,71,78
+74554,Chupe,Carlos,Ruiz Rubio,75,ST,,Málaga CF,Spain,72,76,57,75,28,75,83
+244472,Jens-Lys Cajuste,Jens-Lys,Cajuste,73,CDM,CM,Málaga CF,Sweden,64,60,64,73,70,75,79
+278608,Adrián Niño,Adrián,Niño Heredia,72,ST,LW,Málaga CF,Spain,82,66,56,75,30,62,81
+265812,Dani Lorenzo,Daniel,Lorenzo Guerrero,72,CAM,CM ST,Málaga CF,Spain,83,57,67,74,59,64,79
+73452,Murillo,Diego,Murillo Dominguez,72,CB,RB CDM,Málaga CF,Spain,66,37,49,63,70,77,79
+73199,Puga,Carlos,Puga Medina,72,RB,RM,Málaga CF,Spain,84,42,55,73,64,68,78
+258684,Salinas,José,Salinas Morán,71,LB,LM LW,Málaga CF,Spain,76,54,61,67,67,69,76
+246276,Joaquín Muñoz,Joaquín,Muñoz Benavides,71,LW,LM,Málaga CF,Spain,88,59,60,74,26,60,73
+74210,Izan Merino,Izan,Merino Rodríguez,71,CDM,CM,Málaga CF,Spain,69,52,60,69,65,76,81
+276949,Dotor,Carlos,Dotor Gonzalez,70,CAM,CM ST CDM,Málaga CF,Spain,51,63,66,69,60,63,75
+77346,Rafita,Rafael,Garrido Hierro,70,RB,LB RM LM,Málaga CF,Spain,83,38,57,68,65,65,80
+243604,Juan Cruz,Juan Cruz,Díaz Espósito,69,RM,CAM LM RW,Málaga CF,Spain,73,68,68,68,33,49,76
+240859,Berrocal,Juan,Berrocal González,69,CB,,Málaga CF,Spain,58,40,45,59,69,73,72
+242333,Jauregi,Eneko,Jauregi Escobar,68,ST,,Málaga CF,Spain,61,69,48,60,29,72,70
+219796,Einar Galilea,Einar,Galilea Azaceta,68,CB,,Málaga CF,Spain,44,39,41,54,67,75,70
+78193,Rafa Rodríguez,Rafael,Rodríguez Ruiz,68,CAM,ST CM,Málaga CF,Spain,73,66,59,67,48,66,76
+269227,Álex Pastor,Álex,Pastor Carayol,67,CB,,Málaga CF,Spain,49,29,44,53,66,71,70
+80217,Ángel Recio,Ángel,Recio Gutiérrez,67,CB,,Málaga CF,Spain,66,31,40,57,66,71,73
+70448,Adam Aznou,Adam,Aznou,67,LB,LM,Málaga CF,Morocco,77,53,59,68,64,52,80
+255398,Lobete,Julen,Lobete Cienfuegos,66,LW,ST RW LM,Málaga CF,Spain,75,65,55,68,27,62,72
+74555,Aarón Ochoa,Aarón,Ochoa Moloney,66,LM,CAM ST LW,Málaga CF,Republic of Ireland,61,60,61,73,40,54,77

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+271451,Dinis Pinto,Dinis,L. Casals Pinto,73,RB,,Moreirense,Portugal,77,49,64,70,68,66,76
+251681,Maracás,Jobson,de Brito Gonzaga,72,CB,,Moreirense,Brazil,77,32,44,62,72,77,74
+262430,Kiko Bondoso,Francisco,Ribeiro Tomé,71,LM,LW RM RW,Moreirense,Portugal,77,69,68,73,35,58,72
+244020,André Ferreira,André Filipe,M. Ribeiro Ferreira,71,GK,,Moreirense,Portugal,46,21,26,44,15,52,72
+276442,Gilberto,Gilberto Dambi,Batista,70,CB,RB CDM,Moreirense,Guinea-Bissau,68,36,48,56,70,72,81
+270729,Rodri Alonso,Rodrigo,Alonso Martín,69,CM,CDM RM RB,Moreirense,Spain,65,67,65,67,55,55,76
+79295,Kiko,Francisco,Teixeira Domingues,69,LB,LM CDM LW,Moreirense,Portugal,80,53,65,64,61,64,75
+76298,Leandro Santos,Leandro H.,Sousa Santos,69,RB,RM,Moreirense,Portugal,82,47,58,68,59,64,81
+87123,Aranha,Wanderson,Ferreira dos Santos,68,GK,,Moreirense,Brazil,20,16,20,30,11,42,78
+79448,Mateja Stjepanović,Mateja,Stjepanović,68,CDM,CM CB CAM,Moreirense,Serbia,66,55,52,67,67,74,79
+79608,João Veloso,João Miguel,Fins Veloso,67,CM,CDM,Moreirense,Portugal,64,61,63,67,56,69,81
+270881,Leonardo Vonić,Leonardo,Vonić,65,ST,,Moreirense,Croatia,74,62,42,67,29,65,72
+79207,Alexandre Parsemain,Alexandre,Parsemain,65,ST,,Moreirense,France,75,66,47,61,26,63,71
+79049,Álvaro Martínez,Álvaro,Martínez Navarro,65,LB,LM CDM LW,Moreirense,Spain,72,51,63,64,59,66,69
+78453,Afonso Assis,Afonso,Assis Cunha Almeida,65,CDM,CM,Moreirense,Portugal,53,45,54,62,60,63,79
+78060,Jimi Gower,Jimi,Gower,65,CM,CAM CDM,Moreirense,England,65,53,64,66,53,59,77
+77106,Yan Lincon,Yan Lincon,Farias de Sousa,65,ST,,Moreirense,Brazil,72,61,45,65,25,62,74
+73195,Guilherme Liberato,Guilherme,L. T. de Aquino,65,CDM,CM,Moreirense,Brazil,58,44,52,57,63,68,69
+83779,Kevyn,Kevyn Henrique,Monteiro de Souza,64,CB,,Moreirense,Brazil,63,31,38,55,66,64,79
+89423,Tiago Andrade,Tiago,Alves Pinto Andrade,63,LW,RW LM RM,Moreirense,Portugal,72,59,55,62,32,46,79
+80637,Landerson,Landerson,Costa Araújo,63,LW,LM RM,Moreirense,Brazil,73,55,54,64,32,41,75
+77399,Manuel Mendonça,Mendonça,Manuel,63,CAM,LW CM,Moreirense,Portugal,77,52,60,68,36,43,77
+261133,Nile John,Nile,John,62,CAM,CM CDM,Moreirense,England,64,59,58,65,45,60,69
+87420,Janderson,José Janderson,da Silva Marques,62,CB,RB,Moreirense,Brazil,68,35,34,50,63,65,76
+89999,Chipyoka Songa,Chipyoka,Songa,60,CAM,RW LW CM,Moreirense,Zambia,72,51,55,62,35,45,74

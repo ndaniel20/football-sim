@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="League phase standings, player leaders, and matchday fixtures.">
+  <title>League phase · UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages/league-phase.css">
+</head>
+<body class="league-phase-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell">
+    <div class="main-column league-column">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="UCL Simulator XI home">
+          <img class="brand-mark" src="/images/ucl-logo.png" alt="">
+          <span class="brand-name">UCL SIMULATOR XI</span>
+        </a>
+        <div class="league-season"><span>SEASON</span><strong>26/27</strong></div>
+      </header>
+
+      <main class="league-main">
+        <section class="league-heading" aria-labelledby="league-title">
+          <div>
+            <p class="league-eyebrow"><span>03</span> TOURNAMENT</p>
+            <h1 id="league-title">League <span>phase.</span></h1>
+          </div>
+          <div class="league-summary"><strong>36</strong><span>CLUBS</span><i></i><strong>8</strong><span>MATCHDAYS</span></div>
+        </section>
+
+        <div class="schedule-loading" id="schedule-loading" role="status">
+          <span class="loading-spinner" aria-hidden="true"></span>
+          <div><strong>Generating fixtures</strong><span>Building an eight-matchday schedule</span></div>
+        </div>
+        <div class="league-error" id="league-error" role="alert" hidden>
+          <strong>League phase unavailable</strong>
+          <span id="league-error-message"></span>
+          <a class="button button-secondary" href="/draw.html">Return to the draw</a>
+        </div>
+
+        <section class="standings-section" aria-labelledby="standings-title">
+          <div class="league-section-heading">
+            <div><p class="section-kicker">36-CLUB LEAGUE TABLE</p><h2 id="standings-title">Standings</h2></div>
+            <span class="qualification-key"><i class="qualification-top" aria-hidden="true"></i> TOP 8 <i class="qualification-playoff" aria-hidden="true"></i> PLAY-OFFS</span>
+          </div>
+          <div class="standings-wrap">
+            <table class="standings-table" aria-label="League phase standings">
+              <colgroup>
+                <col class="col-position"><col class="col-club"><col class="col-played"><col class="col-wins"><col class="col-draws"><col class="col-losses"><col class="col-goals"><col class="col-difference"><col class="col-points"><col class="col-form">
+              </colgroup>
+              <thead><tr><th class="position-heading" scope="col">#</th><th class="club-heading" scope="col">CLUB</th><th class="stats-start" scope="col">MP</th><th scope="col">W</th><th scope="col">D</th><th scope="col">L</th><th class="goals-heading" scope="col">GF–GA</th><th scope="col">GD</th><th class="points-heading" scope="col">PTS</th><th class="form-heading" scope="col">FORM</th></tr></thead>
+              <tbody id="standings-body"><tr><td colspan="10" class="table-loading">Loading standings…</td></tr></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="leaders-section" aria-labelledby="leaders-title">
+          <div class="league-section-heading">
+            <div><p class="section-kicker">INDIVIDUAL PERFORMANCE</p><h2 id="leaders-title">Player leaders</h2></div>
+          </div>
+          <div class="leaders-grid" id="leaders-grid"></div>
+        </section>
+
+        <section class="fixtures-section" aria-labelledby="fixtures-title">
+          <div class="league-section-heading fixtures-heading">
+            <div><p class="section-kicker">LEAGUE PHASE SCHEDULE</p><h2 id="fixtures-title">Fixtures</h2></div>
+            <div class="matchday-controls">
+              <button class="matchday-arrow" id="matchday-previous" type="button" aria-label="Previous matchday" disabled><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m12.5 4.5-5.5 5.5 5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+              <span id="matchday-label">MATCHDAY 1 / 8</span>
+              <button class="matchday-arrow" id="matchday-next" type="button" aria-label="Next matchday"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m7.5 4.5 5.5 5.5-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            </div>
+          </div>
+          <div class="fixture-list" id="fixture-list" aria-live="polite"><div class="fixtures-loading">Generating the matchday schedule…</div></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <section class="simulation-dock" aria-label="Match simulation controls">
+    <div class="simulation-dock-status" id="simulation-status" role="status">Select an unfinished fixture to simulate it.</div>
+    <div class="matchday-controls simulation-dock-navigation" aria-label="Select matchday">
+      <button class="matchday-arrow" id="dock-matchday-previous" type="button" aria-label="Previous matchday" disabled><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m12.5 4.5-5.5 5.5 5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span id="dock-matchday-label">MATCHDAY 1 / 8</span>
+      <button class="matchday-arrow" id="dock-matchday-next" type="button" aria-label="Next matchday"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m7.5 4.5 5.5 5.5-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    </div>
+    <div class="simulation-dock-actions">
+      <button class="simulation-button simulation-button-primary" id="simulate-selected" type="button" disabled>Simulate selected match</button>
+      <button class="simulation-button" id="simulate-matchday" type="button" disabled>Simulate matchday</button>
+      <button class="simulation-button simulation-button-knockout" id="proceed-knockout" type="button" disabled>Knockout stage</button>
+    </div>
+  </section>
+
+  <dialog class="match-modal" id="match-modal" aria-labelledby="match-modal-title">
+    <div class="match-modal-shell">
+      <div class="match-modal-heading">
+        <div><p class="modal-kicker" id="match-modal-matchday">LEAGUE PHASE</p><h2 id="match-modal-title">Match simulation</h2></div>
+        <button class="modal-close" id="match-modal-close" type="button" aria-label="Close match details">×</button>
+      </div>
+      <div class="live-scoreboard" id="live-scoreboard"></div>
+      <div class="live-match-stats" id="live-match-stats" aria-label="Live match statistics"></div>
+      <div class="match-timeline" id="match-timeline" aria-live="polite"></div>
+      <div class="match-modal-footer">
+        <button class="simulation-button" id="skip-to-full-time" type="button" disabled>Skip to full time</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="leader-modal" id="leader-modal" aria-labelledby="leader-modal-title">
+    <div class="leader-modal-shell">
+      <div class="match-modal-heading">
+        <div><p class="modal-kicker" id="leader-modal-kicker">PLAYER LEADERS</p><h2 id="leader-modal-title">Player list</h2></div>
+        <button class="modal-close" id="leader-modal-close" type="button" aria-label="Close player list">×</button>
+      </div>
+      <div class="leader-modal-list" id="leader-modal-list"></div>
+    </div>
+  </dialog>
+
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/shared/player-customizations.js" defer></script>
+  <script src="/assets/js/pages/league-phase.js" defer></script>
+</body>
+</html>

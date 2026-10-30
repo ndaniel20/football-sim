@@ -1,0 +1,22 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+204935,Jordan Pickford,Jordan,Pickford,85,GK,,Everton,England,58,31,40,54,19,58,85
+243657,James Garner,James,Garner,82,CDM,RB CM,Everton,England,65,72,82,74,79,78,84
+206517,Jack Grealish,Jack,Grealish,82,LM,LW,Everton,England,70,74,81,85,51,66,85
+237386,Kiernan Dewsbury-Hall,Kiernan,Dewsbury-Hall,81,CAM,CM CDM,Everton,England,69,74,80,81,69,72,82
+202695,James Tarkowski,James,Tarkowski,80,CB,,Everton,England,41,49,61,62,81,82,81
+247649,Jarrad Branthwaite,Jarrad,Branthwaite,79,CB,,Everton,England,70,42,54,59,80,75,84
+210697,Christian Nørgaard,Christian,Nørgaard,79,CDM,CM,Everton,Denmark,44,63,74,71,76,75,80
+251421,Brennan Johnson,Brennan,Johnson,78,RW,RM LW LM,Everton,Wales,86,74,71,76,45,61,81
+253054,Hayden Hackney,Hayden,Hackney,77,CM,CDM CAM,Everton,England,67,66,71,76,68,75,83
+244380,Vitaliy Mykolenko,Vitaliy,Mykolenko,77,LB,LM,Everton,Ukraine,73,59,67,71,74,73,78
+225782,Ainsley Maitland-Niles,Ainsley,Maitland-Niles,77,RB,RM CM RW,Everton,England,79,71,71,76,70,74,77
+276295,Thierno Barry,Thierno,Barry,76,ST,,Everton,France,80,74,63,68,30,73,83
+253510,Jake O'Brien,Jake,O'Brien,76,RB,CB RM,Everton,Republic of Ireland,74,53,63,60,76,80,81
+207599,Michael Keane,Michael,Keane,76,CB,,Everton,England,43,55,57,60,77,75,81
+256402,Carlos Alcaraz,Carlos,Alcaraz,75,CAM,CM CDM,Everton,Argentina,71,68,73,78,48,67,82
+279497,Tyler Dibling,Tyler,Dibling,74,RM,CAM RW,Everton,England,76,65,69,75,37,63,84
+259714,Merlin Röhl,Merlin,Röhl,74,CAM,CM CDM,Everton,Germany,77,64,69,73,63,67,82
+74413,Harrison Armstrong,Harrison,Armstrong,74,CM,CDM CAM,Everton,England,67,63,70,71,70,72,85
+232284,Mark Travers,Mark,Travers,72,GK,,Everton,Republic of Ireland,40,20,31,39,14,44,75
+71998,Tyrique George,Tyrique,George,72,LM,RM ST LW,Everton,England,78,68,67,75,38,58,84
+225650,Tom King,Tom,King,64,GK,,Everton,Wales,42,21,25,38,17,49,64

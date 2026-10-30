@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+197781,Isco,Francisco Román,Alarcón Suárez,85,CAM,CM CDM,Real Betis Balompié,Spain,57,79,84,85,58,61,89
+264432,Abde,Abdessamad,Ezzalzouli,86,LW,LM,Real Betis Balompié,Morocco,89,71,71,81,38,72,87
+255475,Antony,Antony,Matheus dos Santos,84,RW,RM,Real Betis Balompié,Brazil,86,79,79,84,45,73,85
+226456,Fornals,Pablo,Fornals Malla,82,CM,CAM CDM,Real Betis Balompié,Spain,67,72,81,79,71,72,82
+226226,Giovani Lo Celso,Giovani,Lo Celso,81,CAM,CM CDM,Real Betis Balompié,Argentina,75,76,82,81,67,70,83
+277537,Natan,Natan Bernardo,de Souza,82,CB,,Real Betis Balompié,Brazil,66,36,52,65,79,81,84
+237034,Cucho Hernández,Juan Camilo,Hernández Suárez,81,ST,CAM,Real Betis Balompié,Colombia,81,77,75,80,48,81,81
+222509,Dani Ceballos,Daniel,Ceballos Fernández,82,CM,CDM,Real Betis Balompié,Spain,60,68,77,79,66,65,82
+212602,Diego Llorente,Diego Javier,Llorente Ríos,79,CB,,Real Betis Balompié,Spain,60,44,55,68,80,77,80
+198141,Bartra,Marc,Bartra Aregall,80,CB,,Real Betis Balompié,Spain,68,56,67,73,80,77,83
+246657,Álvaro Valles,Álvaro,Valles Rosa,85,GK,,Real Betis Balompié,Spain,41,17,37,36,11,47,85
+245902,Troy Parrott,Troy,Parrott,81,ST,CAM,Real Betis Balompié,Republic of Ireland,74,79,64,77,47,76,82
+235945,Marc Roca,Marc,Roca Junqué,79,CDM,CM,Real Betis Balompié,Spain,54,63,71,72,75,72,79
+246606,Fran García,Francisco José,García Torres,81,LB,LM,Real Betis Balompié,Spain,87,51,64,76,69,75,81
+241867,Aitor Ruibal,Aitor,Ruibal García,77,RM,RB LM LB,Real Betis Balompié,Spain,80,72,69,73,69,72,77
+267860,Valentín Gómez,Valentín,Gómez,77,CB,LB,Real Betis Balompié,Argentina,78,37,57,73,76,79,82
+258534,Diego Conde,Diego José,Conde Alcolado,76,GK,,Real Betis Balompié,Spain,43,19,25,42,13,46,78
+252324,Riquelme,Rodrigo,Riquelme Reche,78,LM,CAM RM LW,Real Betis Balompié,Spain,80,69,71,75,49,60,78
+246608,Fidalgo,Álvaro,Fidalgo Fernández,76,CM,CAM CDM,Real Betis Balompié,Mexico,77,67,74,79,60,67,77
+203747,Héctor Bellerín,Héctor,Bellerín Moruno,78,RB,RM,Real Betis Balompié,Spain,78,55,67,74,71,68,81
+267430,Nelson Deossa,Nelson,Deossa,79,CDM,CM CAM,Real Betis Balompié,Colombia,77,74,71,73,72,79,80
+273849,Facundo Bernal,Facundo,Bernal,74,CDM,CM,Real Betis Balompié,Uruguay,70,58,66,70,70,75,81
+241184,Junior Firpo,Héctor Junior,Firpo Adamés,76,LB,LM,Real Betis Balompié,Dominican Republic,77,61,66,70,72,75,79
+252865,Iker Losada,Iker,Losada Aragunde,72,CAM,LM CM LW,Real Betis Balompié,Spain,70,70,70,74,42,59,77
+76740,Ángel Ortiz,Ángel,Ortiz Monterrey,70,RB,,Real Betis Balompié,Spain,81,49,61,70,63,66,81

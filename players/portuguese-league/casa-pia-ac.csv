@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+270054,Patrick Gilmar Sequeira,Patrick Gilmar,Sequeira,73,GK,,Casa Pia,Costa Rica,34,16,26,37,13,43,77
+231753,Jérémy Livolant,Jérémy,Livolant,73,RW,LW CAM RM,Casa Pia,France,85,68,65,73,55,70,73
+247258,Lawrence Ofori,Lawrence,Ofori,71,CDM,CM,Casa Pia,Ghana,74,62,64,76,63,68,72
+211561,Cassiano,Cassiano,Dias Moreira,71,ST,,Casa Pia,Brazil,64,70,51,67,32,73,72
+214606,Sebastián Pérez,Sebastián,Pérez,70,CDM,CM,Casa Pia,Colombia,63,61,58,67,61,67,76
+273998,André Gomes,André,Nogueira Gomes,69,GK,,Casa Pia,Portugal,40,20,29,40,12,37,80
+253146,Kaique Rocha,Kaique,Rocha Lima,69,CB,RB CDM,Casa Pia,Brazil,59,43,49,56,67,74,74
+222461,Rochinha,Diogo Filipe,Rocha Costa,69,LM,LW,Casa Pia,Portugal,75,63,63,74,39,56,76
+89338,JP,João Pedro,M. de Paula Morais,69,CM,CAM CDM,Casa Pia,Brazil,61,67,69,67,49,51,79
+73163,João Goulart,João Pedro,Goulart da Silva,69,CB,,Casa Pia,Portugal,45,33,39,52,67,77,74
+266905,Henrique Araújo,Henrique,Pereira Araújo,68,ST,,Casa Pia,Portugal,68,69,56,62,30,71,75
+79824,Ivan Mandić,Ivan,Mandić,68,GK,,Casa Pia,Croatia,31,18,21,31,13,48,76
+72267,João Rego,João Pedro,Seno Luís Rego,68,CAM,RM CM RW,Casa Pia,Portugal,65,58,60,72,45,56,82
+263018,David Sousa,David,Sousa Albino,67,CB,,Casa Pia,Brazil,53,32,43,56,67,70,75
+270840,Mohamed Salah El Boukammiri,Mohamed,Salah El Boukammiri,66,RW,RM,Casa Pia,Belgium,76,58,62,68,28,51,73
+221750,André Geraldes,André Geraldes,de Barros,66,RB,CB CDM,Casa Pia,Portugal,69,45,59,66,65,62,75
+256738,Alassana Jatta,Alassana,Jatta,65,ST,,Casa Pia,Gambia,73,61,50,60,41,72,66
+278004,Felipe Silva,Felipe,Florencio da Silva,64,CB,,Casa Pia,Brazil,59,42,43,54,64,64,72
+247180,Abdu Conté,Abdu,Cadri Conté,64,LB,LM LW,Casa Pia,Portugal,67,45,50,64,60,72,69
+77337,Khaly,Domingos José,Gabriel Bandeira,64,CB,,Casa Pia,Angola,56,37,36,47,63,67,73
+77186,Korede Osundina,Korede,Osundina,64,LW,RW CAM LM,Casa Pia,United States,79,67,56,59,32,59,74
+72634,Benjamin Pauwels,Benjamin,Pauwels,64,LW,RW LM RM,Casa Pia,Belgium,82,54,56,66,27,57,74
+278126,Selvi Clua,Selvi,Clua Oya,63,CDM,CM,Casa Pia,Spain,53,46,54,56,62,66,75
+275714,Evans Maurin,Evans,Maurin,63,LM,RM CAM LW,Casa Pia,France,73,59,49,63,24,62,68
+80521,Kevin Prieto,Kevin,Prieto,63,RM,RB RW,Casa Pia,Uruguay,71,54,56,59,52,64,72

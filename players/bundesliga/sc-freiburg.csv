@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+207862,Matthias Ginter,Matthias,Ginter,83,CB,,SC Freiburg,Germany,55,60,63,67,85,77,84
+231366,Philipp Lienhart,Philipp,Lienhart,79,CB,,SC Freiburg,Austria,65,31,51,68,80,78,79
+212096,Vincenzo Grifo,Vincenzo,Grifo,79,LM,LW,SC Freiburg,Italy,67,76,82,78,42,65,82
+268428,Mio Backhaus,Mio,Backhaus,77,GK,,SC Freiburg,Germany,24,15,24,38,11,38,85
+259750,Igor Matanović,Igor,Matanović,77,ST,,SC Freiburg,Croatia,67,72,51,66,40,83,81
+255185,Yuito Suzuki,Yuito,Suzuki,77,CAM,ST,SC Freiburg,Japan,86,67,67,78,48,61,79
+240451,Jan-Niklas Beste,Jan-Niklas,Beste,77,RM,LM RB LB,SC Freiburg,Germany,76,64,80,77,59,64,78
+262666,Philipp Treu,Philipp,Treu,76,RB,LB RM CM,SC Freiburg,Germany,78,46,63,78,66,69,79
+226168,Maximilian Eggestein,Maximilian,Eggestein,76,CDM,CM,SC Freiburg,Germany,62,62,65,72,72,79,80
+269705,Derry Scherhant,Derry,Scherhant,75,LM,ST LW CAM,SC Freiburg,Germany,80,68,65,75,32,70,81
+209846,Christian Günter,Christian,Günter,75,LB,LM,SC Freiburg,Germany,76,56,69,69,70,79,80
+208335,Lukas Kübler,Lukas,Kübler,75,RB,CB CDM,SC Freiburg,Germany,76,55,55,68,72,75,75
+262906,Yannik Engelhardt,Yannik,Engelhardt,74,CDM,CM,SC Freiburg,Germany,78,51,58,65,72,80,76
+250931,Patrick Osterhage,Patrick,Osterhage,74,CDM,CM,SC Freiburg,Germany,74,55,59,70,74,74,75
+263022,Max Rosenfelder,Max,Rosenfelder,73,CB,RB,SC Freiburg,Germany,80,32,48,67,74,71,79
+234833,Florian Müller,Florian,Müller,73,GK,,SC Freiburg,Germany,43,20,23,39,15,47,77
+279115,Berkay Yilmaz,Berkay,Yilmaz,72,LB,LM,SC Freiburg,Turkey,75,37,56,69,66,65,80
+279045,Bruno Ogbus,Bruno,Ogbus,72,CB,RB,SC Freiburg,Switzerland,80,31,48,64,73,71,85
+270923,Rihito Yamamoto,Rihito,Yamamoto,72,CM,CDM,SC Freiburg,Japan,61,58,62,70,67,66,79
+262668,Jordy Makengo,Jordy,Makengo,72,LB,LM,SC Freiburg,France,78,37,57,65,68,74,76
+239696,Florent Muslija,Florent,Muslija,72,CAM,LM CM LW,SC Freiburg,Kosovo,73,68,74,76,35,47,73
+234875,Lucas Höler,Lucas,Höler,72,ST,CAM,SC Freiburg,Germany,65,69,51,65,52,79,74
+76570,Keisuke Gotō,Keisuke,Gotō,72,ST,,SC Freiburg,Japan,68,70,50,63,34,66,86
+207897,Anthony Jung,Anthony,Jung,70,CB,,SC Freiburg,Germany,53,55,59,63,70,70,73
+74431,Cyriaque Irié,Cyriaque,Irié,70,RM,ST RW,SC Freiburg,Burkina Faso,85,60,61,68,28,68,81

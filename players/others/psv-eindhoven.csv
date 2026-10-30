@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+241509,Mauro Júnior,Mauro Jaqueson,J. Ferreira Santos,81,LB,CDM RB LM,PSV,Brazil,83,68,76,83,73,65,83
+181458,Ivan Perišić,Ivan,Perišić,81,LW,RW LM RM,PSV,Croatia,74,81,79,78,69,79,86
+235149,Jerdy Schouten,Jerdy,Schouten,80,CB,CDM CM,PSV,Holland,57,59,66,78,79,74,82
+251804,Sergiño Dest,Sergiño,Dest,79,RB,LB RM LM,PSV,United States,87,58,70,83,71,77,82
+241187,Lutsharel Geertruida,Lutsharel,Geertruida,78,CB,RB CDM RM,PSV,Holland,71,60,63,73,78,79,81
+251223,Ricardo Pepi,Ricardo,Pepi,78,ST,,PSV,United States,72,79,59,72,50,75,85
+235663,Guus Til,Guus,Til,78,CAM,ST CM CDM,PSV,Holland,79,75,71,75,66,77,81
+277809,Kodai Sano,Kodai,Sano,77,CDM,CM,PSV,Japan,69,66,74,81,68,70,84
+254789,Sven Mijnans,Sven,Mijnans,77,CAM,CM CDM,PSV,Holland,55,74,77,77,65,73,82
+242948,Matěj Kovář,Matěj,Kovář,77,GK,,PSV,Czech Republic,32,17,34,40,13,41,80
+239978,Dennis Man,Dennis,Man,77,RW,RM,PSV,Romania,88,73,69,75,48,74,78
+208574,Filip Kostić,Filip,Kostić,77,LB,LM,PSV,Serbia,80,74,80,74,70,72,85
+206467,Alassane Pléa,Alassane,Pléa,77,ST,CAM LW LM,PSV,France,73,79,79,78,41,70,81
+278661,Yarek,Yarek,Gąsiorowski,76,CB,LB,PSV,Spain,69,50,58,70,76,77,83
+275592,Ruben van Bommel,Ruben,van Bommel,76,LW,LM,PSV,Holland,87,72,69,75,31,71,85
+270633,Ryan Flamingo,Ryan,Flamingo,76,CB,,PSV,Holland,62,65,60,69,75,78,81
+266237,Paul Wanner,Paul,Wanner,76,CAM,CM RW CDM,PSV,Austria,72,66,73,76,56,66,86
+241171,Armando Obispo,Armando,Obispo,75,CB,,PSV,Curaçao,66,42,57,67,74,74,78
+224241,Nick Olij,Nick,Olij,75,GK,,PSV,Holland,50,24,29,40,16,41,77
+269823,Esmir Bajraktarević,Esmir,Bajraktarević,74,RW,RM,PSV,Bosnia and Herzegovina,79,63,68,77,44,62,82
+70725,Sami Ouaissa,Sami,Ouaissa,73,RW,RM,PSV,Holland,84,66,66,74,40,69,83
+260930,Kiliann Sildillia,Kiliann,Sildillia,72,RB,CB RM,PSV,France,64,34,55,65,73,74,77
+236498,Sam Lammers,Sam,Lammers,72,ST,CAM,PSV,Holland,64,72,64,74,39,66,74
+261422,Adamo Nagalo,Adamo,Nagalo,69,CB,,PSV,Burkina Faso,70,30,47,63,68,77,78
+81320,Noah Fernandez,Noah,Fernandez,68,CAM,LB CM CDM,PSV,Belgium,71,58,66,68,55,64,84

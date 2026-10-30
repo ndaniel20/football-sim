@@ -1,0 +1,24 @@
+{
+  "teams": [
+    { "team_id": 448, "name": "Athletic Club", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/athletic-club.csv", "offensive_tendency": 60, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 63 },
+    { "team_id": 240, "name": "Atlético de Madrid", "league": "spain", "formation": "4-4-2", "players_path": "players/laliga/atletico-de-madrid.csv", "offensive_tendency": 48, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 10 },
+    { "team_id": 479, "name": "CA Osasuna", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/ca-osasuna.csv", "offensive_tendency": 47, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 106 },
+    { "team_id": 450, "name": "Celta", "league": "spain", "formation": "3-4-3", "players_path": "players/laliga/celta.csv", "offensive_tendency": 63, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 104 },
+    { "team_id": 463, "name": "D. Alavés", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/d-alaves.csv", "offensive_tendency": 42, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 468, "name": "Elche CF", "league": "spain", "formation": "4-3-3", "players_path": "players/laliga/elche-cf.csv", "offensive_tendency": 56, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 241, "name": "FC Barcelona", "league": "spain", "formation": "4-3-3", "players_path": "players/laliga/fc-barcelona.csv", "offensive_tendency": 92, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 8 },
+    { "team_id": 1860, "name": "Getafe CF", "league": "spain", "formation": "4-4-2", "players_path": "players/laliga/getafe-cf.csv", "offensive_tendency": 26, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 1853, "name": "Levante UD", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/levante-ud.csv", "offensive_tendency": 48, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 573, "name": "Málaga CF", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/malaga-cf.csv", "offensive_tendency": 43, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 456, "name": "R. Racing Club", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/r-racing-club.csv", "offensive_tendency": 58, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 242, "name": "RC Deportivo", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/rc-deportivo.csv", "offensive_tendency": 50, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 452, "name": "RCD Espanyol", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/rcd-espanyol.csv", "offensive_tendency": 43, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 480, "name": "Rayo Vallecano", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/rayo-vallecano.csv", "offensive_tendency": 54, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 92 },
+    { "team_id": 449, "name": "Real Betis", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/real-betis.csv", "offensive_tendency": 62, "home_advantage": 2, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 24 },
+    { "team_id": 243, "name": "Real Madrid", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/real-madrid.csv", "offensive_tendency": 70, "home_advantage": 2, "away_advantage": 3, "ucl_default": true, "uefa_coefficient_rank": 2 },
+    { "team_id": 457, "name": "Real Sociedad", "league": "spain", "formation": "4-3-3", "players_path": "players/laliga/real-sociedad.csv", "offensive_tendency": 52, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 43 },
+    { "team_id": 481, "name": "Sevilla FC", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/sevilla-fc.csv", "offensive_tendency": 51, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 62 },
+    { "team_id": 461, "name": "Valencia CF", "league": "spain", "formation": "4-2-3-1", "players_path": "players/laliga/valencia-cf.csv", "offensive_tendency": 44, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 483, "name": "Villarreal CF", "league": "spain", "formation": "4-4-2", "players_path": "players/laliga/villarreal-cf.csv", "offensive_tendency": 65, "home_advantage": 2, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 39 }
+  ]
+}

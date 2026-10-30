@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="Browse club formations, starting XIs, and benches.">
+  <title>Club line-ups · UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages/lineup.css">
+</head>
+<body class="lineup-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="side-rail" aria-label="Primary navigation">
+      <nav class="side-navigation">
+        <a class="nav-item" href="/" aria-label="Home" title="Home">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item is-active" href="/lineup.html" aria-label="Line-up" aria-current="page" title="Line-up">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.7 6.3a5 5 0 0 0-6.4-6.4l3.2 3.2-3.5 3.5-3.2-3.2a5 5 0 0 0 6.4 6.4l7.2 7.2a2 2 0 0 0 2.8-2.8l-6.5-6.5Z" transform="translate(1 1)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/changelog.html" aria-label="Change log" title="Change log">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 3.5h8l4.5 4.5v3.5m-12.5-8v17h9m-6-12h5m-5 4h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M17.5 13a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z" stroke="currentColor" stroke-width="1.4"/><path d="M17.5 15.2v2.2l1.4.9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/match-simulator.html" aria-label="Match simulator" title="Match simulator">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"/><path d="m12 7.4 3.1 2.2-1.2 3.7h-3.8l-1.2-3.7L12 7.4Zm0 0V2.8m3.1 6.8 4.4-1.4M13.9 13.3l2.8 4m-6.6-4-2.8 4M8.9 9.6 4.5 8.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="nav-item nav-settings" type="button" aria-label="Settings" aria-disabled="true" title="Settings">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8.3a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Z" stroke="currentColor" stroke-width="1.6"/><path d="m19.2 14.8 1.3 1-.9 1.9-1.6-.2a7.5 7.5 0 0 1-1.2.9l-.3 1.6h-2.1l-.7-1.5a7.4 7.4 0 0 1-1.6 0l-.7 1.5h-2.1L9 18.4a7.5 7.5 0 0 1-1.2-.9l-1.6.2-.9-1.9 1.3-1a7.5 7.5 0 0 1 0-1.6l-1.3-1 .9-1.9 1.6.2A7.5 7.5 0 0 1 9 9.6l.3-1.6h2.1l.7 1.5a7.4 7.4 0 0 1 1.6 0l.7-1.5h2.1l.3 1.6a7.5 7.5 0 0 1 1.2.9l1.6-.2.9 1.9-1.3 1a7.5 7.5 0 0 1 0 1.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
+    </aside>
+
+    <div class="main-column lineup-column">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="UCL Simulator XI home">
+          <img class="brand-mark" src="/images/ucl-logo.png" alt="">
+          <span class="brand-name">UCL SIMULATOR XI</span>
+        </a>
+        <div class="season-callout" aria-label="Season 2026 to 2027"><span>SEASON</span><strong>26/27</strong></div>
+      </header>
+
+      <main class="lineup-main">
+        <section class="lineup-intro" aria-labelledby="lineup-title">
+          <p class="lineup-eyebrow">CLUB SQUADS</p>
+          <h1 id="lineup-title">Team <span>line-ups.</span></h1>
+        </section>
+
+        <section class="lineup-picker" aria-label="Choose a league and club">
+          <div class="league-tabs" id="league-tabs" role="tablist" aria-label="Leagues">
+            <div class="lineup-loading"><span class="loading-spinner" aria-hidden="true"></span>Loading leagues…</div>
+          </div>
+          <div class="club-picker-row">
+            <div class="selected-club">
+              <img class="lineup-club-crest" id="lineup-club-crest" src="/images/clubs/placeholder.svg" alt="">
+              <div class="selected-club-copy"><span class="lineup-label">SELECTED CLUB</span><strong id="selected-club-name">Loading clubs…</strong></div>
+            </div>
+            <div class="club-dropdown" id="club-dropdown">
+              <span class="club-select-caption">CHOOSE CLUB</span>
+              <button class="club-select-button" id="club-select-button" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="club-options" disabled>
+                <img class="club-select-crest" id="club-select-crest" src="/images/clubs/placeholder.svg" alt="">
+                <span class="club-select-current" id="club-select-current">Select a club</span>
+                <svg class="club-select-chevron" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="club-options" id="club-options" role="listbox" aria-label="Clubs in selected league" hidden></div>
+            </div>
+            <span class="formation-pill" id="formation-pill">—</span>
+          </div>
+        </section>
+
+        <section class="lineup-section" aria-labelledby="starting-xi-title">
+          <div class="lineup-section-heading">
+            <div><p class="lineup-label">FIRST TEAM</p><h2 id="starting-xi-title">Starting XI</h2></div>
+            <span class="xi-count" id="xi-count">11 players</span>
+          </div>
+          <div class="lineup-pitch" id="lineup-pitch" aria-label="Starting eleven on the pitch">
+            <div class="pitch-markings" aria-hidden="true"><span class="pitch-center-line"></span><span class="pitch-center-circle"></span><span class="pitch-box pitch-box-top"></span><span class="pitch-box pitch-box-bottom"></span><span class="pitch-goal pitch-goal-top"></span><span class="pitch-goal pitch-goal-bottom"></span></div>
+            <div class="formation-rows" id="formation-rows">
+              <div class="pitch-loading"><span class="loading-spinner" aria-hidden="true"></span>Building the line-up…</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bench-section" aria-labelledby="bench-title">
+          <div class="lineup-section-heading bench-heading">
+            <div><p class="lineup-label">READY TO PLAY</p><h2 id="bench-title">Substitutes</h2></div>
+            <span class="xi-count" id="bench-count">9 players</span>
+          </div>
+          <div class="bench-grid" id="bench-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="reserves-section" aria-labelledby="reserves-title">
+          <div class="lineup-section-heading bench-heading">
+            <div><p class="lineup-label">SQUAD DEPTH</p><h2 id="reserves-title">Reserves</h2></div>
+            <span class="xi-count" id="reserves-count"></span>
+          </div>
+          <div class="bench-grid" id="reserves-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="player-editor-dialog" id="player-editor-dialog" aria-labelledby="player-editor-title">
+    <form class="player-editor-form" id="player-editor-form">
+      <header class="player-editor-header">
+        <div class="player-editor-identity">
+          <div class="player-editor-face" id="editor-player-face"></div>
+          <div class="player-editor-heading-copy">
+            <p class="lineup-label">PLAYER CUSTOMIZATION</p>
+            <h2 id="player-editor-title">Edit player</h2>
+          </div>
+        </div>
+        <button class="player-editor-close" id="editor-close" type="button" aria-label="Close player editor">×</button>
+      </header>
+
+      <div class="player-editor-error" id="editor-error" role="alert" hidden></div>
+
+      <div class="player-editor-fields">
+        <section class="editor-field editor-club-field">
+          <label for="editor-club-search">Change club</label>
+          <div class="editor-club-picker" id="editor-club-picker">
+            <div class="editor-club-input-wrap">
+              <div class="editor-club-selection" id="editor-club-selection" aria-hidden="true"><img id="editor-selected-crest" alt=""><span id="editor-selected-name"></span></div>
+              <input id="editor-club-search" type="search" role="combobox" aria-label="Search clubs" aria-autocomplete="list" aria-expanded="false" aria-controls="editor-club-options" autocomplete="off">
+            </div>
+            <div class="editor-club-options" id="editor-club-options" role="listbox" aria-label="Choose a club" hidden></div>
+          </div>
+        </section>
+
+        <section class="editor-field">
+          <span class="editor-field-label">Primary position</span>
+          <div class="editor-position-picker">
+            <button class="editor-position-trigger" id="editor-primary-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="editor-primary-options">
+              <span id="editor-primary-current"></span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="editor-primary-options" id="editor-primary-options" role="listbox" aria-label="Primary position" hidden></div>
+          </div>
+        </section>
+
+        <section class="editor-field editor-secondary-field">
+          <span class="editor-field-label">Secondary positions <small>SELECT ANY THAT APPLY</small></span>
+          <div class="editor-position-options" id="editor-secondary-positions"></div>
+        </section>
+
+        <section class="editor-field editor-rating-field">
+          <div><span class="editor-field-label">Player rating</span></div>
+          <div class="editor-rating-control">
+            <button class="editor-rating-step" id="editor-rating-minus" type="button" aria-label="Decrease rating by half a star">−</button>
+            <span class="editor-rating-stars" id="editor-rating-stars" aria-live="polite"></span>
+            <button class="editor-rating-step" id="editor-rating-plus" type="button" aria-label="Increase rating by half a star">+</button>
+          </div>
+        </section>
+      </div>
+
+      <footer class="player-editor-footer">
+        <button class="editor-cancel" id="editor-cancel" type="button">Cancel</button>
+        <button class="editor-save" id="editor-save" type="submit">Save changes</button>
+      </footer>
+    </form>
+  </dialog>
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/shared/player-customizations.js" defer></script>
+  <script src="/assets/js/pages/lineup.js" defer></script>
+</body>
+</html>

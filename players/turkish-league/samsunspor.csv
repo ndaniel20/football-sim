@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+271737,Strahinja Eraković,Strahinja,Eraković,76,CB,RB LB,Samsunspor,Serbia,75,42,56,68,77,80,79
+241821,Mohamed Bayo,Mohamed,Bayo,74,ST,,Samsunspor,Guinea,70,73,58,70,30,66,75
+241982,Elliot Watt,Elliot,Watt,72,CM,CDM,Samsunspor,Scotland,67,60,70,74,63,70,75
+223175,Okan Kocuk,Okan,Kocuk,72,GK,,Samsunspor,Turkey,34,19,19,34,10,37,73
+258698,Afonso Sousa,Afonso Gamelas,de Pinho Sousa,71,CAM,CM,Samsunspor,Portugal,79,66,68,74,54,61,74
+277902,Logi Tómasson,Logi,Tómasson,70,LB,LM,Samsunspor,Iceland,80,56,63,67,64,76,73
+239045,Emre Kılınç,Emre,Kılınç,70,LM,RM LW RW,Samsunspor,Turkey,75,66,66,74,49,62,75
+263854,Joe Mendes,Joe,Mendes,69,RB,RM RW,Samsunspor,Sweden,84,44,55,72,59,68,76
+251401,Tanguy Coulibaly,Tanguy,Coulibaly,69,RM,LM ST RW,Samsunspor,France,79,58,59,74,41,65,72
+240856,Bilal Bayazıt,Bilal,Bayazıt,69,GK,,Samsunspor,Turkey,24,16,18,31,10,30,73
+271921,Gabriele Guarino,Gabriele,Guarino,68,CB,,Samsunspor,Italy,59,36,45,53,68,75,78
+263036,Igor Drapiński,Igor,Drapiński,68,CB,LB,Samsunspor,Poland,65,42,51,58,68,73,75
+262335,Elayis Tavşan,Elayis,Tavşan,68,RW,RM CAM ST,Samsunspor,Holland,81,64,63,71,27,55,71
+252917,Yalçın Kayan,Yalçın,Kayan,68,CM,CDM CAM,Samsunspor,Turkey,69,67,67,67,63,68,69
+243445,Fatih Kaya,Fatih,Kaya,68,ST,CAM RW RM,Samsunspor,Germany,74,65,51,68,36,75,71
+77080,Oskar Øhlenschlæger,Oskar,Øhlenschlæger,68,CM,ST RM CAM,Samsunspor,Denmark,68,59,60,68,59,76,78
+73511,Anto Sekongo,Anto,Sekongo,68,CM,RM CAM RW,Samsunspor,Mali,77,66,59,72,54,62,76
+243271,Celil Yüksel,Celil,Yüksel,67,CDM,CM,Samsunspor,Turkey,65,53,59,66,65,65,68
+277498,Jaurès Assoumou,Jaurès,Assoumou,65,LM,ST RM LW,Samsunspor,Côte d'Ivoire,70,63,53,66,26,52,72
+276393,Yunus Emre Çift,Yunus Emre,Çift,65,CB,CDM RB CM,Samsunspor,Turkey,63,35,40,57,65,70,71
+83008,Saikuba Jarju,Saikuba,Jarju,62,RM,LM RW LW,Samsunspor,Gambia,76,57,56,61,30,53,80
+278374,Enes Albak,Enes,Albak,61,LB,,Samsunspor,Turkey,64,45,50,59,58,59,74
+258897,Samed Onur,Samed,Onur,61,CM,CDM,Samsunspor,Turkey,68,59,65,65,46,42,70
+72417,Bedirhan Çetin,Bedirhan,Çetin,58,CB,,Samsunspor,Turkey,59,28,33,48,57,63,73
+279728,Mustafa Tan,Mustafa,Tan,57,RB,RM,Samsunspor,Turkey,80,36,42,56,51,55,73

@@ -1,0 +1,24 @@
+{
+  "teams": [
+    { "team_id": 52, "name": "AS Roma", "league": "italy", "formation": "3-4-3", "players_path": "players/serie-a/as-roma.csv", "offensive_tendency": 58, "home_advantage": 2, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 13 },
+    { "team_id": 115845, "name": "Atalanta", "league": "italy", "formation": "3-4-3", "players_path": "players/serie-a/bergamo-calcio.csv", "offensive_tendency": 75, "home_advantage": 3, "away_advantage": 3, "uefa_coefficient_rank": 16 },
+    { "team_id": 189, "name": "Bologna", "league": "italy", "formation": "4-2-3-1", "players_path": "players/serie-a/bologna.csv", "offensive_tendency": 57, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 71 },
+    { "team_id": 1842, "name": "Cagliari", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/cagliari.csv", "offensive_tendency": 40, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 1745, "name": "Como", "league": "italy", "formation": "4-2-3-1", "players_path": "players/serie-a/como.csv", "offensive_tendency": 66, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 9999 },
+    { "team_id": 110374, "name": "Fiorentina", "league": "italy", "formation": "3-4-3", "players_path": "players/serie-a/fiorentina.csv", "offensive_tendency": 62, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 22 },
+    { "team_id": 111657, "name": "Frosinone", "league": "italy", "formation": "4-3-3", "players_path": "players/serie-a/frosinone.csv", "offensive_tendency": 48, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 110556, "name": "Genoa", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/genoa.csv", "offensive_tendency": 41, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 45, "name": "Juventus", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/juventus.csv", "offensive_tendency": 58, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 25 },
+    { "team_id": 115841, "name": "Lazio", "league": "italy", "formation": "4-2-3-1", "players_path": "players/serie-a/latium.csv", "offensive_tendency": 62, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 40 },
+    { "team_id": 347, "name": "Lecce", "league": "italy", "formation": "4-3-3", "players_path": "players/serie-a/lecce.csv", "offensive_tendency": 32, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 131682, "name": "Inter", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/lombardia-fc.csv", "offensive_tendency": 47, "home_advantage": 2, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 5 },
+    { "team_id": 131681, "name": "Milan", "league": "italy", "formation": "3-4-3", "players_path": "players/serie-a/milano-fc.csv", "offensive_tendency": 67, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 30 },
+    { "team_id": 111811, "name": "Monza", "league": "italy", "formation": "3-4-3", "players_path": "players/serie-a/monza.csv", "offensive_tendency": 39, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 50, "name": "Parma", "league": "italy", "formation": "4-2-3-1", "players_path": "players/serie-a/parma.csv", "offensive_tendency": 53, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 48, "name": "SSC Napoli", "league": "italy", "formation": "4-3-3", "players_path": "players/serie-a/ssc-napoli.csv", "offensive_tendency": 65, "home_advantage": 2, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 34 },
+    { "team_id": 111974, "name": "Sassuolo", "league": "italy", "formation": "4-2-3-1", "players_path": "players/serie-a/sassuolo.csv", "offensive_tendency": 55, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 54, "name": "Torino", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/torino.csv", "offensive_tendency": 35, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 55, "name": "Udinese", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/udinese.csv", "offensive_tendency": 43, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 205, "name": "Venezia", "league": "italy", "formation": "3-5-2", "players_path": "players/serie-a/venezia.csv", "offensive_tendency": 46, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 }
+  ]
+}

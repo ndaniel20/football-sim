@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+188943,Kevin Trapp,Kevin,Trapp,78,GK,,Paris FC,Germany,47,20,21,42,14,52,86
+257118,Ilan Kebbal,Ilan,Kebbal,77,RM,RW CAM CM,Paris FC,Algeria,77,71,74,83,24,55,77
+251170,Lassine Sinayoko,Lassine,Sinayoko,77,ST,LW CAM LM,Paris FC,Mali,76,76,64,72,46,76,80
+230020,Pierre Lees-Melou,Pierre,Lees-Melou,77,CDM,CM,Paris FC,France,57,70,76,74,70,70,79
+266099,Pablo Pagis,Pablo,Pagis,76,CAM,LM CM LW,Paris FC,France,68,78,73,75,35,63,82
+216820,Moses Simon,Moses,Simon,76,LM,LW,Paris FC,Nigeria,88,72,68,80,36,62,77
+269181,Diego Coppola,Diego,Coppola,75,CB,,Paris FC,Italy,59,39,53,58,76,77,81
+247248,Moustapha Mbow,Moustapha,Mbow,75,CB,,Paris FC,Senegal,70,34,47,58,74,78,78
+234612,Jonathan Ikoné,Jonathan,Ikoné,75,RM,RW,Paris FC,France,79,68,72,79,35,58,79
+224030,Maxime Lopez,Maxime,Lopez,75,CM,CDM CAM,Paris FC,France,61,67,76,81,63,60,78
+219789,Hamari Traoré,Hamari,Traoré,75,RB,CDM,Paris FC,Mali,70,56,68,74,73,73,80
+255266,Obed Nkambadio,Obed,Nkambadio,74,GK,,Paris FC,France,30,15,22,35,10,34,79
+78070,Rudy Matondo,Rudy,Matondo,74,CM,CDM,Paris FC,France,74,60,62,75,64,75,85
+276398,Adama Camara,Adama,Camara,73,RB,CM RM CDM,Paris FC,France,73,63,64,73,68,70,73
+275070,Otávio,Otávio,Ataíde da Silva,73,CB,LB,Paris FC,Brazil,72,43,48,61,72,80,78
+256731,Jean-Philippe Krasso,Jean-Philippe,Krasso,73,ST,CAM,Paris FC,Côte d'Ivoire,63,72,62,68,27,67,74
+70012,Nhoa Sangui,Nhoa,Sangui,73,LB,CM LM CDM,Paris FC,France,77,45,59,71,68,66,82
+266041,Luca Koleosho,Luca,Koleosho,72,LM,RM LW RW,Paris FC,Italy,90,64,61,74,32,55,79
+248477,Samir Chergui,Samir,Chergui,72,CB,RB,Paris FC,Algeria,47,43,58,67,72,69,75
+237331,Thibault De Smet,Thibault,De Smet,71,LB,LM,Paris FC,Belgium,65,48,59,66,68,72,73
+76760,Patrick Zabi,Patrick,Zabi,71,CM,CDM,Paris FC,Côte d'Ivoire,79,62,61,66,60,75,83
+228774,Vincent Marchetti,Vincent,Marchetti,70,CM,CDM,Paris FC,France,59,59,66,70,67,71,71
+266205,Yoan Koré,Yoan,Koré,65,CB,RB,Paris FC,France,56,37,51,57,63,66,72
+87144,Emmanuel Mbemba,Emmanuel,Mbemba,65,LB,CB,Paris FC,France,67,35,49,56,67,63,83
+278283,Omar Sissoko,Omar,Sissoko,63,ST,,Paris FC,France,67,60,48,69,24,53,78

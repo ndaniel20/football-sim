@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+262416,Chiquinho,Francisco Jorge,Tavares Oliveira,73,LM,LW RW RM,Alverca,Portugal,82,66,67,72,36,57,74
+230117,Jhonatan,Jhonatan,Luiz da Siqueira,72,GK,,Alverca,Brazil,38,19,25,34,16,45,75
+209543,Zé Rafael,José Rafael,Vivian,72,CAM,CM,Alverca,Brazil,72,69,68,72,60,65,76
+199577,Sergi Gómez,Sergi,Gómez Solà,71,CB,,Alverca,Spain,55,46,55,59,70,69,80
+81327,Figueiredo,Lucas,Figueiredo,71,RW,LW CAM RM,Alverca,Brazil,73,71,64,72,40,64,75
+70671,Chissumba,Francisco Edgar,Chissumba Rodrigues,70,LB,LM LW,Alverca,Portugal,81,48,65,72,61,71,80
+278057,Bastien Meupiyou,Bastien,Meupiyou,69,CB,,Alverca,France,55,36,44,55,68,70,79
+265420,Matheus França,Matheus,França de Oliveira,69,CAM,LW RW CM,Alverca,Brazil,78,67,63,71,38,65,80
+265733,Dawda Camara,Dawda,Camara,68,ST,,Alverca,Mauritania,85,65,49,55,35,74,74
+80777,Matheus Mendes,Matheus,M. W. de Oliveira,68,GK,,Alverca,Brazil,28,15,17,31,12,38,70
+254244,Nabil Touaizi,Nabil,Zoubdi Touaizi,67,RM,RB,Alverca,Morocco,78,59,56,68,40,65,70
+273918,Vivaldo Semedo,Vivaldo Leandro,Semedo Moura Sousa,66,ST,,Alverca,Portugal,76,64,45,58,36,70,78
+271236,Noah Raveyre,Noah,Raveyre,66,GK,,Alverca,France,20,17,20,32,11,34,74
+243401,André Vidigal,André Filipe,Cunha Vidigal,66,LM,ST LW CAM,Alverca,Angola,83,61,58,69,30,61,72
+79771,Rayan Lucas,Rayan Lucas,Marques de Souza,66,CDM,CM,Alverca,Brazil,72,46,56,64,61,69,81
+80598,Julián Martinez,Julián,Martinez,65,CB,,Alverca,Honduras,61,34,41,60,66,60,74
+71981,Diogo Spencer,Diogo Filipe,Spencer Marques,65,RB,RM RW,Alverca,Portugal,76,47,60,65,54,56,76
+79909,Cédric Nuozzi,Cédric,Nuozzi,64,LW,RW LM RM,Alverca,Belgium,72,61,53,63,32,48,76
+259067,André Paulo,André Filipe,Eusébio Paulo,63,GK,,Alverca,Portugal,30,15,27,33,12,38,65
+254230,Sabit Abdulai,Sabit,Abdulai,63,CM,CDM,Alverca,Ghana,51,53,57,59,62,60,64
+83216,Vasco Moreira,Vasco,da Silva Moreira,63,CM,CDM,Alverca,Portugal,66,56,59,63,60,56,68
+80625,Toni Tamarit,Toni,Tamarit Tamarit,63,RB,RM,Alverca,Spain,83,55,55,57,54,63,78
+73616,Mofe Jemide,Mofe,Jemide,63,CB,,Alverca,England,67,34,51,59,61,69,79
+70125,Yaya Bojang,Yaya,Bojang,63,CB,,Alverca,Gambia,85,34,42,56,60,72,76
+278796,Steven Baseya,Steven,Baseya,62,CB,,Alverca,France,48,28,34,49,64,56,74

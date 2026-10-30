@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="Choose the 36 clubs for your Champions League simulation.">
+  <title>Choose your teams · UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages/start-tournament.css">
+</head>
+<body class="setup-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="side-rail" aria-label="Primary navigation">
+      <nav class="side-navigation">
+        <a class="nav-item" href="/" aria-label="Home" title="Home">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/lineup.html" aria-label="Line-up" title="Line-up">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.7 6.3a5 5 0 0 0-6.4-6.4l3.2 3.2-3.5 3.5-3.2-3.2a5 5 0 0 0 6.4 6.4l7.2 7.2a2 2 0 0 0 2.8-2.8l-6.5-6.5Z" transform="translate(1 1)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/changelog.html" aria-label="Change log" title="Change log">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 3.5h8l4.5 4.5v3.5m-12.5-8v17h9m-6-12h5m-5 4h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M17.5 13a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z" stroke="currentColor" stroke-width="1.4"/><path d="M17.5 15.2v2.2l1.4.9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/match-simulator.html" aria-label="Match simulator" title="Match simulator">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"/><path d="m12 7.4 3.1 2.2-1.2 3.7h-3.8l-1.2-3.7L12 7.4Zm0 0V2.8m3.1 6.8 4.4-1.4M13.9 13.3l2.8 4m-6.6-4-2.8 4M8.9 9.6 4.5 8.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="nav-item nav-settings" type="button" aria-label="Settings" aria-disabled="true" title="Settings">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8.3a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Z" stroke="currentColor" stroke-width="1.6"/><path d="m19.2 14.8 1.3 1-.9 1.9-1.6-.2a7.5 7.5 0 0 1-1.2.9l-.3 1.6h-2.1l-.7-1.5a7.4 7.4 0 0 1-1.6 0l-.7 1.5h-2.1L9 18.4a7.5 7.5 0 0 1-1.2-.9l-1.6.2-.9-1.9 1.3-1a7.5 7.5 0 0 1 0-1.6l-1.3-1 .9-1.9 1.6.2A7.5 7.5 0 0 1 9 9.6l.3-1.6h2.1l.7 1.5a7.4 7.4 0 0 1 1.6 0l.7-1.5h2.1l.3 1.6a7.5 7.5 0 0 1 1.2.9l1.6-.2.9 1.9-1.3 1a7.5 7.5 0 0 1 0 1.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
+    </aside>
+
+    <div class="main-column setup-column">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="UCL Simulator XI home">
+          <img class="brand-mark" src="/images/ucl-logo.png" alt="">
+          <span class="brand-name">UCL SIMULATOR XI</span>
+        </a>
+        <div class="setup-season" aria-label="Season 2026 to 2027"><span>SEASON</span><strong>26/27</strong></div>
+      </header>
+
+      <main class="setup-main">
+        <section class="setup-intro" aria-labelledby="setup-title">
+          <div>
+            <p class="setup-eyebrow"><span class="setup-step">01</span> TOURNAMENT SETUP</p>
+            <h1 id="setup-title">Choose your <span>36 clubs.</span></h1>
+            <p class="setup-description">Start with 36 clubs, then swap any club for another from its league. Your tournament stays balanced at 36 teams.</p>
+          </div>
+        </section>
+
+        <section class="team-selector" aria-labelledby="team-selector-title">
+          <div class="selector-heading">
+            <div>
+              <p class="section-kicker">TEAM SELECTION</p>
+              <h2 id="team-selector-title">All Clubs</h2>
+            </div>
+            <div class="selector-hint"><span class="hint-dot" aria-hidden="true"></span> Select a club to replace it</div>
+          </div>
+          <div class="team-groups" id="team-groups" aria-live="polite">
+            <div class="loading-state"><span class="loading-spinner" aria-hidden="true"></span><span>Loading clubs…</span></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <footer class="selection-dock" aria-label="Tournament team selection">
+    <div class="selection-progress">
+      <span class="progress-copy"><strong id="selection-status" aria-live="polite">Loading teams</strong></span>
+    </div>
+    <div class="dock-actions">
+      <button class="button button-primary confirm-selection" id="confirm-selection" type="button" disabled>
+        <span>Confirm selection</span>
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <dialog class="team-picker" id="team-picker" aria-labelledby="picker-title" aria-describedby="picker-description">
+    <div class="picker-topbar">
+      <div class="picker-league"><img id="picker-flag" src="/images/flags/england.svg" alt=""><span id="picker-league-name">England</span></div>
+      <button class="picker-close" id="picker-close" type="button" aria-label="Close team selection">×</button>
+    </div>
+    <div class="picker-copy">
+      <p class="section-kicker">CLUB SELECTOR</p>
+      <h2 id="picker-title">Choose a club</h2>
+      <p id="picker-description">Select a replacement from this league.</p>
+    </div>
+    <label class="picker-search-wrap" for="picker-search">
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.8" cy="8.8" r="5.8" stroke="currentColor" stroke-width="1.5"/><path d="m13.2 13.2 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input id="picker-search" type="search" placeholder="Search clubs" autocomplete="off">
+      <kbd>⌘ K</kbd>
+    </label>
+    <div class="picker-list-heading"><span>CLUBS</span><span id="picker-available-count"></span></div>
+    <div class="picker-list" id="picker-list" aria-label="Available clubs"></div>
+  </dialog>
+
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/pages/start-tournament.js" defer></script>
+</body>
+</html>

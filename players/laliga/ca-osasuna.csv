@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+188335,Ante Budimir,Ante,Budimir,82,ST,,CA Osasuna,Croatia,65,84,60,67,41,81,82
+259066,Enzo Boyomo,Enzo,Boyomo,79,CB,,CA Osasuna,Cameroon,77,39,50,63,77,85,84
+224003,Sergio Herrera,Sergio,Herrera Pirón,79,GK,,CA Osasuna,Spain,48,25,25,44,15,50,79
+234730,Valentin Rosier,Valentin,Rosier,78,RB,RM RW,CA Osasuna,France,80,60,68,78,74,76,78
+247495,Moncayola,Jon,Moncayola Tollar,77,CDM,CM RM CB,CA Osasuna,Spain,63,68,74,73,71,75,78
+243976,Catena,Alejandro,Catena Marugán,77,CB,,CA Osasuna,Spain,58,39,54,60,77,79,79
+211022,Rubén García,Rubén,García Santos,77,RM,RW,CA Osasuna,Spain,74,73,79,78,46,57,79
+193314,Aitor Fernández,Aitor,Fernández,77,GK,,CA Osasuna,Spain,56,22,33,45,17,43,83
+271145,Abel Bretones,Abel,Bretones Cruz,76,LB,LM LW,CA Osasuna,Spain,77,69,70,69,71,81,79
+258937,Aimar Oroz,Aimar,Oroz Huarte,76,CAM,CM LM LW,CA Osasuna,Spain,67,73,75,75,65,68,80
+231612,Romain Del Castillo,Romain,Del Castillo,76,RM,RW,CA Osasuna,France,82,74,75,79,44,69,79
+208137,Lucas Torró,Lucas,Torró Marset,76,CDM,CM,CA Osasuna,Spain,46,64,64,65,75,76,78
+206590,Moi Gómez,Moisés,Gómez Bordonado,76,CM,CDM LM LW,CA Osasuna,Spain,66,69,77,75,63,64,79
+258139,Raúl Moro,Raúl,Moro Prescoli,75,LW,LM RM RW,CA Osasuna,Spain,84,62,67,78,26,52,81
+253416,Raúl García,Raúl,García de Haro,75,ST,CAM,CA Osasuna,Spain,68,75,61,67,35,72,79
+220414,Diego Rico,Diego,Rico Salguero,75,LB,CB,CA Osasuna,Spain,69,61,75,71,73,75,78
+272433,Herrando,Jorge,Herrando Oroz,74,CB,,CA Osasuna,Spain,46,38,47,63,75,74,77
+263883,Dubasin,Jonathan,Dubasin,74,RW,LW ST RM,CA Osasuna,Spain,82,73,67,71,40,68,77
+274355,Iker Muñoz,Iker,Muñoz Cameros,73,CDM,CM,CA Osasuna,Spain,55,60,61,68,71,71,78
+225200,Kike Barja,Enrique,Barja Afonso,73,LW,LM RW RM,CA Osasuna,Spain,77,67,66,72,39,61,75
+74426,Rockson Yeboah,Rockson,Yeboah,66,CB,,CA Osasuna,Ghana,73,33,39,55,64,72,77
+71598,Osambela,Asier,Osambela Larraya,66,CB,CDM RB,CA Osasuna,Spain,63,52,56,61,65,70,77
+71277,Arguibide,Iñigo,Arguibide Goñi,66,RB,RM RW,CA Osasuna,Spain,73,47,55,64,62,64,77
+89482,Unai Santos,Unai,Santos Mañeru,64,CB,LB CDM,CA Osasuna,Spain,63,36,39,54,63,68,76
+80805,Mauro Echegoyen,Mauro,Echegoyen Berrozpe,63,CDM,CM,CA Osasuna,Spain,65,48,51,59,60,64,73

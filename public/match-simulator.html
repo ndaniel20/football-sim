@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="Choose two clubs and watch a head-to-head football match simulation.">
+  <title>Match simulator · UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages/league-phase.css">
+  <link rel="stylesheet" href="/assets/css/pages/match-simulator.css">
+</head>
+<body class="match-simulator-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="side-rail" aria-label="Primary navigation">
+      <nav class="side-navigation">
+        <a class="nav-item" href="/" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="nav-item" href="/lineup.html" aria-label="Line-up" title="Line-up"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.7 6.3a5 5 0 0 0-6.4-6.4l3.2 3.2-3.5 3.5-3.2-3.2a5 5 0 0 0 6.4 6.4l7.2 7.2a2 2 0 0 0 2.8-2.8l-6.5-6.5Z" transform="translate(1 1)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="nav-item" href="/changelog.html" aria-label="Change log" title="Change log"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 3.5h8l4.5 4.5v3.5m-12.5-8v17h9m-6-12h5m-5 4h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M17.5 13a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z" stroke="currentColor" stroke-width="1.4"/><path d="M17.5 15.2v2.2l1.4.9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="nav-item is-active" href="/match-simulator.html" aria-label="Match simulator" aria-current="page" title="Match simulator"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"/><path d="m12 7.4 3.1 2.2-1.2 3.7h-3.8l-1.2-3.7L12 7.4Zm0 0V2.8m3.1 6.8 4.4-1.4M13.9 13.3l2.8 4m-6.6-4-2.8 4M8.9 9.6 4.5 8.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <button class="nav-item nav-settings" type="button" aria-label="Settings" aria-disabled="true" title="Settings"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8.3a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Z" stroke="currentColor" stroke-width="1.6"/><path d="m19.2 14.8 1.3 1-.9 1.9-1.6-.2a7.5 7.5 0 0 1-1.2.9l-.3 1.6h-2.1l-.7-1.5a7.4 7.4 0 0 1-1.6 0l-.7 1.5h-2.1L9 18.4a7.5 7.5 0 0 1-1.2-.9l-1.6.2-.9-1.9 1.3-1a7.5 7.5 0 0 1 0-1.6l-1.3-1 .9-1.9 1.6.2A7.5 7.5 0 0 1 9 9.6l.3-1.6h2.1l.7 1.5a7.4 7.4 0 0 1 1.6 0l.7-1.5h2.1l.3 1.6a7.5 7.5 0 0 1 1.2.9l1.6-.2.9 1.9-1.3 1a7.5 7.5 0 0 1 0 1.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </nav>
+    </aside>
+
+    <div class="main-column match-simulator-column">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="UCL Simulator XI home"><img class="brand-mark" src="/images/ucl-logo.png" alt=""><span class="brand-name">UCL SIMULATOR XI</span></a>
+        <div class="season-callout" aria-label="Season 2026 to 2027"><span>SEASON</span><strong>26/27</strong></div>
+      </header>
+      <main class="friendly-main">
+        <section class="friendly-intro">
+          <div>
+            <p class="friendly-eyebrow">THE FRIENDLY ROOM</p>
+            <h1>Pick a side.<br><span>Play it out.</span></h1>
+            <p>Set up any matchup from the club catalog and watch a full simulation unfold. No tournament stakes—just football.</p>
+          </div>
+        </section>
+
+        <section class="friendly-builder" aria-labelledby="friendly-builder-title">
+          <div class="friendly-builder-heading">
+            <div><p class="friendly-section-kicker">YOUR FIXTURE</p><h2 id="friendly-builder-title">Who’s playing?</h2></div>
+            <span class="friendly-format-badge" id="friendly-xi-badge" aria-live="polite"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v2m0 10v2m7-7h-2M5 10H3m12-5-1.4 1.4m-7.2 7.2L5 15m10 0-1.4-1.4M6.4 6.4 5 5m5 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg><span id="friendly-xi-badge-label">STANDARD XIs</span></span>
+          </div>
+          <div class="friendly-pickers">
+            <article class="friendly-side-card is-home">
+              <div class="friendly-side-heading"><span class="friendly-side-dot"></span><span>HOME SIDE</span></div>
+              <div class="friendly-club-preview" id="home-club-preview"><img src="/images/clubs/placeholder.svg" alt="" id="home-crest"><div><strong id="home-name">Choose a club</strong><span id="home-league-name">Select your home team</span></div></div>
+              <div class="friendly-field"><span>LEAGUE</span><div class="friendly-picker" id="home-league-picker">
+                <button class="friendly-picker-trigger" id="home-league-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="home-league-options" disabled><img class="friendly-trigger-crest" id="home-league-flag" src="/images/flags/england.svg" alt=""><span id="home-league-label">Loading leagues…</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <div class="friendly-picker-menu" id="home-league-menu" hidden><div class="friendly-picker-options" id="home-league-options" role="listbox" aria-label="Home league"></div></div>
+              </div></div>
+              <div class="friendly-field"><span>CLUB</span><div class="friendly-picker" id="home-team-picker">
+                <button class="friendly-picker-trigger" id="home-team-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="home-team-options" disabled><img class="friendly-trigger-crest" id="home-team-crest" src="/images/clubs/placeholder.svg" alt=""><span id="home-team-label">Loading clubs…</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <div class="friendly-picker-menu friendly-team-menu" id="home-team-menu" hidden><label class="friendly-picker-search"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.7" cy="8.7" r="5.7" stroke="currentColor" stroke-width="1.5"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="home-team-search" type="search" placeholder="Find a club" autocomplete="off" aria-label="Search home clubs"></label><div class="friendly-picker-options" id="home-team-options" role="listbox" aria-label="Home clubs"></div></div>
+              </div></div>
+            </article>
+            <div class="friendly-middle-controls"><div class="friendly-versus" aria-hidden="true"><span>VS</span></div><button class="friendly-swap-button" id="friendly-swap" type="button" aria-label="Swap home and away teams"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 6h11m0 0-3-3m3 3-3 3M16 14H5m0 0 3 3m-3-3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>SWAP</span></button></div>
+            <article class="friendly-side-card is-away">
+              <div class="friendly-side-heading"><span class="friendly-side-dot"></span><span>AWAY SIDE</span></div>
+              <div class="friendly-club-preview" id="away-club-preview"><img src="/images/clubs/placeholder.svg" alt="" id="away-crest"><div><strong id="away-name">Choose a club</strong><span id="away-league-name">Select your away team</span></div></div>
+              <div class="friendly-field"><span>LEAGUE</span><div class="friendly-picker" id="away-league-picker">
+                <button class="friendly-picker-trigger" id="away-league-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="away-league-options" disabled><img class="friendly-trigger-crest" id="away-league-flag" src="/images/flags/england.svg" alt=""><span id="away-league-label">Loading leagues…</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <div class="friendly-picker-menu" id="away-league-menu" hidden><div class="friendly-picker-options" id="away-league-options" role="listbox" aria-label="Away league"></div></div>
+              </div></div>
+              <div class="friendly-field"><span>CLUB</span><div class="friendly-picker" id="away-team-picker">
+                <button class="friendly-picker-trigger" id="away-team-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="away-team-options" disabled><img class="friendly-trigger-crest" id="away-team-crest" src="/images/clubs/placeholder.svg" alt=""><span id="away-team-label">Loading clubs…</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m5 7.5 5 5 5-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                <div class="friendly-picker-menu friendly-team-menu" id="away-team-menu" hidden><label class="friendly-picker-search"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.7" cy="8.7" r="5.7" stroke="currentColor" stroke-width="1.5"/><path d="m13 13 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><input id="away-team-search" type="search" placeholder="Find a club" autocomplete="off" aria-label="Search away clubs"></label><div class="friendly-picker-options" id="away-team-options" role="listbox" aria-label="Away clubs"></div></div>
+              </div></div>
+            </article>
+          </div>
+          <div class="friendly-builder-footer">
+            <button class="friendly-play-button" id="simulate-friendly" type="button" disabled><span>Simulate match</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11m-4.5-4.5L15 10l-4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+        </section>
+
+        <section class="friendly-results" id="friendly-results" aria-live="polite" aria-label="Recent friendly results" hidden></section>
+      </main>
+    </div>
+  </div>
+
+  <dialog class="match-modal friendly-match-modal" id="friendly-match-dialog" aria-labelledby="friendly-match-title">
+    <div class="match-modal-shell">
+      <div class="match-modal-heading">
+        <div><p class="modal-kicker" id="friendly-match-kicker">FRIENDLY · LIVE SIMULATION</p><h2 id="friendly-match-title">Match in progress</h2></div>
+        <button class="modal-close" id="friendly-match-close" type="button" aria-label="Close match view" hidden>×</button>
+      </div>
+      <div class="live-scoreboard" id="friendly-scoreboard"></div>
+      <div class="live-match-stats" id="friendly-match-stats" aria-label="Live match statistics"></div>
+      <div class="match-timeline" id="friendly-match-timeline" aria-live="polite"></div>
+      <div class="match-modal-footer friendly-match-footer"><button class="simulation-button" id="friendly-skip" type="button" disabled>Skip to full time</button></div>
+    </div>
+  </dialog>
+
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/shared/player-customizations.js" defer></script>
+  <script src="/assets/js/pages/match-simulator.js" defer></script>
+</body>
+</html>

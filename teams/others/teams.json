@@ -1,0 +1,15 @@
+{
+  "teams": [
+    { "team_id": 247, "name": "PSV Eindhoven", "league": "netherlands", "formation": "4-3-3", "players_path": "players/others/psv-eindhoven.csv", "offensive_tendency": 82, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 26 },
+    { "team_id": 246, "name": "Feyenoord", "league": "netherlands", "formation": "4-3-3", "players_path": "players/others/feyenoord.csv", "offensive_tendency": 72, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 27 },
+    { "team_id": 918, "name": "Bodø/Glimt", "league": "norway", "formation": "4-3-3", "players_path": "players/others/bodo-glimt.csv", "offensive_tendency": 74, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 32 },
+    { "team_id": null, "name": "Sabah", "league": "azerbaijan", "formation": "4-2-3-1", "players_path": "players/others/sabah.csv", "offensive_tendency": 42, "home_advantage": 1, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 244 },
+    { "team_id": 101059, "name": "Shakhtar Donetsk", "league": "ukraine", "formation": "4-3-3", "players_path": "players/others/shakhtar-donetsk.csv", "offensive_tendency": 60, "home_advantage": 1, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 45 },
+    { "team_id": 231, "name": "Club Brugge", "league": "belgium", "formation": "4-2-3-1", "players_path": "players/others/club-brugge.csv", "offensive_tendency": 62, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 23 },
+    { "team_id": 252, "name": "LASK", "league": "austria", "formation": "3-4-3", "players_path": "players/others/lask.csv", "offensive_tendency": 48, "home_advantage": 2, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 99 },
+    { "team_id": 278, "name": "AEK Athens", "league": "greece", "formation": "4-2-3-1", "players_path": "players/others/aek-atenas.csv", "offensive_tendency": 60, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 84 },
+    { "team_id": 300, "name": "Viking FK", "league": "norway", "formation": "4-3-3", "players_path": "players/others/viking.csv", "offensive_tendency": 66, "home_advantage": 2, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 202 },
+    { "team_id": null, "name": "Slovan Bratislava", "league": "slovakia", "formation": "4-2-3-1", "players_path": "players/others/slovan-bratislava.csv", "offensive_tendency": 38, "home_advantage": 2, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 65 },
+    { "team_id": 266, "name": "Slavia Praha", "league": "czech", "formation": "3-4-3", "players_path": "players/others/slavia-praha.csv", "offensive_tendency": 64, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 59 }
+  ]
+}

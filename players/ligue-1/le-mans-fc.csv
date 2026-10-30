@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+201042,Djibril Sidibé,Djibril,Sidibé,76,RB,RM CB,Le Mans FC,France,61,55,70,69,76,74,80
+266586,Louis Mafouta,Louis,Mafouta,72,ST,,Le Mans FC,Central African Republic,84,69,52,71,34,73,72
+264103,Raúl Torrente,Raúl,Torrente Navarro,72,CB,,Le Mans FC,Spain,65,34,45,51,71,76,74
+257975,Billal Brahimi,Billal,Brahimi,72,RW,ST LM RM,Le Mans FC,Algeria,75,65,67,70,29,66,73
+241818,Lucas Buades,Lucas,Buades,71,RB,RM,Le Mans FC,France,74,61,61,66,66,73,71
+232118,Antoine Rabillard,Antoine,Rabillard,71,ST,CM,Le Mans FC,France,64,69,58,73,38,64,71
+225293,Habib Diallo,Habib,Diallo,71,ST,,Le Mans FC,Senegal,71,72,56,66,28,74,78
+78878,Dame Gueye,Dame,Gueye,71,ST,,Le Mans FC,Senegal,53,72,53,69,28,69,71
+229646,Samuel Yohou,Samuel,Yohou,70,CB,,Le Mans FC,Côte d'Ivoire,53,38,45,55,68,79,70
+265651,Lucas Calodat,Lucas,Calodat,69,LB,LM LW,Le Mans FC,France,86,57,57,71,61,71,74
+232417,Nicolas Kocik,Nicolas,Kocik,69,GK,,Le Mans FC,France,39,15,20,33,11,48,71
+83817,Adil Bourabaa,Adil,Bourabaa,69,CM,CDM,Le Mans FC,Algeria,72,62,65,69,53,62,77
+252302,Yasser Larouci,Yasser,Larouci,68,LB,LM,Le Mans FC,Algeria,71,49,57,67,64,66,73
+248357,Alexandre Lauray,Alexandre,Lauray,68,CDM,CM,Le Mans FC,France,66,47,66,66,65,72,68
+78764,Edwin Quarshie,Edwin,Quarshie,68,CDM,CM,Le Mans FC,Central African Republic,45,53,52,64,65,69,68
+78761,Théo Eyoum,Théo,Eyoum,68,CB,,Le Mans FC,France,56,33,46,54,67,74,75
+78760,Noa Boissé,Noa,Boissé,68,CB,RB CDM,Le Mans FC,France,66,40,51,64,69,66,73
+78757,Harold Voyer,Harold,Voyer,68,CB,,Le Mans FC,France,50,30,46,54,67,74,68
+79497,Lucas Bretelle,Lucas,Bretelle,67,CDM,CM,Le Mans FC,France,62,45,58,67,60,65,71
+78771,Erwan Colas,Erwan,Colas,66,ST,CAM,Le Mans FC,France,83,66,52,70,25,54,66
+71778,Rayan Bamba,Rayan,Bamba,66,RM,CB RB RW,Le Mans FC,France,79,58,53,63,60,69,77
+254662,Ewan Hatfout,Ewan,Hatfout,65,GK,,Le Mans FC,France,24,16,19,32,9,32,68
+89958,João Almeida,João Vitor,da Silva Almeida,65,LB,,Le Mans FC,Brazil,74,43,55,63,58,55,75
+80229,William Harhouz,William,Harhouz,65,ST,,Le Mans FC,France,69,59,50,59,26,70,67
+79109,Jean Vercruysse,Jean,Vercruysse,64,CM,CAM,Le Mans FC,France,66,63,70,66,49,68,68

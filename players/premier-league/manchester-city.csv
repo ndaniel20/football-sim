@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+239085,Erling Haaland,Erling,Haaland,91,ST,,Manchester City,Norway,87,91,69,80,50,89,93
+230621,Gianluigi Donnarumma,Gianluigi,Donnarumma,87,GK,,Manchester City,Italy,46,22,29,49,18,54,90
+239818,Rúben Dias,Rúben Santos,Gato Alves Dias,87,CB,,Manchester City,Portugal,58,45,64,71,87,82,89
+251570,Rayan Cherki,Rayan,Cherki,86,CAM,RM RW,Manchester City,France,74,77,84,89,40,66,90
+247090,Enzo Fernández,Enzo,Fernández,86,CM,CDM CAM,Manchester City,Argentina,68,79,84,82,74,78,88
+251517,Joško Gvardiol,Joško,Gvardiol,86,CB,LB,Manchester City,Croatia,78,69,73,77,85,84,88
+241236,Antoine Semenyo,Antoine,Semenyo,85,RW,LW RM LM,Manchester City,Ghana,82,83,78,83,47,81,86
+241159,Marc Guéhi,Marc,Guéhi,85,CB,,Manchester City,England,69,47,64,73,85,83,86
+254243,Elliot Anderson,Elliot,Anderson,86,CDM,CM,Manchester City,England,68,71,81,81,80,81,87
+246420,Jérémy Doku,Jérémy,Doku,85,LW,LM RW RM,Manchester City,Belgium,92,73,75,88,39,71,87
+277427,Nico O'Reilly,Nico,O'Reilly,83,LB,CM CDM,Manchester City,England,83,69,75,77,81,83,87
+253124,Matheus Nunes,Matheus,Luiz Nunes,83,RB,CM,Manchester City,Portugal,87,70,76,78,77,77,84
+261188,Iliman Ndiaye,Iliman,Ndiaye,83,LM,RM LW RW,Manchester City,Senegal,87,77,71,84,45,66,83
+237692,Phil Foden,Phil,Foden,82,CAM,CM RW RM,Manchester City,England,78,79,82,88,54,58,88
+277031,Abdukodir Khusanov,Abdukodir,Khusanov,82,CB,,Manchester City,Uzbekistan,88,41,59,70,82,82,87
+242641,Rayan Aït-Nouri,Rayan,Aït-Nouri,81,LB,LM,Manchester City,Algeria,85,54,73,81,76,72,84
+207410,Mateo Kovačić,Mateo,Kovačić,81,CM,CDM CAM,Manchester City,Croatia,58,74,78,79,70,67,84
+278901,Ayyoub Bouaddi,Ayyoub,Bouaddi,80,CDM,CM,Manchester City,Morocco,75,56,69,77,73,76,88
+215316,Gerónimo Rulli,Gerónimo,Rulli,80,GK,,Manchester City,Argentina,54,24,34,45,16,53,83
+271574,Rico Lewis,Rico,Lewis,77,RB,LB CM CDM,Manchester City,England,76,56,68,80,72,62,83
+89738,Allan,Allan,Andrade Elias,77,RW,LW RB RM,Manchester City,Brazil,83,75,71,80,60,71,84
+76624,Vitor Reis,Vitor,Reis,76,CB,,Manchester City,Brazil,73,35,53,67,76,77,86
+204246,Marcus Bettinelli,Marcus,Bettinelli,69,GK,,Manchester City,England,30,20,26,39,16,43,73
+81685,Ryan McAidoo,Ryan,McAidoo,66,RW,RM,Manchester City,England,84,61,57,74,32,55,84
+88560,Kaden Braithwaite,Kaden,Braithwaite,65,CB,LB,Manchester City,England,68,34,47,57,64,68,83

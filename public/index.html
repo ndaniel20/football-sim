@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="Create and simulate your own Champions League tournament with UCL Simulator XI.">
+  <title>UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+</head>
+<body class="home-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="side-rail" aria-label="Primary navigation">
+      <nav class="side-navigation">
+        <button class="nav-item is-active" type="button" aria-label="Home" aria-current="page" aria-disabled="true" title="Home">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <a class="nav-item" href="/lineup.html" aria-label="Line-up" title="Line-up">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14.7 6.3a5 5 0 0 0-6.4-6.4l3.2 3.2-3.5 3.5-3.2-3.2a5 5 0 0 0 6.4 6.4l7.2 7.2a2 2 0 0 0 2.8-2.8l-6.5-6.5Z" transform="translate(1 1)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/changelog.html" aria-label="Change log" title="Change log">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 3.5h8l4.5 4.5v3.5m-12.5-8v17h9m-6-12h5m-5 4h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M17.5 13a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z" stroke="currentColor" stroke-width="1.4"/><path d="M17.5 15.2v2.2l1.4.9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="nav-item" href="/match-simulator.html" aria-label="Match simulator" title="Match simulator">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"/><path d="m12 7.4 3.1 2.2-1.2 3.7h-3.8l-1.2-3.7L12 7.4Zm0 0V2.8m3.1 6.8 4.4-1.4M13.9 13.3l2.8 4m-6.6-4-2.8 4M8.9 9.6 4.5 8.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="nav-item nav-settings" type="button" aria-label="Settings" aria-disabled="true" title="Settings">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 8.3a3.7 3.7 0 1 0 0 7.4 3.7 3.7 0 0 0 0-7.4Z" stroke="currentColor" stroke-width="1.6"/><path d="m19.2 14.8 1.3 1-.9 1.9-1.6-.2a7.5 7.5 0 0 1-1.2.9l-.3 1.6h-2.1l-.7-1.5a7.4 7.4 0 0 1-1.6 0l-.7 1.5h-2.1L9 18.4a7.5 7.5 0 0 1-1.2-.9l-1.6.2-.9-1.9 1.3-1a7.5 7.5 0 0 1 0-1.6l-1.3-1 .9-1.9 1.6.2A7.5 7.5 0 0 1 9 9.6l.3-1.6h2.1l.7 1.5a7.4 7.4 0 0 1 1.6 0l.7-1.5h2.1l.3 1.6a7.5 7.5 0 0 1 1.2.9l1.6-.2.9 1.9-1.3 1a7.5 7.5 0 0 1 0 1.6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </nav>
+    </aside>
+
+    <div class="main-column">
+      <header class="topbar">
+        <div class="brand" aria-label="UCL Simulator XI">
+          <img class="brand-mark" src="/images/ucl-logo.png" alt="">
+          <span class="brand-name">UCL SIMULATOR XI</span>
+        </div>
+        <div class="season-callout" aria-label="Season 2026 to 2027"><span>SEASON</span><strong>26/27</strong></div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <h1 id="hero-title">Who lifts<br><span>the trophy?</span></h1>
+            <p class="hero-description">Create your Champions League tournament, then simulate the race from matchday one to the final.</p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" id="start-tournament" href="/start-tournament.html">
+                <span>Start new tournament</span>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3.5 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <button class="button button-secondary" id="continue-tournament" type="button" disabled>
+                <span>Continue</span>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3.5 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Abstract illustration of a European night match and tournament path">
+            <div class="orbit-scene" aria-hidden="true">
+              <div class="orbit orbit-outer"></div>
+              <div class="orbit orbit-middle"></div>
+              <div class="orbit orbit-inner"></div>
+              <div class="orbit-node node-one"></div>
+              <div class="orbit-node node-two"></div>
+              <div class="orbit-node node-three"></div>
+              <div class="orbit-node node-four"></div>
+              <div class="globe-halo"></div>
+              <div class="globe">
+                <div class="globe-shine"></div>
+                <div class="globe-grid globe-grid-one"></div>
+                <div class="globe-grid globe-grid-two"></div>
+                <img class="trophy-mark" src="/images/ucl-cup.png" alt="">
+              </div>
+              <div class="scene-star star-a">✦</div>
+              <div class="scene-star star-b">✧</div>
+              <div class="scene-star star-c">✦</div>
+              <div class="scene-star star-d">✧</div>
+            </div>
+
+            <div class="match-stack" aria-label="Featured Champions League fixtures">
+              <article class="match-card match-card-secondary" data-fixture="0">
+                <div class="match-card-heading"><span data-stage-tag>LEAGUE PHASE</span><span class="matchday-label" data-matchday>Matchday 03</span></div>
+                <div class="fixture">
+                  <div class="club" data-club="0"><img class="club-crest" src="/images/clubs/1.png" alt="Arsenal badge"><span>ARSENAL</span></div>
+                  <span class="fixture-versus">VS</span>
+                  <div class="club" data-club="1"><img class="club-crest" src="/images/clubs/243.png" alt="Real Madrid badge"><span>REAL MADRID</span></div>
+                </div>
+                <div class="match-card-footer"><span>UCL 26/27</span><span class="fixture-status">FIXTURE</span></div>
+              </article>
+
+              <article class="match-card match-card-primary" data-fixture="1">
+                <div class="match-card-heading"><span data-stage-tag>LEAGUE PHASE</span><span class="matchday-label" data-matchday>Matchday 06</span></div>
+                <div class="fixture">
+                  <div class="club" data-club="2"><img class="club-crest" src="/images/clubs/241.png" alt="Barcelona badge"><span>FC BARCELONA</span></div>
+                  <span class="fixture-versus">VS</span>
+                  <div class="club" data-club="3"><img class="club-crest" src="/images/clubs/10.png" alt="Manchester City badge"><span>MANCHESTER CITY</span></div>
+                </div>
+                <div class="match-card-footer"><span>UCL 26/27</span><span class="fixture-status">FIXTURE</span></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="competition-strip" aria-label="Champions League tournament format">
+          <div class="format-heading">
+            <span class="format-label">THE ROAD TO EUROPE</span>
+            <strong>One league.<br><span>One champion.</span></strong>
+          </div>
+          <div class="format-steps">
+            <article class="format-item"><span class="format-index">01</span><strong>36</strong><span class="format-name">CLUBS</span><small>One league table</small></article>
+            <article class="format-item"><span class="format-index">02</span><strong>Top 8</strong><span class="format-name">THROUGH</span><small>Straight to the last 16</small></article>
+            <article class="format-item"><span class="format-index">03</span><strong>9–24</strong><span class="format-name">PLAY-OFFS</span><small>Two legs to advance</small></article>
+            <article class="format-item is-final"><span class="format-index">04</span><strong>1</strong><span class="format-name">FINAL</span><small>One night decides it</small></article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/pages/app.js" defer></script>
+</body>
+</html>

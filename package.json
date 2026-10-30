@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "node src/server/index.js",
+    "start": "node src/server/index.js",
+    "check": "node scripts/check-project.js",
+    "rank:xis": "node scripts/admin/rankLeagueXIs.js",
+    "simulate:match": "node src/simulation/engine.js",
+    "simulate:tournaments": "node scripts/simulations/simulateUclTournaments.js",
+    "rosters:rebuild": "node scripts/data/rebuild-rosters-from-cmtracker.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "edmonds-blossom": "^1.0.0",
+    "javascript-lp-solver": "^1.0.3"
+  }
+}

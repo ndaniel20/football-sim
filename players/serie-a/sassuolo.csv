@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+210935,Domenico Berardi,Domenico,Berardi,82,RW,RM,Sassuolo,Italy,82,81,80,82,39,73,85
+243593,Armand Laurienté,Armand,Laurienté,80,LW,LM,Sassuolo,France,91,74,76,83,37,56,80
+191202,Nemanja Matić,Nemanja,Matić,77,CDM,CM,Sassuolo,Serbia,31,68,72,66,74,71,86
+247888,Sebastiano Esposito,Sebastiano,Esposito,76,ST,CAM,Sassuolo,Italy,78,76,78,77,52,74,83
+242725,Kristian Thorstvedt,Kristian,Thorstvedt,76,CM,CDM,Sassuolo,Norway,57,71,73,68,69,82,76
+264207,Ismaël Koné,Ismaël,Koné,75,CM,CDM,Sassuolo,Canada,75,62,69,72,65,71,79
+262396,Jay Idzes,Jay,Idzes,75,CB,,Sassuolo,Indonesia,45,49,57,63,75,83,78
+254502,Stefano Turati,Stefano,Turati,74,GK,,Sassuolo,Italy,34,17,28,34,13,42,79
+243497,Sebastian Walukiewicz,Sebastian,Walukiewicz,74,RB,RM,Sassuolo,Poland,64,39,51,64,74,75,76
+233164,Arijanet Murić,Arijanet,Murić,74,GK,,Sassuolo,Kosovo,45,22,37,45,16,48,76
+225263,Duje Ćaleta-Car,Duje,Ćaleta-Car,74,CB,,Sassuolo,Croatia,53,43,47,58,73,76,79
+271577,Ibrahim Sulemana,Ibrahim,Sulemana,73,CDM,CM,Sassuolo,Ghana,73,65,61,72,70,75,80
+275207,Fedde Leysen,Fedde,Leysen,73,CB,,Sassuolo,Belgium,59,40,53,57,72,74,79
+255561,Josh Doig,Josh,Doig,73,LB,LM,Sassuolo,Scotland,76,59,63,67,68,70,78
+269558,Benjamín Domínguez,Benjamín,Domínguez,72,LM,LW,Sassuolo,Argentina,82,65,65,74,43,53,82
+251464,Ignace Van der Brempt,Ignace,Van der Brempt,72,RB,,Sassuolo,Belgium,70,55,62,67,69,69,77
+268462,Daniel Boloca,Daniel,Boloca,72,CM,CDM,Sassuolo,Romania,50,59,65,69,65,68,74
+265761,Cristian Volpato,Cristian,Volpato,72,RW,RM,Sassuolo,Australia,69,67,66,68,41,58,80
+256856,Fali Candé,Fali,Candé,71,CB,LB LM,Sassuolo,Guinea-Bissau,78,54,66,68,70,74,71
+241628,Nicholas Pierini,Nicholas,Pierini,71,ST,RM LM CAM,Sassuolo,Italy,90,66,64,76,44,63,71
+75085,Vasilije Adžić,Vasilije,Adžić,70,CAM,CM,Sassuolo,Montenegro,62,70,68,69,58,57,79
+262474,Cas Odenthal,Cas,Odenthal,70,CB,,Sassuolo,Holland,59,40,47,61,70,73,72
+257164,Andrea Ghion,Andrea,Ghion,70,CM,CDM,Sassuolo,Italy,67,54,63,75,65,66,72
+258507,Rafael Obrador,Rafael,Obrador Burguera,69,LB,LM,Sassuolo,Spain,79,45,56,65,65,63,77
+274702,Luca Lipani,Luca,Lipani,69,CM,CDM,Sassuolo,Italy,46,54,61,66,66,63,77

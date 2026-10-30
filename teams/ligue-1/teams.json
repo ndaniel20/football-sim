@@ -1,0 +1,22 @@
+{
+  "teams": [
+    { "team_id": 57, "name": "AJ Auxerre", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/aj-auxerre.csv", "offensive_tendency": 48, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 69, "name": "AS Monaco", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/as-monaco.csv", "offensive_tendency": 68, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 46 },
+    { "team_id": 1530, "name": "Angers SCO", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/angers-sco.csv", "offensive_tendency": 38, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 294, "name": "ESTAC Troyes", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/estac-troyes.csv", "offensive_tendency": 44, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 217, "name": "FC Lorient", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/fc-lorient.csv", "offensive_tendency": 50, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 1738, "name": "Havre AC", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/havre-ac.csv", "offensive_tendency": 36, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 65, "name": "LOSC Lille", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/losc-lille.csv", "offensive_tendency": 60, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 29 },
+    { "team_id": 1739, "name": "Le Mans FC", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/le-mans-fc.csv", "offensive_tendency": 43, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 72, "name": "OGC Nice", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/ogc-nice.csv", "offensive_tendency": 50, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 101 },
+    { "team_id": 66, "name": "OL", "league": "france", "formation": "4-2-3-1", "players_path": "players/ligue-1/ol.csv", "offensive_tendency": 63, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 31 },
+    { "team_id": 219, "name": "OM", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/om.csv", "offensive_tendency": 70, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 48 },
+    { "team_id": 111817, "name": "Paris FC", "league": "france", "formation": "4-3-3", "players_path": "players/ligue-1/paris-fc.csv", "offensive_tendency": 49, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 73, "name": "Paris SG", "league": "france", "formation": "4-3-3", "players_path": "players/ligue-1/paris-sg.csv", "offensive_tendency": 84, "home_advantage": 3, "away_advantage": 3, "ucl_default": true, "uefa_coefficient_rank": 3 },
+    { "team_id": 64, "name": "RC Lens", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/rc-lens.csv", "offensive_tendency": 62, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 120 },
+    { "team_id": 378, "name": "Stade Brestois 29", "league": "france", "formation": "4-3-3", "players_path": "players/ligue-1/stade-brestois-29.csv", "offensive_tendency": 53, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 119 },
+    { "team_id": 74, "name": "Stade Rennais FC", "league": "france", "formation": "4-3-3", "players_path": "players/ligue-1/stade-rennais-fc.csv", "offensive_tendency": 57, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 66 },
+    { "team_id": 76, "name": "Strasbourg", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/strasbourg.csv", "offensive_tendency": 55, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 96 },
+    { "team_id": 1809, "name": "Toulouse FC", "league": "france", "formation": "3-4-3", "players_path": "players/ligue-1/toulouse-fc.csv", "offensive_tendency": 50, "home_advantage": 1, "away_advantage": 2, "uefa_coefficient_rank": 121 }
+  ]
+}

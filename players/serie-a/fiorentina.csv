@@ -1,0 +1,25 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+193080,De Gea,David,De Gea Quintana,83,GK,,Fiorentina,Spain,46,22,31,47,18,35,91
+240950,Pedro Gonçalves,Pedro António,Pereira Gonçalves,82,LM,LW CAM,Fiorentina,Portugal,72,81,82,82,61,69,83
+278928,Álex Jiménez,Alejandro,Jiménez Sánchez,79,RB,RM,Fiorentina,Spain,86,55,68,79,74,70,84
+234112,Dodô,Domilson,Cordeiro dos Santos,78,RB,RM,Fiorentina,Brazil,85,59,71,80,69,70,78
+279173,Franco Mastantuono,Franco,Mastantuono,77,RM,RW CAM,Fiorentina,Argentina,75,71,74,79,50,66,86
+251892,Beto,Norberto,Gomes Betuncal,77,ST,,Fiorentina,Guinea-Bissau,74,76,58,64,31,82,81
+272783,Arthur Atta,Arthur,Atta,76,CM,CAM,Fiorentina,France,78,68,70,75,64,76,84
+260823,Nicolò Fagioli,Nicolò,Fagioli,76,CDM,CM,Fiorentina,Italy,78,67,77,77,69,64,80
+257290,João Mário,João Mário,Neto Lopes,76,RB,RM,Fiorentina,Portugal,78,64,66,76,72,62,79
+258976,Fabiano Parisi,Fabiano,Parisi,75,LB,RB CM,Fiorentina,Italy,76,66,70,76,71,66,80
+240777,Luca Ranieri,Luca,Ranieri,75,CB,,Fiorentina,Italy,74,45,57,68,75,74,77
+258906,Wilfried Gnonto,Wilfried,Gnonto,74,LW,RW LM RM,Fiorentina,Italy,86,69,64,79,45,68,80
+260105,Radu Drăgușin,Radu,Drăgușin,74,CB,,Fiorentina,Romania,67,42,52,63,74,74,79
+246431,Riccardo Sottil,Riccardo,Sottil,74,LM,LW,Fiorentina,Italy,86,66,63,74,36,47,76
+238370,Marin Pongračić,Marin,Pongračić,73,CB,,Fiorentina,Croatia,51,29,46,61,72,77,76
+276682,Cher Ndour,Cher,Ndour,72,CM,CDM,Fiorentina,Italy,67,64,67,69,64,71,83
+257785,Marco Brescianini,Marco,Brescianini,72,CM,CAM,Fiorentina,Italy,56,66,64,69,66,72,75
+74735,Christ Ravynel Inao Oulaï,Christ Ravynel,Inao Oulaï,72,CDM,CAM CM,Fiorentina,Côte d'Ivoire,76,59,68,78,65,69,87
+263229,Mateo Pellegrino,Mateo,Pellegrino,71,ST,,Fiorentina,Argentina,46,72,51,61,39,75,76
+236758,Oliver Christensen,Oliver,Christensen,71,GK,,Fiorentina,Denmark,44,14,32,35,13,50,74
+87432,Viery,Viery,Fernandes,70,CB,,Fiorentina,Brazil,59,44,52,58,69,72,80
+219584,Luca Lezzerini,Luca,Lezzerini,69,GK,,Fiorentina,Italy,48,23,22,42,16,46,70
+70480,Alieu Njie,Alieu,Njie,67,LM,ST LW,Fiorentina,Sweden,75,63,54,70,26,54,78
+77851,Víctor Valdepeñas,Víctor,Valdepeñas Talavera,66,CB,LB LM,Fiorentina,Spain,70,41,49,58,64,70,81

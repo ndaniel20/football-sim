@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+197445,David Alaba,David,Alaba,80,CB,,Udinese,Austria,66,73,81,77,80,74,87
+242238,Oumar Solet,Oumar,Solet,78,CB,,Udinese,France,84,45,54,64,76,82,83
+257288,Maduka Okoye,Maduka,Okoye,76,GK,,Udinese,Nigeria,25,16,30,35,15,49,79
+238067,Nicolò Zaniolo,Nicolò,Zaniolo,76,ST,CAM,Udinese,Italy,74,74,71,72,49,75,81
+231743,Keinan Davis,Keinan,Davis,76,ST,,Udinese,England,79,73,52,73,43,72,77
+228349,Mërgim Vojvoda,Mërgim,Vojvoda,76,RB,RM,Udinese,Kosovo,62,56,72,73,74,68,76
+243249,Jurgen Ekkelenkamp,Jurgen,Ekkelenkamp,75,CM,CAM,Udinese,Holland,67,67,72,71,67,75,78
+214658,Jesper Karlström,Jesper,Karlström,75,CDM,CM,Udinese,Sweden,68,58,69,70,69,78,75
+223866,Sandi Lovrič,Sandi,Lovrič,73,CM,CDM,Udinese,Slovenia,55,62,72,72,65,60,75
+190324,Christian Kabasele,Christian,Kabasele,73,CB,,Udinese,Belgium,45,51,45,60,73,75,78
+277708,Unai Gómez,Unai,Gómez Etxebarria,72,CAM,LM CM LW,Udinese,Spain,77,67,69,70,48,74,78
+271475,Nicolò Bertola,Nicolò,Bertola,72,CB,,Udinese,Italy,64,35,43,52,72,74,78
+268656,Alessandro Zanoli,Alessandro,Zanoli,72,RB,RM,Udinese,Italy,78,54,61,68,68,69,76
+241168,Giorgi Chakvetadze,Giorgi,Chakvetadze,72,LM,CAM LW ST,Udinese,Georgia,74,67,72,73,41,61,74
+229973,Jakub Piotrowski,Jakub,Piotrowski,72,CM,CDM,Udinese,Poland,66,62,66,69,67,73,72
+220421,Hassane Kamara,Hassane,Kamara,72,LB,LM,Udinese,Côte d'Ivoire,78,60,64,77,65,64,77
+258615,Oier Zarraga,Oier,Zarraga Egaña,71,CM,CDM,Udinese,Spain,66,59,68,75,63,59,73
+235304,Bartosz Mrozek,Bartosz,Mrozek,71,GK,,Udinese,Poland,38,19,25,32,14,45,76
+275522,Lennon Miller,Lennon,Miller,70,CM,CDM,Udinese,Scotland,78,64,69,70,63,65,84
+264509,James Abankwah,James,Abankwah,69,CB,RB,Udinese,Republic of Ireland,69,35,46,62,68,70,78
+241007,Enzo Ebosse,Enzo,Ebosse,69,CB,,Udinese,Cameroon,44,38,50,60,70,66,71
+246832,Vakoun Issouf Bayo,Vakoun Issouf,Bayo,68,ST,,Udinese,Côte d'Ivoire,75,68,52,66,30,69,70
+76411,Idrissa Gueye,Idrissa,Gueye,68,ST,,Udinese,Senegal,62,66,47,65,29,56,78
+72324,Matteo Palma,Matteo,Palma,67,CB,,Udinese,Germany,60,29,36,50,67,70,82
+162297,Daniele Padelli,Daniele,Padelli,65,GK,,Udinese,Italy,44,18,22,38,11,35,77

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="Champions League knockout bracket, match results, and tournament player leaders.">
+  <title>Knockout stage · UCL Simulator XI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/pages/league-phase.css">
+  <link rel="stylesheet" href="/assets/css/pages/knockout.css">
+</head>
+<body class="knockout-page">
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="app-shell"><div class="main-column knockout-column">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="UCL Simulator XI home"><img class="brand-mark" src="/images/ucl-logo.png" alt=""><span class="brand-name">UCL SIMULATOR XI</span></a>
+      <div class="league-season"><span>SEASON</span><strong>26/27</strong></div>
+    </header>
+    <main class="knockout-main">
+      <section class="knockout-heading"><div><p class="knockout-eyebrow"><span>04</span> TOURNAMENT</p><h1>Knockout <span>stage.</span></h1></div><div class="knockout-summary"><strong id="knockout-teams-count">24</strong><span>TEAMS LEFT</span></div></section>
+      <div class="knockout-loading" id="knockout-loading" role="status"><span class="loading-spinner" aria-hidden="true"></span><strong>Preparing the bracket…</strong></div>
+      <div class="knockout-error" id="knockout-error" role="alert" hidden><strong>Knockout stage unavailable</strong><span id="knockout-error-message"></span><a class="simulation-button" href="/league-phase.html">Return to league phase</a></div>
+
+      <section class="bracket-section" aria-labelledby="bracket-title">
+        <div class="knockout-section-heading"><div><p class="section-kicker">AUTOMATIC BRACKET DRAW</p><h2 id="bracket-title">Road to the final</h2></div></div>
+        <div class="bracket-frame" id="bracket-frame">
+          <div class="bracket-scroll" id="bracket-scroll"><div class="bracket-grid" id="bracket-grid" aria-label="Tournament bracket"></div></div>
+          <div class="bracket-scroll-cues" aria-hidden="true"><span class="bracket-scroll-cue is-left"></span><span class="bracket-scroll-cue is-right"></span></div>
+        </div>
+      </section>
+
+      <section class="leaders-section" aria-labelledby="leaders-title">
+        <div class="knockout-section-heading"><div><p class="section-kicker">TOURNAMENT TOTALS</p><h2 id="leaders-title">Player leaders</h2></div><span class="leader-scope">LEAGUE PHASE + KNOCKOUT</span></div>
+        <div class="leaders-grid" id="leaders-grid"></div>
+      </section>
+
+      <section class="team-of-season-section" id="team-of-season" aria-labelledby="team-of-season-title" hidden>
+        <div class="knockout-section-heading"><div><p class="section-kicker">TOURNAMENT AWARDS</p><h2 id="team-of-season-title">Team of the Season</h2></div><span class="leader-scope">4-2-3-1 FORMATION</span></div>
+        <div class="team-of-season-formation" id="team-of-season-formation" aria-label="Team of the Season in a 4-2-3-1 formation"></div>
+      </section>
+
+      <section class="round-section" aria-labelledby="round-title">
+        <div class="knockout-section-heading round-heading"><div><p class="section-kicker" id="round-kicker">ELIMINATION ROUND</p><h2 id="round-title">Knockout fixtures</h2></div>
+          <div class="round-controls"><button class="round-arrow" id="round-previous" type="button" aria-label="Previous round">‹</button><span id="round-label">PLAY-OFFS</span><button class="round-arrow" id="round-next" type="button" aria-label="Next round">›</button></div>
+        </div>
+        <div class="round-status" id="round-status"></div>
+        <div class="tie-list" id="tie-list" aria-live="polite"></div>
+      </section>
+    </main>
+  </div></div>
+
+  <section class="simulation-dock" aria-label="Knockout controls">
+    <div class="simulation-dock-status" id="simulation-status" role="status">Knockout bracket ready.</div>
+    <div class="round-controls simulation-dock-navigation" aria-label="Select knockout round">
+      <button class="round-arrow" id="dock-round-previous" type="button" aria-label="Previous round" disabled>‹</button>
+      <span id="dock-round-label">PLAY-OFFS</span>
+      <button class="round-arrow" id="dock-round-next" type="button" aria-label="Next round">›</button>
+    </div>
+    <div class="simulation-dock-actions">
+      <button class="simulation-button simulation-button-primary" id="simulate-selected" type="button" disabled>Simulate selected match</button>
+      <button class="simulation-button" id="simulate-round" type="button" disabled>Simulate first leg</button>
+      <a class="simulation-button simulation-button-knockout" id="return-league" href="/league-phase.html">League phase</a>
+    </div>
+  </section>
+
+  <dialog class="champion-dialog" id="champion-dialog" aria-labelledby="champion-title">
+    <div class="champion-confetti" aria-hidden="true"></div>
+    <div class="champion-content"><div class="champion-cup" aria-hidden="true">🏆</div><p class="champion-kicker">UEFA CHAMPIONS LEAGUE</p><h2 id="champion-title">Champions!</h2><div class="champion-team" id="champion-team"></div><p class="champion-copy">The champions of Europe.</p></div>
+  </dialog>
+
+  <dialog class="leader-modal" id="leader-modal" aria-labelledby="leader-modal-title">
+    <div class="leader-modal-shell">
+      <div class="match-modal-heading">
+        <div><p class="modal-kicker" id="leader-modal-kicker">PLAYER LEADERS</p><h2 id="leader-modal-title">Player list</h2></div>
+        <button class="modal-close" id="leader-modal-close" type="button" aria-label="Close player list">×</button>
+      </div>
+      <div class="leader-modal-list" id="leader-modal-list"></div>
+    </div>
+  </dialog>
+
+  <dialog class="match-modal" id="match-modal" aria-labelledby="match-modal-title">
+    <div class="match-modal-shell">
+      <div class="match-modal-heading">
+        <div><p class="modal-kicker" id="match-modal-round">KNOCKOUT STAGE</p><h2 id="match-modal-title">Match simulation</h2></div>
+        <button class="modal-close" id="match-modal-close" type="button" aria-label="Close match details">×</button>
+      </div>
+      <div class="match-leg-toggle" id="match-leg-toggle" role="group" aria-label="Choose match leg to review">
+        <button class="match-leg-option is-active" id="match-leg-first" type="button" data-leg-index="0" aria-pressed="true">First leg</button>
+        <button class="match-leg-option" id="match-leg-second" type="button" data-leg-index="1" aria-pressed="false" disabled>Second leg</button>
+      </div>
+      <div class="match-aggregate" id="match-modal-aggregate" hidden></div>
+      <div class="live-scoreboard" id="live-scoreboard"></div>
+      <div class="live-match-stats" id="live-match-stats" aria-label="Live match statistics"></div>
+      <div class="match-timeline" id="match-timeline" aria-live="polite"></div>
+      <div class="match-modal-footer"><button class="simulation-button" id="skip-to-full-time" type="button" disabled>Skip to full time</button></div>
+    </div>
+  </dialog>
+
+  <script src="/assets/js/shared/app-settings.js" defer></script>
+  <script src="/assets/js/shared/player-customizations.js" defer></script>
+  <script src="/assets/js/pages/knockout/state.js" defer></script>
+  <script src="/assets/js/pages/knockout/bracket-model.js" defer></script>
+  <script src="/assets/js/pages/knockout/bracket-view.js" defer></script>
+  <script src="/assets/js/pages/knockout/player-stats.js" defer></script>
+  <script src="/assets/js/pages/knockout/team-of-season.js" defer></script>
+  <script src="/assets/js/pages/knockout/leaderboard-data.js" defer></script>
+  <script src="/assets/js/pages/knockout/match-view.js" defer></script>
+  <script src="/assets/js/pages/knockout/tournament-panels.js" defer></script>
+  <script src="/assets/js/pages/knockout/controller.js" defer></script>
+</body>
+</html>

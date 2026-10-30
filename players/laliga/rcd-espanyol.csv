@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+227290,Marko Dmitrović,Marko,Dmitrović,79,GK,,RCD Espanyol,Serbia,37,31,32,39,20,59,81
+229862,Edu Expósito,Eduardo,Expósito Jaén,78,CM,CAM CDM,RCD Espanyol,Spain,68,74,78,77,72,71,79
+271916,Bryan Zaragoza,Bryan,Zaragoza Martínez,77,LW,LM CAM CM,RCD Espanyol,Spain,82,71,70,79,32,49,82
+244622,Puado,Javier,Puado Díaz,77,LW,ST CAM LM,RCD Espanyol,Spain,78,77,67,77,52,76,80
+241049,Gorosabel,Andoni,Gorosabel Espinosa,76,RB,,RCD Espanyol,Spain,76,50,65,72,74,70,77
+261654,Omar El Hilali,Omar,El Hilali,76,RB,CB CDM,RCD Espanyol,Morocco,82,42,60,67,73,80,81
+260546,Urko González,Urko,González de Zárate,76,CDM,CM,RCD Espanyol,Spain,63,44,61,68,75,76,81
+192816,Leandro Cabrera,Leandro,Cabrera,76,CB,,RCD Espanyol,Uruguay,49,45,54,54,77,78,79
+271121,Quilindschy Hartman,Quilindschy,Hartman,75,LB,,RCD Espanyol,Holland,77,56,75,74,69,74,79
+263676,Roberto Fernández,Roberto,Fernández Jaén,75,ST,,RCD Espanyol,Spain,77,73,61,71,54,80,81
+244407,Pol Lozano,Pol,Lozano Vizuete,75,CDM,CM,RCD Espanyol,Spain,64,62,69,70,71,73,77
+225926,Pere Milla,Pere,Milla Peña,75,LM,ST CAM LW,RCD Espanyol,Spain,74,73,71,73,57,75,77
+192678,Kike García,Enrique,García Martínez,75,ST,CAM,RCD Espanyol,Spain,45,78,62,66,45,73,80
+73505,Cala,Alejandro,Calatrava Torrado,75,CAM,ST RM RW,RCD Espanyol,Spain,77,72,73,76,60,69,80
+240900,Unai Núñez,Unai,Núñez Gestoso,74,CB,RB,RCD Espanyol,Spain,60,26,42,55,75,75,80
+276976,Javi Hernández,Javier,Hernández Coarasa,74,RM,ST CAM RW,RCD Espanyol,Spain,74,70,72,77,40,54,82
+257063,Tyrhys Dolan,Tyrhys,Dolan,74,RW,RM LM LW,RCD Espanyol,England,80,66,69,77,54,67,79
+258949,Jofre,Jofre,Carreras Pagès,73,RW,RM LM LW,RCD Espanyol,Spain,80,69,68,71,42,64,75
+279731,Gabriel Moscardo,Gabriel Silva,Moscardo de Salles,72,CDM,CM CB,RCD Espanyol,Brazil,63,52,58,70,71,78,81
+78282,Marcos Fernández,Marcos,Fernández Sánchez,72,ST,RM,RCD Espanyol,Spain,77,72,61,72,35,75,80
+245339,Vanja Drkušić,Vanja,Drkušić,71,CB,RB,RCD Espanyol,Slovenia,71,33,44,54,69,76,76
+263575,Clemens Riedel,Clemens,Riedel,70,CB,RB,RCD Espanyol,Germany,59,33,51,62,69,71,78
+77703,Roger Hinojo,Roger,Hinojo Estrada,69,LB,CB CDM,RCD Espanyol,Spain,78,42,61,67,63,67,81
+71972,Rafa Bauza,Rafel,Bauzà Sureda,69,CDM,CM,RCD Espanyol,Spain,66,61,65,66,66,72,80
+258948,Fortuño,Ángel,Fortuño Viñas,65,GK,,RCD Espanyol,Spain,42,16,23,39,11,44,73

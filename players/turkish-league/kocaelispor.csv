@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+215455,Bruno Petković,Bruno,Petković,75,ST,CAM,Kocaelispor,Croatia,68,74,76,71,43,74,77
+201955,Massadio Haïdara,Massadio,Haïdara,72,LB,LM,Kocaelispor,Mali,74,58,60,71,70,78,76
+229448,Florian Ayé,Florian,Ayé,71,ST,,Kocaelispor,France,85,68,56,66,35,75,72
+265465,Matej Maglica,Matej,Maglica,70,CB,,Kocaelispor,Croatia,43,52,46,46,68,78,73
+259675,Berkan Kutlu,Berkan,Kutlu,70,CDM,LB CM LM,Kocaelispor,Turkey,75,61,59,67,68,76,73
+232413,Anfernee Dijksteel,Anfernee,Dijksteel,70,CB,RB,Kocaelispor,Suriname,73,40,51,67,68,73,71
+247025,Tobias Gulliksen,Tobias,Gulliksen,69,CAM,LW CM LM,Kocaelispor,Norway,77,63,67,74,51,69,75
+251894,Show,Manuel Luís,Da Silva Cafumana,67,CDM,CM,Kocaelispor,Angola,63,42,58,66,63,67,69
+234735,Aleksandar Jovanović,Aleksandar,Jovanović,67,GK,,Kocaelispor,Serbia,22,15,18,35,12,43,69
+72166,Gonçalo Sousa,Gonçalo,Santos Sousa,66,RM,LM RW LW,Kocaelispor,Portugal,71,64,59,61,34,55,79
+239493,Makana Baku,Makana,Baku,66,LM,RM ST LW,Kocaelispor,Germany,91,60,54,72,28,60,68
+228382,Dan Agyei,Dan,Agyei,66,RM,ST LM RW,Kocaelispor,Ghana,89,62,52,67,39,75,66
+224724,Tayfur Bingöl,Tayfur,Bingöl,66,CM,LM CDM CAM,Kocaelispor,Turkey,76,61,62,64,57,68,68
+264785,Tanguy Zoukrou,Tanguy,Zoukrou,65,CB,RB CDM,Kocaelispor,France,55,33,40,46,66,70,75
+241094,Rigoberto Rivas,Rigoberto,Rivas,65,RM,LM RB RW,Kocaelispor,Honduras,77,62,58,65,36,56,68
+279624,Mahamadou Susoho,Mahamadou,Susoho Sissoho,63,CDM,CM,Kocaelispor,Spain,61,50,58,67,60,63,78
+278369,Emir Ortakaya,Emir,Ortakaya,62,CB,,Kocaelispor,Turkey,63,36,49,54,61,66,75
+223174,Onurcan Piri,Onurcan,Piri,62,GK,,Kocaelispor,Turkey,19,17,17,26,10,36,66
+88846,Bedirhan Yıldız,Bedirhan,Yıldız,62,RM,LM CM RW,Kocaelispor,Turkey,73,56,55,63,52,60,72
+79130,Onur Öztonga,Onur,Öztonga,62,CB,RB CDM,Kocaelispor,Turkey,67,34,37,53,63,63,67
+79131,Muharrem Cinan,Muharrem,Cinan,61,LB,LM,Kocaelispor,Turkey,78,42,44,61,53,56,61
+259686,Uğur Kaan Yıldız,Uğur Kaan,Yıldız,60,RB,CM RM CAM,Kocaelispor,Turkey,60,43,49,55,58,58,69
+84391,Arda Özyar,Arda,Özyar,60,ST,,Kocaelispor,Turkey,63,60,44,59,28,54,79
+260459,Metehan Altunbaş,Metehan,Altunbaş,59,LM,RM ST LW,Kocaelispor,Turkey,62,58,52,58,25,54,68
+89571,Hulisi Destici,Hulisi,Destici,58,CDM,RB CM,Kocaelispor,Turkey,65,49,53,58,53,59,76

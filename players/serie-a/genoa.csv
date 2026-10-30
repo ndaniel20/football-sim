@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+242633,Morten Frendrup,Morten,Frendrup,76,CDM,CM,Genoa,Denmark,76,57,61,76,73,74,80
+238516,Leo Østigård,Leo,Østigård,76,CB,,Genoa,Norway,51,38,47,65,76,82,80
+229752,Djibril Sow,Djibril,Sow,76,CM,CDM,Genoa,Switzerland,76,70,71,76,73,77,80
+190813,Stephan El Shaarawy,Stephan,El Shaarawy,76,CAM,LM ST LW,Genoa,Italy,78,76,75,78,51,62,82
+240787,Hamed Junior Traoré,Hamed Junior,Traoré,75,LM,LW,Genoa,Côte d'Ivoire,81,69,70,74,56,64,78
+269312,Tommaso Baldanzi,Tommaso,Baldanzi,75,CAM,CM,Genoa,Italy,77,71,71,77,45,47,80
+263829,Vitinha,Vítor Manuel,Carvalho Oliveira,75,ST,CAM,Genoa,Portugal,73,74,64,77,40,74,76
+244349,Johan Vásquez,Johan,Vásquez,75,CB,,Genoa,Mexico,53,37,54,65,77,77,78
+232229,Justin Bijlow,Justin,Bijlow,75,GK,,Genoa,Holland,42,19,29,40,13,44,79
+256899,Lorenzo Colombo,Lorenzo,Colombo,74,ST,,Genoa,Italy,76,73,53,72,33,77,79
+276477,Alessandro Marcandalli,Alessandro,Marcandalli,72,CB,,Genoa,Italy,60,40,46,55,71,72,75
+240938,Junior Messias,Junior,Messias,72,CM,CAM,Genoa,Brazil,78,72,71,74,60,53,78
+225669,Kingsley Ehizibue,Kingsley,Ehizibue,72,RB,RM,Genoa,Holland,84,55,60,66,66,74,74
+264436,Mikael Egill Ellertsson,Mikael Egill,Ellertsson,71,CM,RB LB CAM,Genoa,Iceland,67,67,66,73,66,70,76
+263230,Milutin Osmajić,Milutin,Osmajić,71,ST,,Genoa,Montenegro,83,71,54,64,40,80,74
+206159,Stefano Sabelli,Stefano,Sabelli,71,RB,RM,Genoa,Italy,65,43,58,68,69,61,72
+276178,Elias Havel,Elias,Havel,69,ST,LW LM,Genoa,Austria,90,66,60,67,31,70,76
+258147,Mario Mitaj,Mario,Mitaj,69,LB,LM,Genoa,Albania,77,37,58,67,63,70,77
+254529,Cody Drameh,Cody,Drameh,69,RB,LB RM LM,Genoa,England,82,42,55,68,65,74,76
+271882,Sebastian Otoa,Sebastian,Otoa,68,CB,,Genoa,Denmark,57,35,44,51,67,68,74
+87430,David Puczka,David,Puczka,68,LB,LM,Genoa,Austria,64,63,69,60,64,62,78
+78316,Franz-Ethan Meichtry,Franz-Ethan,Meichtry,68,CAM,LM RM CM,Genoa,Switzerland,71,62,57,68,47,59,82
+79913,Amorim,Alexsandro,Amorim,67,CM,CDM,Genoa,Brazil,62,60,59,73,57,59,75
+70524,Franz Stolz,Franz,Stolz,67,GK,,Genoa,Austria,34,15,18,31,10,45,71
+76172,Lorenzo Venturino,Lorenzo,Venturino,65,RM,LM RW LW,Genoa,Italy,69,52,52,63,24,53,76

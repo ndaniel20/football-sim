@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+259872,Ignacio De Arruabarrena,Ignacio,De Arruabarrena,75,GK,,Arouca,Uruguay,36,17,21,36,10,42,76
+255876,Alfonso Trezza,Alfonso,Trezza,73,RM,LM ST RW,Arouca,Uruguay,87,68,60,75,50,72,73
+245238,Javi Sánchez,Javier,Sánchez de Felipe,73,CB,,Arouca,Spain,64,54,55,61,72,75,75
+264188,Taichi Fukui,Taichi,Fukui,72,CM,CAM CDM,Arouca,Japan,74,54,64,77,57,52,83
+251994,Tiago Esgaio,Tiago Alexandre,de Sousa Esgaio,72,RB,LB CB CDM,Arouca,Portugal,75,58,69,72,66,72,73
+246112,Naïs Djouahra,Naïs,Djouahra,72,LM,RM LW RW,Arouca,France,79,66,69,75,31,60,73
+277664,Espen van Ee,Espen,van Ee,71,CDM,CM,Arouca,Holland,67,54,57,67,66,71,81
+276600,Lee Hyun Ju,Hyun Ju,Lee,71,CAM,RM CM RW,Arouca,Korea Republic,71,58,59,76,33,56,78
+258728,José Fontán,José Manuel,Fontán Mondragón,71,CB,LB,Arouca,Spain,66,41,56,63,70,77,74
+255461,Barbero,Iván,Martínez Gonzálvez,70,ST,,Arouca,Spain,61,72,57,61,27,69,71
+247040,Orest Lebedenko,Orest,Lebedenko,69,LB,LM,Arouca,Ukraine,73,44,58,63,65,65,70
+273663,Pedro Santos,Pedro,Carvalho Santos,68,CM,CAM CDM,Arouca,Portugal,72,57,63,71,62,66,72
+255140,Pablo Gozálbez,Pablo,Gozálbez Gilabert,68,CAM,LM RM CM,Arouca,Spain,62,66,66,68,49,49,73
+76286,Climent,Mario,Climent Plá,68,LB,LM LW,Arouca,Spain,77,61,62,66,64,70,74
+268484,Brian Mansilla,Brian,Mansilla,67,RM,LM LW RW,Arouca,Uruguay,72,61,62,68,47,58,71
+263837,Miguel Puche,Miguel,Puche García,67,LM,ST RM LW,Arouca,Spain,81,63,57,68,43,64,70
+279919,Dylan Nandín,Dylan,Nandín,66,ST,,Arouca,Uruguay,70,67,45,63,27,63,70
+275641,Fally Mayulu,Fally,Mayulu,66,ST,,Arouca,France,77,63,51,61,29,72,72
+270292,Gabrijel Rukavina,Gabrijel,Rukavina,66,LW,LM RW,Arouca,Croatia,87,53,49,70,26,56,76
+258687,Boris Popović,Boris,Popović,66,CB,,Arouca,Serbia,45,35,46,56,65,69,69
+75211,Mateo Flores,Mateo,Flores Lozano,66,CDM,CM LB,Arouca,Spain,61,54,61,68,62,63,79
+263734,Diogo Monteiro,Diogo,Pinheiro Monteiro,64,CB,,Arouca,Portugal,58,27,44,59,64,67,76
+76845,Jakub Vinarčík,Jakub,Vinarčík,61,GK,,Arouca,Slovakia,40,15,20,32,11,39,77
+72281,Leo Shahar,Leo,Shahar,60,RB,RM,Arouca,England,69,44,54,63,54,51,79
+80193,Park Si Hoo,Si Hoo,Park,56,LW,LM,Arouca,Korea Republic,88,50,41,57,25,43,76

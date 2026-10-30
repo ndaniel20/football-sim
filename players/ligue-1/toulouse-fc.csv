@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+265526,Guillaume Restes,Guillaume,Restes,78,GK,,Toulouse FC,France,41,18,34,39,13,47,84
+242534,Cristian Cásseres Jr,Cristian,Cásseres Jr,77,CDM,CM,Toulouse FC,Venezuela,77,60,70,75,75,79,82
+237936,Aron Dønnum,Aron,Dønnum,76,RM,LM CAM RW,Toulouse FC,Norway,82,67,70,77,51,75,76
+235244,Rasmus Nicolaisen,Rasmus,Nicolaisen,76,CB,,Toulouse FC,Denmark,45,40,49,62,76,78,77
+242195,Mark McKenzie,Mark,McKenzie,75,CB,,Toulouse FC,United States,77,35,42,69,74,78,78
+269719,Santiago Hidalgo,Santiago,Hidalgo,73,ST,RM RW,Toulouse FC,Argentina,77,68,67,75,38,73,82
+275238,Niko Sigur,Niko,Sigur,72,RB,CDM RM,Toulouse FC,Canada,71,59,66,74,64,70,81
+257920,Casper Tengstedt,Casper,Tengstedt,72,ST,,Toulouse FC,Denmark,73,72,61,70,40,62,75
+80696,Alexis Vossah,Alexis,Vossah,72,CDM,CM,Toulouse FC,France,68,50,57,69,68,74,87
+71174,Thomas Jørgensen,Thomas,Jørgensen,72,CM,CAM CDM,Toulouse FC,Denmark,70,63,65,70,64,64,84
+70020,Mathis Amougou,Mathis,Amougou,71,CM,CDM,Toulouse FC,France,67,54,64,73,66,67,79
+235022,Niklas Schmidt,Niklas,Schmidt,71,CM,CAM CDM,Toulouse FC,Germany,55,67,72,69,59,63,72
+80695,Seny Koumbassa,Seny,Koumbassa,71,CB,,Toulouse FC,France,57,33,44,57,71,71,86
+72099,Rafik Messali,Rafik,Messali,70,RB,RM RW,Toulouse FC,Algeria,77,43,58,65,65,65,79
+251845,Abu Francis,Abu,Francis,69,CM,CDM CB,Toulouse FC,Ghana,72,63,62,70,67,72,74
+73487,Mathys Niflore,Mathys,Niflore,69,GK,,Toulouse FC,France,40,17,24,39,11,42,81
+269923,Jacen Russell-Rowe,Jacen,Russell-Rowe,68,ST,CAM,Toulouse FC,Canada,76,64,47,63,28,67,76
+86231,Christ Tapé,Christ,Tapé,68,LB,CB,Toulouse FC,Côte d'Ivoire,78,54,58,66,63,75,79
+85976,Ismaïl Diallo,Ismaïl,Diallo,68,RB,,Toulouse FC,France,77,53,55,63,62,69,78
+78379,Ilyas Azizi,Ilyas,Azizi,67,LW,ST LM,Toulouse FC,France,76,57,60,73,25,47,81
+80771,Julián Vignolo,Julián,Vignolo,66,ST,RW RM,Toulouse FC,Argentina,74,63,55,63,32,64,78
+73286,David Odogu,David,Odogu,66,CB,,Toulouse FC,Germany,62,32,40,53,66,64,82
+76522,Sion Oppong,Sion,Oppong,63,LM,LW,Toulouse FC,Sweden,82,54,50,63,29,56,79
+87689,Aymen Amaaouch,Aymen,Amaaouch,61,CDM,CM,Toulouse FC,France,69,46,59,63,56,53,76
+87666,Wassim Dardake,Wassim,Dardake,61,LW,LM,Toulouse FC,Morocco,74,51,55,70,32,46,75

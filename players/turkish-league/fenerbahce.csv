@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+215914,N'Golo Kanté,N'Golo,Kanté,84,CDM,CM,Fenerbahçe,France,75,64,67,82,80,80,90
+246147,Mason Greenwood,Mason,Greenwood,83,RM,CAM RW ST,Fenerbahçe,England,83,83,77,84,40,66,86
+223710,Vedat Muriqi,Vedat,Muriqi,83,ST,,Fenerbahçe,Kosovo,62,83,63,64,39,82,83
+220834,Marco Asensio,Marco,Asensio Willemsen,82,CAM,CM,Fenerbahçe,Spain,74,80,82,81,46,63,85
+210257,Ederson,Ederson,Santana de Moraes,82,GK,,Fenerbahçe,Brazil,64,34,47,55,19,60,89
+192505,Romelu Lukaku,Romelu,Lukaku,82,ST,,Fenerbahçe,Belgium,76,81,72,68,45,77,88
+236496,Mattéo Guendouzi,Mattéo,Guendouzi,81,CDM,CM,Fenerbahçe,France,73,72,76,80,75,80,82
+232363,Milan Škriniar,Milan,Škriniar,81,CB,,Fenerbahçe,Slovakia,54,52,54,66,82,81,86
+208920,Nathan Aké,Nathan,Aké,80,CB,LB CDM,Fenerbahçe,Holland,67,54,68,73,82,72,84
+258580,Kerem Aktürkoğlu,Kerem,Aktürkoğlu,79,LM,ST LW CAM,Fenerbahçe,Turkey,87,73,75,80,43,63,81
+260466,İsmail Yüksek,İsmail,Yüksek,77,CDM,CM,Fenerbahçe,Turkey,75,58,68,72,76,81,79
+227928,Nélson Semedo,Nélson,Cabral Semedo,77,RB,RM,Fenerbahçe,Portugal,81,59,66,77,72,75,83
+258168,Jayden Oosterwolde,Jayden,Oosterwolde,75,CB,LB,Fenerbahçe,Holland,88,46,60,71,75,82,81
+260236,Dorgeles Nene,Dorgeles,Nene,75,RM,LM RW LW,Fenerbahçe,Mali,85,72,67,76,41,66,83
+262968,Archie Brown,Archie,Brown,76,LB,LM LW,Fenerbahçe,England,87,54,66,69,65,81,79
+273948,Kojo Peprah Oppong,Kojo Peprah,Oppong,74,CB,,Fenerbahçe,Ghana,73,26,40,62,74,76,79
+264001,Oğuz Aydın,Oğuz,Aydın,74,LM,RM LW RW,Fenerbahçe,Turkey,84,69,66,74,55,69,77
+225403,İrfan Can Kahveci,İrfan Can,Kahveci,74,RM,CDM CAM RW,Fenerbahçe,Turkey,72,72,76,76,57,66,79
+252544,Levent Mercan,Levent,Mercan,73,LB,CM LM CDM,Fenerbahçe,Turkey,74,63,74,73,67,70,77
+243526,Mert Müldür,Mert,Müldür,73,RB,LB CB CDM,Fenerbahçe,Turkey,77,58,61,71,71,77,74
+190113,Mert Günok,Mert,Günok,73,GK,,Fenerbahçe,Turkey,56,22,32,45,17,52,78
+77041,Ognjen Mimović,Ognjen,Mimović,70,RB,RM,Fenerbahçe,Serbia,76,48,61,68,65,72,78
+252799,Tarık Çetin,Tarık,Çetin,69,GK,,Fenerbahçe,Turkey,20,15,18,26,13,42,71
+260638,Bartuğ Elmaz,Bartuğ,Elmaz,66,CDM,CM,Fenerbahçe,Turkey,59,58,66,68,62,63,76
+80731,Yiğit Efe Demir,Yiğit Efe,Demir,65,CB,RB,Fenerbahçe,Turkey,63,34,47,54,64,69,79

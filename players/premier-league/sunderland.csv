@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+199503,Granit Xhaka,Granit,Xhaka,85,CDM,CM,Sunderland,Switzerland,45,74,83,73,77,80,86
+263798,Robin Roefs,Robin,Roefs,81,GK,,Sunderland,Holland,54,17,17,32,11,43,86
+240359,Omar Alderete,Omar,Alderete,81,CB,,Sunderland,Paraguay,58,59,60,69,81,82,81
+226166,Nordi Mukiele,Nordi,Mukiele,81,RB,CB CDM,Sunderland,France,71,53,66,72,81,80,81
+269230,Noah Sadiki,Noah,Sadiki,80,CDM,CM CAM,Sunderland,Congo DR,79,65,71,81,73,76,86
+246350,Enzo Le Fée,Enzo,Le Fée,80,CAM,LM CM LW,Sunderland,France,65,73,80,83,66,65,82
+236045,Reinildo,Reinildo Isnard,Mandava,80,LB,,Sunderland,Mozambique,78,56,64,73,78,80,81
+237985,Kevin Danso,Kevin,Danso,79,CB,,Sunderland,Austria,69,36,51,63,78,82,81
+266400,Trai Hume,Trai,Hume,78,RB,LB RM,Sunderland,Northern Ireland,76,54,64,71,76,79,81
+251810,Brian Brobbey,Brian,Brobbey,78,ST,,Sunderland,Holland,83,74,57,76,35,85,83
+243908,Daniel Ballard,Daniel,Ballard,78,CB,,Sunderland,Northern Ireland,60,44,54,61,78,81,80
+202371,Thomas Meunier,Thomas,Meunier,78,RB,RM,Sunderland,Belgium,59,74,72,68,78,81,82
+275048,Chemsdine Talbi,Chemsdine,Talbi,77,RM,LM RW LW,Sunderland,Morocco,89,71,70,81,49,57,85
+264293,Habib Diarra,Habib,Diarra,77,CM,CAM,Sunderland,Senegal,71,71,71,75,69,72,83
+256420,Malick Fofana,Malick,Fofana,77,LM,LW,Sunderland,Belgium,86,66,66,82,38,50,85
+247335,Wilson Isidor,Wilson,Isidor,75,ST,,Sunderland,Haiti,76,73,61,71,37,75,77
+74491,Dayann Methalie,Dayann,Methalie,75,LB,LM,Sunderland,France,89,47,59,71,69,79,84
+273459,Chris Rigg,Chris,Rigg,74,CAM,RM CM,Sunderland,England,68,67,72,76,58,59,84
+264205,Nilson Angulo,Nilson,Angulo,73,LM,RM LW RW,Sunderland,Ecuador,78,69,71,72,41,60,81
+215700,Luke O'Nien,Luke,O'Nien,73,CB,,Sunderland,England,67,59,63,70,72,77,73
+268903,Romaine Mundle,Romaine,Mundle,72,LM,LW,Sunderland,England,78,69,68,75,37,55,79
+216464,Alan Browne,Alan,Browne,72,CM,CDM RM CAM,Sunderland,Republic of Ireland,70,69,68,73,69,80,74
+83236,Jocelin Ta Bi,Jocelin,Ta Bi,69,RM,RW,Sunderland,Côte d'Ivoire,89,67,62,76,39,55,80
+259987,Melker Ellborg,Melker,Ellborg,68,GK,,Sunderland,Sweden,45,15,18,35,10,37,75
+194150,Simon Moore,Simon,Moore,65,GK,,Sunderland,England,47,20,32,42,18,47,70

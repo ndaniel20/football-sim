@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+177683,Yann Sommer,Yann,Sommer,84,GK,,Club Brugge,Switzerland,39,22,31,46,14,52,87
+200155,Hans Vanaken,Hans,Vanaken,81,CAM,CM CDM,Club Brugge,Belgium,36,80,83,73,62,77,81
+212204,Brandon Mechele,Brandon,Mechele,79,CB,,Club Brugge,Belgium,39,40,49,64,81,78,79
+277426,Carlos Forbs,Carlos Roberto,Forbs Borges,76,RM,RW LW LM,Club Brugge,Portugal,92,70,67,77,46,68,86
+268611,Joel Ordoñez,Joel,Ordoñez,76,CB,,Club Brugge,Ecuador,72,30,45,61,75,80,86
+80915,Jan Virgili,Jan,Virgili Tenas,76,LW,LM RM RW,Club Brugge,Spain,86,63,66,76,39,55,86
+266895,Nicolò Tresoldi,Nicolò,Tresoldi,75,ST,,Club Brugge,Germany,78,72,61,72,27,71,87
+71305,Joaquin Seys,Joaquin,Seys,75,LB,RB LM RM,Club Brugge,Belgium,82,52,69,73,69,69,88
+275051,Romeo Vermant,Romeo,Vermant,73,ST,,Club Brugge,Belgium,79,69,56,72,25,71,83
+275050,Kyriani Sabbe,Kyriani,Sabbe,73,RB,LB RM LM,Club Brugge,Belgium,78,62,66,73,66,75,84
+264869,Félix Lemaréchal,Félix,Lemaréchal,73,CAM,CM CDM,Club Brugge,France,64,64,71,72,61,68,79
+264579,Freddie Potts,Freddie,Potts,73,CDM,CM,Club Brugge,England,65,58,70,72,69,72,80
+238235,Hugo Vetlesen,Hugo,Vetlesen,73,CM,CDM CAM,Club Brugge,Norway,78,68,68,79,66,73,76
+261062,Lee Han Beom,Han Beom,Lee,72,CB,,Club Brugge,Korea Republic,69,38,50,64,72,76,81
+276256,Mamadou Diakhon,Mamadou,Diakhon,71,LM,LW,Club Brugge,Senegal,84,62,61,73,33,63,82
+271917,Jorne Spileers,Jorne,Spileers,70,CB,RB CM,Club Brugge,Belgium,72,32,50,62,68,74,81
+259586,Hugo Siquet,Hugo,Siquet,70,RM,RB RW,Club Brugge,Belgium,75,62,74,69,64,70,76
+222263,Nordin Jackers,Nordin,Jackers,70,GK,,Club Brugge,Belgium,44,23,22,37,14,39,70
+268618,Lynnt Audoor,Lynnt,Audoor,66,CDM,CM,Club Brugge,Belgium,64,53,62,69,60,66,77
+71151,Cheveyo Tsawa,Cheveyo,Tsawa,66,CM,CAM RM CDM,Club Brugge,Switzerland,63,53,62,66,64,61,79
+74411,Matteo Dams,Matteo,Dams,65,LB,CB LM,Club Brugge,Belgium,72,45,49,62,62,71,76
+278696,Argus Vanden Driessche,Argus,Vanden Driessche,63,GK,,Club Brugge,Belgium,25,14,18,30,11,35,82
+83337,Tian Nai Koren,Tian Nai,Koren,63,CAM,CM,Club Brugge,Slovenia,72,56,62,66,36,42,85
+278995,Axl De Corte,Axl,De Corte,62,GK,,Club Brugge,Belgium,22,14,16,27,11,41,75
+77126,Wisdom Mike,Wisdom,Mike,61,LM,LW,Club Brugge,Germany,71,57,57,63,36,43,85

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+201269,Frederik Rønnow,Frederik,Rønnow,78,GK,,1. FC Union Berlin,Denmark,47,19,23,34,13,46,80
+265576,Leopold Querfeld,Leopold,Querfeld,77,CB,,1. FC Union Berlin,Austria,56,50,52,61,78,78,84
+211999,Rani Khedira,Rani,Khedira,76,CDM,CM,1. FC Union Berlin,Tunisia,62,46,52,64,78,82,76
+277799,Andrej Ilić,Andrej,Ilić,75,ST,,1. FC Union Berlin,Serbia,71,68,52,67,35,82,77
+260931,Zeno Van den Bosch,Zeno,Van den Bosch,75,CB,,1. FC Union Berlin,Belgium,53,28,59,55,75,72,85
+250941,Derrick Köhn,Derrick,Köhn,75,LB,LM,1. FC Union Berlin,Ghana,85,64,71,74,68,72,76
+193254,Christopher Trimmel,Christopher,Trimmel,75,RB,RM,1. FC Union Berlin,Austria,61,64,74,65,73,78,77
+271659,Aljoscha Kemlein,Aljoscha,Kemlein,74,CM,CDM,1. FC Union Berlin,Germany,60,58,64,75,70,73,79
+247026,András Schäfer,András,Schäfer,74,CM,CAM CDM,1. FC Union Berlin,Hungary,71,60,63,77,62,71,75
+236898,Michel Aebischer,Michel,Aebischer,74,CM,CAM CDM,1. FC Union Berlin,Switzerland,60,64,70,74,73,71,76
+232144,Felix Uduokhai,Felix,Uduokhai,74,CB,,1. FC Union Berlin,Germany,69,38,48,66,74,75,77
+268116,Tom Rothe,Tom,Rothe,73,LB,LM,1. FC Union Berlin,Germany,63,49,66,65,71,76,80
+257771,Josip Juranović,Josip,Juranović,73,RB,RM LM LB,1. FC Union Berlin,Croatia,75,67,76,75,67,68,77
+239138,Jeong Woo Yeong,Woo Yeong,Jeong,73,CAM,ST CM,1. FC Union Berlin,Korea Republic,76,60,62,77,39,64,76
+225632,Oliver Burke,Oliver,Burke,73,ST,RM CAM RW,1. FC Union Berlin,Scotland,95,66,62,67,44,73,73
+211879,Janik Haberer,Janik,Haberer,73,CM,RM CAM RW,1. FC Union Berlin,Germany,64,67,67,70,62,70,75
+276583,Livan Burcu,Livan,Burcu,72,LM,LW CAM CM,1. FC Union Berlin,Turkey,72,61,66,73,53,61,78
+229286,Tim Skarke,Tim,Skarke,72,ST,RM CAM RW,1. FC Union Berlin,Germany,86,71,60,74,47,66,73
+222493,Marvin Friedrich,Marvin,Friedrich,72,CB,,1. FC Union Berlin,Germany,57,40,48,55,74,70,78
+215449,Robert Skov,Robert,Skov,72,LB,RB RM LM,1. FC Union Berlin,Denmark,67,77,79,74,66,66,75
+241941,Stanley Nsoki,Stanley,Nsoki,71,CB,LB CDM,1. FC Union Berlin,France,79,40,56,65,71,77,74
+257480,Matheo Raab,Matheo,Raab,70,GK,,1. FC Union Berlin,Germany,24,16,22,32,10,37,74
+237295,Emmanuel Latte Lath,Emmanuel,Latte Lath,70,ST,,1. FC Union Berlin,Côte d'Ivoire,87,67,58,75,42,72,73
+262587,Marin Ljubičić,Marin,Ljubičić,69,ST,RW CAM RM,1. FC Union Berlin,Croatia,72,69,55,69,28,74,76
+250766,Kastriot Imeri,Kastriot,Imeri,69,CAM,LM CM ST,1. FC Union Berlin,Switzerland,72,67,69,71,58,67,72

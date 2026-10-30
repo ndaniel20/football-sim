@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+275771,Igor Thiago,Igor Thiago,Rodrigues,82,ST,,Brentford,Brazil,74,83,64,75,47,85,85
+277869,Michael Kayode,Michael,Kayode,81,RB,RM,Brentford,Italy,82,53,68,76,77,81,85
+258601,Mamadou Sangaré,Mamadou,Sangaré,81,CM,CDM,Brentford,Mali,80,67,71,80,75,75,87
+241508,Mikkel Damsgaard,Mikkel,Damsgaard,80,CAM,CM LM,Brentford,Denmark,66,72,82,82,64,66,83
+240913,Caoimhín Kelleher,Caoimhín,Kelleher,80,GK,,Brentford,Republic of Ireland,51,19,32,50,13,46,83
+229723,Mathias Jensen,Mathias,Jensen,80,CM,CDM CAM,Brentford,Denmark,64,72,81,79,67,71,80
+265552,Dango Ouattara,Dango,Ouattara,79,RM,LM ST RW,Brentford,Burkina Faso,85,73,71,78,55,70,83
+260926,Kevin Schade,Kevin,Schade,79,LM,ST LW,Brentford,Germany,93,73,68,77,36,79,83
+248484,Nathan Collins,Nathan,Collins,79,CB,,Brentford,Republic of Ireland,54,31,50,63,80,81,82
+274915,El Hadji Malick Diouf,El Hadji Malick,Diouf,78,LB,,Brentford,Senegal,79,67,72,72,74,77,84
+270608,Yehor Yarmoliuk,Yehor,Yarmoliuk,78,CDM,CM,Brentford,Ukraine,67,64,74,74,72,74,84
+242453,Sepp van den Berg,Sepp,van den Berg,78,CB,,Brentford,Holland,72,40,57,66,79,77,83
+235167,Vitaly Janelt,Vitaly,Janelt,78,CDM,CM,Brentford,Germany,53,69,71,73,75,76,79
+243606,Keane Lewis-Potter,Keane,Lewis-Potter,77,LB,LM RM LW,Brentford,England,78,69,72,79,72,68,79
+224258,Kristoffer Ajer,Kristoffer,Ajer,77,CB,RB LB,Brentford,Norway,67,53,60,64,76,76,77
+243669,Jaidon Anthony,Jaidon,Anthony,76,LM,RM LW RW,Brentford,England,78,69,69,75,38,67,77
+224494,Rico Henry,Rico,Henry,76,LB,LM,Brentford,Jamaica,80,50,61,77,72,65,78
+196978,Callum Wilson,Callum,Wilson,76,ST,,Brentford,England,66,79,63,74,45,64,82
+248808,Aaron Hickey,Aaron,Hickey,75,RB,LB RM LM,Brentford,Scotland,69,60,64,72,74,67,79
+256725,Fábio Carvalho,Fábio Leandro,Carvalho,74,CAM,CM CDM,Brentford,Portugal,75,67,68,78,43,44,81
+263640,Antoni Milambo,Antoni,Milambo,73,CM,CAM,Brentford,Holland,71,66,68,75,62,60,83
+231445,Josh Dasilva,Josh,Dasilva,71,CM,CDM,Brentford,England,65,68,69,73,62,60,73
+264133,Hákon Valdimarsson,Hákon,Valdimarsson,69,GK,,Brentford,Iceland,41,21,33,34,11,41,77
+79918,Jannik Schuster,Jannik,Schuster,69,CB,,Brentford,Austria,59,38,46,61,70,67,81
+74759,Gustavo Nunes,Gustavo Nunes,Fernandes Gomes,67,LM,RM LW RW,Brentford,Brazil,82,61,60,71,34,51,82

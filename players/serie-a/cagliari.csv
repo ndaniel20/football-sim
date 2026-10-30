@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+255303,Elia Caprile,Elia,Caprile,80,GK,,Cagliari,Italy,51,18,31,47,12,46,84
+220523,Yerry Mina,Yerry,Mina,76,CB,,Cagliari,Colombia,46,51,46,52,76,81,80
+266636,Adam Obert,Adam,Obert,75,LB,CB,Cagliari,Slovakia,72,57,67,70,72,73,78
+242916,Yukinari Sugawara,Yukinari,Sugawara,75,RB,RM,Cagliari,Japan,72,56,74,73,69,73,78
+255611,Daniel Maldini,Daniel,Maldini,74,ST,CAM,Cagliari,Italy,79,73,75,73,45,65,81
+254982,Michel Ndary Adopo,Michel Ndary,Adopo,74,CM,CDM,Cagliari,France,70,61,64,72,70,79,77
+278668,Zé Pedro,José Pedro,da Silva Figueiredo,73,CB,RB,Cagliari,Portugal,71,53,65,68,72,76,75
+240452,M'Bala Nzola,M'Bala,Nzola,73,ST,,Cagliari,Angola,80,70,59,68,34,78,78
+78037,Juan Rodríguez,Juan,Rodríguez,73,CB,,Cagliari,Uruguay,63,42,47,54,73,76,79
+266596,Jacopo Fazzini,Jacopo,Fazzini,72,CAM,CM,Cagliari,Italy,62,65,67,74,60,58,81
+248857,Mattia Felici,Mattia,Felici,72,LM,LB,Cagliari,Italy,90,66,64,74,48,57,75
+229743,Alessandro Deiola,Alessandro,Deiola,72,CM,CDM CB,Cagliari,Italy,62,69,63,66,73,81,72
+222400,Harry Winks,Harry,Winks,72,CDM,CM,Cagliari,England,52,61,71,72,66,66,80
+263882,Alieu Fadera,Alieu,Fadera,71,LW,LM,Cagliari,Gambia,79,62,62,74,57,68,77
+212153,Roberto Gagliardini,Roberto,Gagliardini,71,CDM,CM,Cagliari,Italy,33,63,66,67,72,59,78
+252386,Kevin Carlos,Kevin Carlos,Omoruyi Benjamin,70,ST,,Cagliari,Spain,59,68,48,62,32,80,75
+264683,Riccardo Ciervo,Riccardo,Ciervo,70,RM,RB RW,Cagliari,Italy,81,62,64,66,54,69,75
+73095,Riyad Idrissi,Riyad,Idrissi,70,LB,,Cagliari,Italy,80,57,55,67,65,69,76
+277872,Raphael Kofler,Raphael,Kofler,69,CB,,Cagliari,Italy,55,51,58,59,67,77,76
+273917,Giuseppe Aurelio,Giuseppe,Aurelio,69,LB,LM,Cagliari,Italy,88,61,62,66,62,79,72
+231073,Boris Radunović,Boris,Radunović,69,GK,,Cagliari,Serbia,40,22,28,41,18,50,71
+270341,Yanis Massolin,Yanis,Massolin,68,CM,CDM,Cagliari,France,71,61,64,63,62,77,76
+76431,Alessandro Romano,Alessandro,Romano,67,CDM,CM,Cagliari,Italy,68,62,66,65,63,65,79
+83827,Paul Mendy,Paul,Mendy,67,ST,,Cagliari,Senegal,76,64,50,65,29,69,77
+80407,Joseph Liteta,Joseph,Liteta,66,CM,CDM,Cagliari,Zambia,64,53,57,70,64,67,74

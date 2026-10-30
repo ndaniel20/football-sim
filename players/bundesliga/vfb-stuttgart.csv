@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+244176,Deniz Undav,Deniz,Undav,85,ST,CAM,VfB Stuttgart,Germany,67,84,74,84,37,81,86
+250959,Angelo Stiller,Angelo,Stiller,83,CDM,CM,VfB Stuttgart,Germany,60,58,79,84,74,73,86
+227647,Maximilian Mittelstädt,Maximilian,Mittelstädt,83,LB,LM,VfB Stuttgart,Germany,77,65,75,78,79,77,83
+239340,Julian Chabot,Julian,Chabot,81,CB,,VfB Stuttgart,Germany,49,40,46,54,82,82,82
+238900,Ermedin Demirović,Ermedin,Demirović,80,ST,,VfB Stuttgart,Bosnia and Herzegovina,67,80,70,76,45,78,81
+257504,Bilal El Khannouss,Bilal,El Khannouss,78,CAM,LM RM CM,VfB Stuttgart,Morocco,81,63,75,82,39,57,84
+252448,Jamie Leweling,Jamie,Leweling,78,RM,LM CAM RW,VfB Stuttgart,Germany,83,72,64,78,45,75,81
+241925,Chris Führich,Chris,Führich,78,LM,CAM LW CM,VfB Stuttgart,Germany,87,70,72,80,51,62,79
+228595,Grischa Prömel,Grischa,Prömel,77,CM,CDM,VfB Stuttgart,Germany,65,71,67,73,75,82,79
+257073,Tiago Tomás,Tiago,B. de Melo Tomás,76,LM,ST LW CAM,VfB Stuttgart,Portugal,85,72,64,77,42,70,79
+251829,Ramon Hendriks,Ramon,Hendriks,76,CB,LB LM,VfB Stuttgart,Holland,81,35,53,65,76,79,81
+239096,Atakan Karazor,Atakan,Karazor,76,CDM,CM,VfB Stuttgart,Turkey,44,35,55,65,76,74,76
+278780,Finn Jeltsch,Finn,Jeltsch,75,CB,,VfB Stuttgart,Germany,71,40,53,66,74,74,87
+270532,Dženan Pejčinović,Dženan,Pejčinović,75,ST,,VfB Stuttgart,Germany,76,72,57,70,36,74,83
+260574,Lorenz Assignon,Lorenz,Assignon,75,RB,RM,VfB Stuttgart,France,76,53,60,72,72,73,78
+242602,Josha Vagnoman,Josha,Vagnoman,75,RB,RM,VfB Stuttgart,Germany,85,57,64,71,69,82,78
+238379,Nikolas Nartey,Nikolas,Nartey,74,CAM,CM LB LM,VfB Stuttgart,Denmark,73,56,63,78,68,74,77
+277482,Leo Sauer,Leo,Sauer,73,LW,LM,VfB Stuttgart,Slovakia,88,61,63,75,39,63,82
+238476,Dan-Axel Zagadou,Dan-Axel,Zagadou,73,CB,,VfB Stuttgart,France,45,34,50,50,74,69,79
+271114,Dennis Seimen,Dennis,Seimen,72,GK,,VfB Stuttgart,Germany,41,19,28,43,13,51,87
+266685,Luca Jaquez,Luca,Jaquez,72,CB,,VfB Stuttgart,Switzerland,70,42,46,63,71,73,79
+263573,Ameen Al Dakhil,Ameen,Al Dakhil,71,CB,,VfB Stuttgart,Belgium,77,27,42,62,71,73,78
+247360,Leonidas Stergiou,Leonidas,Stergiou,71,RB,CB CDM,VfB Stuttgart,Switzerland,78,43,53,69,69,74,78
+223603,Fabian Bredlow,Fabian,Bredlow,71,GK,,VfB Stuttgart,Germany,39,19,18,40,12,40,71
+234858,Marius Funk,Marius,Funk,68,GK,,VfB Stuttgart,Germany,39,17,23,36,12,44,69

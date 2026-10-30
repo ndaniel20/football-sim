@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+201143,Aïssa Mandi,Aïssa,Mandi,79,CB,RB,Levante UD,Algeria,55,49,68,71,79,75,80
+199005,Mathew Ryan,Mathew,Ryan,79,GK,,Levante UD,Australia,52,25,38,49,18,52,80
+252327,Manu Sánchez,Manuel,Sánchez de la Peña,76,LB,,Levante UD,Spain,78,47,61,71,72,71,78
+271414,Karl Edouard Etta Eyong,Karl Edouard,Etta Eyong,75,ST,,Levante UD,Cameroon,77,73,59,71,47,78,85
+264173,Iván Romero,Iván,Romero de Ávila,75,ST,LM LW CAM,Levante UD,Spain,84,71,62,78,46,72,79
+264095,Hugo Sotelo,Hugo,Sotelo Gómez,74,CM,CDM,Levante UD,Spain,67,63,75,70,66,67,81
+275205,Thiago Fernández,Thiago,Fernández,74,LW,LM,Levante UD,Argentina,83,67,68,78,51,58,81
+262500,Olasagasti,Jon Ander,Olasagasti Imizcoz,74,CM,CDM LM CAM,Levante UD,Spain,59,64,73,71,69,74,77
+245290,Dela,Adrián,De La Fuente,74,CB,RB,Levante UD,Spain,68,62,68,65,74,77,77
+241591,Brugui,Roger,Brugué Ayguade,74,ST,LM RM LW,Levante UD,Spain,87,69,64,77,47,73,74
+214622,Jeremy Toljan,Jeremy,Toljan,74,RB,RM,Levante UD,Germany,84,52,63,70,65,71,75
+267973,Enzo Bardeli,Enzo,Bardeli,73,CM,CAM LM LW,Levante UD,France,70,66,69,77,52,55,78
+242279,Oriol Rey,Oriol,Rey Erenas,73,CM,CDM CB,Levante UD,Spain,54,60,69,73,68,72,73
+246011,Víctor García,Víctor,García Raja,72,RM,RB,Levante UD,Spain,77,66,65,69,59,68,72
+277684,Dani Requena,Daniel,Requena Sánchez,70,CM,CAM CDM,Levante UD,Spain,67,61,65,74,57,69,78
+271532,Pablo Campos,Pablo,Cuñat Campos,69,GK,,Levante UD,Spain,27,15,25,35,12,45,76
+275978,Petar Ratkov,Petar,Ratkov,68,ST,,Levante UD,Serbia,62,68,48,61,36,67,76
+87457,Yanis Kasonga Musuayi,Yanis Kasonga,Musuayi,68,ST,,Levante UD,Belgium,74,65,52,64,34,72,81
+72563,Paco Cortés,Francisco,Cortés Gracia,68,LW,LM,Levante UD,Spain,77,59,59,71,32,46,80
+75736,Axel Tape,Axel,Tape,67,CB,,Levante UD,France,71,44,55,65,68,61,85
+80679,Nacho Pérez,Nacho,Pérez Gómez,67,RB,,Levante UD,Spain,78,39,55,65,60,59,81
+71388,Cabello,Jorge,Cabello Trujillo,67,CB,LB,Levante UD,Spain,68,40,51,58,68,69,78
+88747,Calatrava,Alberto,Calatrava Ragull,62,CDM,CM,Levante UD,Spain,62,41,54,60,58,62,78
+79271,Ifeanyi Ndukwe,Ifeanyi,Ndukwe,61,CB,,Levante UD,Austria,68,27,42,56,59,65,80
+269146,Álex Primo,Alejandro,Primo Hernández,60,GK,,Levante UD,Spain,35,14,20,31,10,31,72

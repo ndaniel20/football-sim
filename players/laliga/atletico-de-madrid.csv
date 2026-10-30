@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+246191,Julián Alvarez,Julián,Alvarez,89,ST,CAM,Atlético de Madrid,Argentina,86,91,83,87,59,81,89
+200389,Jan Oblak,Jan,Oblak,88,GK,,Atlético de Madrid,Slovenia,48,20,31,51,20,57,91
+272449,Pablo Barrios,Pablo,Barrios Rivas,88,CM,CDM,Atlético de Madrid,Spain,80,75,82,83,79,81,89
+226161,Marcos Llorente,Marcos,Llorente Moreno,87,RB,RM CM,Atlético de Madrid,Spain,91,81,79,82,86,87,87
+232488,Cristian Romero,Cristian,Romero,86,CB,,Atlético de Madrid,Argentina,64,47,57,69,84,83,86
+210035,Grimaldo,Alejandro,Grimaldo García,85,LM,LB CAM,Atlético de Madrid,Spain,75,76,88,85,68,67,86
+257279,Álex Baena,Alejandro,Baena Rodríguez,85,LM,CAM LW,Atlético de Madrid,Spain,78,75,83,80,65,71,85
+247103,Dávid Hancko,Dávid,Hancko,85,CB,LB,Atlético de Madrid,Slovakia,77,66,71,75,82,83,85
+266039,Pubill,Marc,Pubill Pagès,85,CB,RB,Atlético de Madrid,Spain,79,58,66,75,80,84,88
+230899,Ademola Lookman,Ademola,Lookman,84,ST,CAM LM LW,Atlético de Madrid,Nigeria,87,80,69,83,37,72,84
+243780,Lee Kang In,Kang In,Lee,84,RW,CAM ST RM,Atlético de Madrid,Korea Republic,76,77,81,83,53,68,84
+244669,Morten Hjulmand,Morten,Hjulmand,83,CDM,CM,Atlético de Madrid,Denmark,70,72,74,77,78,84,86
+216549,Alexander Sørloth,Alexander,Sørloth,83,ST,RW RM,Atlético de Madrid,Norway,75,81,68,72,41,82,84
+253396,Giuliano,Giuliano,Simeone,82,RM,RW LM LW,Atlético de Madrid,Argentina,93,74,70,82,58,85,85
+214979,Juan Musso,Juan,Musso,82,GK,,Atlético de Madrid,Argentina,46,24,27,42,15,50,82
+243630,Jonathan David,Jonathan,David,82,ST,,Atlético de Madrid,Canada,80,81,67,79,42,75,83
+233486,Robin Le Normand,Robin,Le Normand,81,CB,,Atlético de Madrid,Spain,66,32,52,66,81,79,83
+193747,Koke,Jorge,Resurrección,81,CM,CDM,Atlético de Madrid,Spain,50,72,83,77,75,76,86
+259516,Johnny Cardoso,João Lucas,de Souza Cardoso,80,CDM,CM,Atlético de Madrid,United States,74,67,72,75,79,79,84
+278523,Rodri Mendoza,Rodrigo,Mendoza Martínez,77,CM,CAM,Atlético de Madrid,Spain,69,61,71,72,63,66,82
+263701,Obed Vargas,Obed,Vargas,72,CDM,CM LM LW,Atlético de Madrid,Mexico,74,55,62,74,64,66,83
+264738,Arnau Ortiz,Arnau,Ortiz Sánchez,71,LW,LM,Atlético de Madrid,Spain,83,67,63,70,34,58,79
+82755,Dani Martinez,Daniel,Martinez Moreno,64,CB,LB CDM CM,Atlético de Madrid,Spain,65,38,53,59,63,63,77
+80673,Salvi Esquivel,Salvador,Esquivel Gámez,64,GK,,Atlético de Madrid,Spain,15,14,18,29,12,35,78
+85338,Miguel Cubo,Miguel,Llorente Cubo,63,ST,,Atlético de Madrid,Spain,67,62,48,60,29,60,80

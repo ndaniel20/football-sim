@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+243169,Yanis Begraoui,Yanis,Begraoui,75,ST,CAM RM RW,Estoril,Morocco,79,74,61,75,37,67,79
+237871,Jordan Holsgrove,Jordan,Holsgrove,75,CM,CDM,Estoril,Scotland,71,64,73,74,63,73,77
+231391,João Carvalho,João António,Antunes Carvalho,75,CAM,LW LM CM,Estoril,Portugal,73,71,75,77,34,53,75
+235955,Rafik Guitane,Rafik,Guitane,74,RW,CAM RM CM,Estoril,Algeria,82,62,66,78,32,58,74
+255781,Ricard,Ricard,Sánchez Sendra,71,RB,RM RW,Estoril,Spain,81,55,65,69,65,66,74
+236639,Xeka,Miguel Ângelo,da Silva Rocha,71,CM,CDM,Estoril,Portugal,40,61,71,66,68,72,77
+195668,Joel Robles,Joel,Robles Blázquez,71,GK,,Estoril,Spain,52,19,21,42,14,47,78
+242236,Ferro,Francisco,Reis Ferreira,70,CB,,Estoril,Portugal,49,45,47,56,70,72,78
+264121,Antef Tsoungui,Antef,Tsoungui,69,CB,CDM,Estoril,Belgium,73,42,50,60,66,72,78
+84040,Nail Omerović,Nail,Omerović,69,LW,LM RW RM,Estoril,Bosnia and Herzegovina,74,71,66,67,28,66,74
+247466,Xavi Sintes,Xavier,Sintes Egea,68,CB,,Estoril,Spain,64,43,51,54,67,74,72
+70908,André Lacximicant,André Filipe,Lacximicant,68,ST,LM,Estoril,Portugal,61,66,50,62,36,63,73
+262938,Stélios Andreou,Stélios,Andreou,67,CB,RB,Estoril,Cyprus,64,31,47,61,65,77,73
+71291,Fabrício Garcia,Fabrício,Garcia Andrade,67,LM,LW RW RM,Estoril,Cape Verde Islands,74,65,55,65,30,46,70
+268912,Martin Turk,Martin,Turk,66,GK,,Estoril,Slovenia,37,16,22,29,10,41,76
+257397,Milan Robin,Milan,Robin,66,CM,CAM,Estoril,France,69,65,64,66,58,66,67
+73882,Pedro Carvalho,Pedro Maria,Costa Carvalho,66,RB,RM RW,Estoril,Portugal,74,43,49,64,59,66,72
+272859,Roko Jurišić,Roko,Jurišić,65,LB,LM,Estoril,Croatia,77,36,51,66,57,62,71
+264347,Medrano,Fernando,Medrano Gastañaga,65,LB,LM LW,Estoril,Spain,79,45,54,68,56,59,68
+74456,Ismael Sierra,Ismael,Sierra Arnal,65,CB,,Estoril,Spain,60,32,36,50,65,70,72
+264512,Axel Camblan,Axel,Camblan,64,RM,RW,Estoril,France,80,54,59,72,42,45,72
+79536,Peixinho,André Tiago,Ramos das Neves,64,RW,CAM RM,Estoril,Portugal,72,54,57,66,34,49,73
+78161,Tiago Brito,Tiago,Araújo Brito,64,CDM,CM,Estoril,Portugal,69,42,51,58,60,70,73
+77740,Tiago Parente,Tiago,Parreira Parente,63,LB,LM,Estoril,Portugal,69,41,50,59,57,55,72
+75332,Luís Gomes,Luís Maria,Gomes,61,CAM,CM,Estoril,Portugal,65,46,50,69,32,38,70

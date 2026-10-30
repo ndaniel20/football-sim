@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+232711,Jens Stage,Jens,Stage,79,CM,CDM,Werder Bremen,Denmark,62,75,71,76,77,82,81
+261659,Senne Lynen,Senne,Lynen,77,CDM,CM CB,Werder Bremen,Belgium,66,60,69,68,73,78,78
+237595,Marco Friedl,Marco,Friedl,77,CB,LB,Werder Bremen,Austria,72,47,58,69,78,78,78
+206591,Mitchell Weiser,Mitchell,Weiser,77,RB,RM CM RW,Werder Bremen,Germany,72,64,70,79,71,71,78
+246836,Amos Pieper,Amos,Pieper,76,CB,,Werder Bremen,Germany,65,35,48,57,79,74,77
+205431,Niclas Füllkrug,Niclas,Füllkrug,76,ST,,Werder Bremen,Germany,46,81,69,69,46,73,82
+243350,Felix Agu,Felix,Agu,74,LB,LM LW,Werder Bremen,Nigeria,87,55,60,76,70,67,77
+275028,Arthur,Arthur Augusto,de Matos Soares,73,RM,RB,Werder Bremen,Brazil,84,48,65,73,64,62,78
+258316,Eren Dinkçi,Eren,Dinkçi,73,CAM,RM LM CM,Werder Bremen,Turkey,85,72,67,73,34,62,79
+271563,Moussa N'Diaye,Moussa,N'Diaye,73,LB,CB LM,Werder Bremen,Senegal,81,29,56,72,69,71,78
+265390,Youri Regeer,Youri,Regeer,73,CDM,CM RB CB,Werder Bremen,Holland,70,55,67,73,69,69,80
+256548,Marco Grüll,Marco,Grüll,73,LM,ST RM LW,Werder Bremen,Austria,82,73,69,73,37,68,75
+248732,Karl Hein,Karl,Hein,73,GK,,Werder Bremen,Estonia,36,16,25,31,14,45,81
+247771,Olivier Deman,Olivier,Deman,73,LB,LM,Werder Bremen,Belgium,77,61,68,71,68,76,76
+212977,Niklas Stark,Niklas,Stark,73,CB,,Werder Bremen,Germany,75,49,55,67,73,74,79
+271267,Chuki,Iván,San José Cantalejo,72,CAM,RM ST CM,Werder Bremen,Spain,71,63,69,74,36,48,82
+266183,Justin Njinmah,Justin,Njinmah,72,ST,RM CAM RW,Werder Bremen,Germany,92,71,61,73,32,62,77
+233139,Cedric Itten,Cedric,Itten,72,ST,,Werder Bremen,Switzerland,68,72,59,67,41,79,73
+215522,Alexander Schlager,Alexander,Schlager,72,GK,,Werder Bremen,Austria,47,21,26,36,18,42,75
+240683,Ludovit Reis,Ludovit,Reis,70,CM,CDM,Werder Bremen,Holland,73,59,63,74,65,71,74
+270382,Oskar Wójcik,Oskar,Wójcik,69,CB,,Werder Bremen,Poland,66,35,46,54,69,74,78
+271247,Skelly Alvero,Skelly,Alvero,68,CDM,CM,Werder Bremen,France,53,52,57,62,64,77,76
+265749,Keke Topp,Keke,Topp,68,ST,,Werder Bremen,Germany,62,66,45,60,33,74,79
+82739,Kenny Quetant,Kenny,Quetant,68,ST,CAM,Werder Bremen,France,69,63,46,62,34,63,78
+211946,Markus Kolke,Markus,Kolke,67,GK,,Werder Bremen,Germany,44,23,18,36,18,52,72

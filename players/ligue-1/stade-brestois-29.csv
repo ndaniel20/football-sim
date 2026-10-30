@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+219733,Ludovic Ajorque,Ludovic,Ajorque,77,ST,,Stade Brestois 29,France,63,76,58,64,49,82,79
+267702,Kamory Doumbia,Kamory,Doumbia,76,CAM,CM,Stade Brestois 29,Mali,68,71,67,80,60,55,82
+244480,Hugo Magnetti,Hugo,Magnetti,76,CDM,CM,Stade Brestois 29,France,40,57,64,74,68,74,77
+215410,Brendan Chardonnet,Brendan,Chardonnet,76,CB,,Stade Brestois 29,France,41,48,48,66,78,74,78
+263908,Bradley Locko,Bradley,Locko,75,LB,LM,Stade Brestois 29,France,73,49,59,69,73,68,80
+222286,Gautier Lloris,Gautier,Lloris,75,CB,,Stade Brestois 29,France,35,37,47,59,76,76,75
+204105,Kenny Lala,Kenny,Lala,75,RB,RM,Stade Brestois 29,France,71,63,73,71,72,73,79
+252541,Joris Chotard,Joris,Chotard,73,CDM,CM,Stade Brestois 29,France,62,57,69,73,66,74,77
+237960,Mama Baldé,Mama Samba,Baldé,73,LW,ST LM,Stade Brestois 29,Guinea-Bissau,90,70,64,73,52,77,76
+227234,Lucas Tousart,Lucas,Tousart,73,CDM,CM CAM,Stade Brestois 29,France,58,55,57,67,73,79,79
+271689,Pathé Mboup,Pathé,Mboup,70,LM,ST LW,Stade Brestois 29,Senegal,87,62,56,73,26,57,79
+247611,Egil Selvik,Egil,Selvik,70,GK,,Stade Brestois 29,Norway,19,16,28,35,10,37,73
+79624,Giovani Versini,Giovani,Versini,70,RM,ST RW CAM,Stade Brestois 29,France,86,68,63,74,28,39,79
+76035,Raphaël Le Guen,Raphaël,Le Guen,70,CB,,Stade Brestois 29,France,60,27,43,52,70,70,81
+278207,Noah Edjouma,Noah,Edjouma,69,RM,CAM RW,Stade Brestois 29,France,69,62,58,68,30,51,80
+279573,Luck Zogbé,Luck,Zogbé,68,RB,LB,Stade Brestois 29,Côte d'Ivoire,64,35,48,60,65,63,78
+278926,Joseph Nonge,Joseph,Nonge,65,CM,CAM LM LW,Stade Brestois 29,Belgium,66,54,62,67,62,60,78
+260235,Mamady Diambou,Mamady,Diambou,65,CDM,CM,Stade Brestois 29,Mali,75,47,52,68,61,70,74
+76730,Justin Bourgault,Justin,Bourgault,65,LB,LM,Stade Brestois 29,France,62,47,52,58,62,68,76
+275317,Mathieu Patouillet,Mathieu,Patouillet,62,GK,,Stade Brestois 29,France,19,14,17,29,8,32,74
+89381,Mathis Lainé,Mathis,Lainé,62,ST,,Stade Brestois 29,France,65,59,44,55,32,58,75
+87526,Samba Diop,Samba,Diop,62,LM,ST LW,Stade Brestois 29,Senegal,77,55,55,67,37,55,75
+76244,Djylian N'Guessan,Djylian,N'Guessan,61,ST,,Stade Brestois 29,France,75,58,43,62,27,57,80
+237133,Romain Cagnon,Romain,Cagnon,60,GK,,Stade Brestois 29,France,26,13,20,31,13,44,64
+87523,Noé Poillion,Noé,Poillion,60,GK,,Stade Brestois 29,France,29,13,19,24,11,39,73

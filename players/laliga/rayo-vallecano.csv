@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+243559,De Frutos,Jorge,de Frutos Sebastián,81,RW,ST RM CAM,Rayo Vallecano,Spain,82,79,73,81,49,75,82
+216447,Álvaro García,Álvaro,García Rivera,81,LW,LM ST CAM,Rayo Vallecano,Spain,89,74,75,82,49,50,81
+248165,Andrei Rațiu,Andrei,Rațiu,80,RB,RM RW,Rayo Vallecano,Romania,94,68,70,77,74,77,81
+232498,Isi,Isaac,Palazón Camacho,80,CAM,RM ST CM,Rayo Vallecano,Spain,80,77,80,82,39,64,82
+228413,Emil Audero,Emil,Audero,79,GK,,Rayo Vallecano,Indonesia,52,23,27,46,14,43,79
+227186,Augusto Batalla,Augusto,Batalla,79,GK,,Rayo Vallecano,Argentina,43,24,31,40,18,50,80
+197948,Florian Lejeune,Florian,Lejeune,79,CB,,Rayo Vallecano,France,53,61,70,66,79,80,79
+250858,Pathé Ciss,Pathé,Ciss,77,CDM,CM CB,Rayo Vallecano,Senegal,63,53,56,66,77,83,78
+243558,Óscar Valentín,Óscar Valentín,Martín Luengo,77,CDM,CM,Rayo Vallecano,Spain,64,53,62,69,74,77,78
+222390,Unai López,Unai,López Cabrera,76,CDM,CM CB,Rayo Vallecano,Spain,67,68,77,79,67,71,78
+248805,Sergio Camello,Sergio,Camello Pérez,75,ST,CAM,Rayo Vallecano,Spain,76,73,66,75,40,65,79
+245426,Marash Kumbulla,Marash,Kumbulla,75,CB,,Rayo Vallecano,Albania,54,38,48,61,76,75,78
+243530,Mujaid,Mujaid,Sadick Aliu,75,CB,,Rayo Vallecano,Spain,54,41,52,63,74,78,80
+236492,Pedro Díaz,Pedro,Díaz Fanjul,75,CM,CDM CAM,Rayo Vallecano,Spain,65,73,76,73,68,73,76
+236355,Luiz Felipe,Luiz Felipe,Ramos Marchi,75,CB,,Rayo Vallecano,Italy,69,33,53,63,74,74,80
+276895,Alemão,Alexandre,Zurawski,74,ST,,Rayo Vallecano,Brazil,72,73,62,73,34,84,74
+271373,Fran Pérez,Francisco,Pérez Martínez,74,RW,LW RM LM,Rayo Vallecano,Spain,78,70,68,73,39,56,79
+246113,Adrià Pedrosa,Adrià,Giner Pedrosa,74,LB,LM LW,Rayo Vallecano,Spain,87,60,67,74,65,76,77
+245131,Giorgi Tsitaishvili,Giorgi,Tsitaishvili,74,LM,LB LW,Rayo Vallecano,Georgia,85,60,63,78,39,57,77
+236033,Dani Cárdenas,Daniel,Cárdenas Líndez,74,GK,,Rayo Vallecano,Spain,44,16,26,40,11,39,76
+203581,Iván Balliu,Iván,Balliu,74,RB,LB RM LM,Rayo Vallecano,Albania,75,54,66,73,70,71,77
+210315,Raúl De Tomás,Raúl,De Tomás Gómez,71,ST,,Rayo Vallecano,Spain,65,75,71,70,43,72,83
+251756,Randy Nteka,Randy,Nteka,70,ST,CAM CM,Rayo Vallecano,Angola,70,71,61,70,57,83,73
+73316,Jozhua Vertrouwd,Jozhua,Vertrouwd,68,CB,LB LM,Rayo Vallecano,Holland,75,49,57,64,67,73,77
+89652,Gnangoro Bouare,Gnangoro,Bouare Samake,66,CDM,CM,Rayo Vallecano,Spain,63,49,51,63,65,69,76

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+262221,Luciano Valente,Luciano,Valente,78,CM,CAM LW CDM,Feyenoord,Holland,71,69,76,78,63,76,84
+246826,Tsuyoshi Watanabe,Tsuyoshi,Watanabe,78,CB,,Feyenoord,Japan,74,37,49,63,79,79,79
+70726,Anis Hadj Moussa,Anis,Hadj Moussa,78,RW,RM,Feyenoord,Algeria,80,71,70,79,33,60,84
+244728,Sem Steijn,Sem,Steijn,77,CAM,CM CDM,Feyenoord,Holland,68,83,74,76,47,72,82
+277483,Gjivai Zechiël,Gjivai,Zechiël,76,CM,CDM CB,Feyenoord,Holland,77,67,71,77,70,75,85
+271266,Givairo Read,Givairo,Read,76,RB,RM,Feyenoord,Holland,80,55,65,74,70,75,88
+263603,Oussama Targhalline,Oussama,Targhalline,76,CDM,CM,Feyenoord,Morocco,63,63,69,74,72,69,82
+260521,Jordan Bos,Jordan,Bos,76,LB,LW LM,Feyenoord,Australia,90,63,66,75,68,80,83
+266160,Mika Mármol,Mika,Mármol Medina,75,CB,LB,Feyenoord,Spain,85,52,60,74,74,81,82
+244889,Charles Vanhoutte,Charles,Vanhoutte,75,CDM,CM,Feyenoord,Belgium,53,63,73,70,71,77,79
+231448,Reiss Nelson,Reiss,Nelson,75,RW,LW RM LM,Feyenoord,England,76,68,71,78,37,49,76
+239778,Jakub Moder,Jakub,Moder,74,CM,CAM CDM,Feyenoord,Poland,55,70,73,69,66,76,75
+226853,Jeremiah St. Juste,Jeremiah,St. Juste,74,CB,,Feyenoord,Holland,89,55,59,71,73,76,77
+256097,Javi López,Javier,López Carballo,73,LB,LM,Feyenoord,Spain,73,45,63,67,69,69,79
+263773,Thomas Beelen,Thomas,Beelen,73,CB,,Feyenoord,Holland,77,46,60,68,72,78,80
+257502,Gijs Smal,Gijs,Smal,73,LB,CM CDM LM,Feyenoord,Holland,69,59,75,67,68,68,75
+262931,Tjark Ernst,Tjark,Ernst,72,GK,,Feyenoord,Germany,31,15,22,35,12,40,80
+262790,Mats Deijl,Mats,Deijl,72,RB,RM,Feyenoord,Holland,68,57,62,69,68,76,72
+251292,Florian Kastenmeier,Florian,Kastenmeier,72,GK,,Feyenoord,Germany,26,16,29,30,14,42,74
+226662,Bart Nieuwkoop,Bart,Nieuwkoop,72,RB,RW RM,Feyenoord,Holland,70,60,68,71,70,74,75
+271979,Nacho Ferri,Ignacio,Ferri Julià,71,ST,,Feyenoord,Spain,68,69,51,62,35,85,80
+266453,Gonçalo Borges,Gonçalo Oscar,Albuquerque Borges,71,RW,LW RM LM,Feyenoord,Portugal,84,58,58,71,29,58,74
+79338,Gaoussou Diarra,Gaoussou,Diarra,70,LW,RW LM,Feyenoord,Mali,83,68,60,70,32,59,78
+77664,Thijs Kraaijeveld,Thijs,Kraaijeveld,67,CDM,CB CM,Feyenoord,Holland,59,52,58,67,68,59,82
+77365,Tobias van den Elshout,Tobias,van den Elshout,66,LW,CAM CM LM,Feyenoord,Holland,67,58,60,65,47,62,80

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+247819,Nico Schlotterbeck,Nico,Schlotterbeck,87,CB,,Borussia Dortmund,Germany,81,59,72,75,86,85,89
+235073,Gregor Kobel,Gregor,Kobel,87,GK,,Borussia Dortmund,Switzerland,45,17,28,46,14,52,89
+215441,Serhou Guirassy,Serhou,Guirassy,87,ST,,Borussia Dortmund,Guinea,72,85,73,82,48,84,87
+246863,Felix Nmecha,Felix,Nmecha,85,CM,CDM,Borussia Dortmund,Germany,83,75,75,81,82,89,88
+229476,Waldemar Anton,Waldemar,Anton,84,CB,,Borussia Dortmund,Germany,69,48,59,69,84,85,84
+253109,Joey Veerman,Joey,Veerman,83,CM,CDM CAM,Borussia Dortmund,Holland,50,71,82,76,64,69,83
+204923,Marcel Sabitzer,Marcel,Sabitzer,82,CM,CDM CAM,Borussia Dortmund,Austria,74,80,79,80,76,77,84
+252037,Fábio Silva,Fábio Daniel,Soares Silva,83,ST,CAM LW LM,Borussia Dortmund,Portugal,77,76,61,80,37,77,83
+229891,Julian Ryerson,Julian,Ryerson,82,RB,LB RM LM,Borussia Dortmund,Norway,75,60,76,78,76,82,82
+254117,Maximilian Beier,Maximilian,Beier,79,CAM,ST LM LW,Borussia Dortmund,Germany,86,78,70,80,58,70,85
+259716,Daniel Svensson,Daniel,Svensson,81,LB,LM LW,Borussia Dortmund,Sweden,75,60,73,78,73,77,82
+270964,Jobe Bellingham,Jobe,Bellingham,81,CM,CDM,Borussia Dortmund,England,70,67,70,73,79,85,83
+259633,Giannis Konstantelias,Giannis,Konstantelias,80,CAM,LM LW CM,Borussia Dortmund,Greece,80,71,75,83,38,65,84
+71350,Joane Gadou,Joane,Gadou,80,CB,,Borussia Dortmund,France,82,35,44,56,81,78,85
+224196,Ramy Bensebaini,Ramy,Bensebaini,79,CB,LB LM,Borussia Dortmund,Algeria,73,69,68,74,80,80,80
+271807,Ethan Nwaneri,Ethan,Nwaneri,79,RW,CAM RM CM,Borussia Dortmund,England,81,67,72,77,48,55,86
+208333,Emre Can,Emre,Can,78,CB,CDM,Borussia Dortmund,Germany,69,77,71,74,81,81,83
+259356,Carney Chukwuemeka,Carney,Chukwuemeka,78,CAM,CM CDM,Borussia Dortmund,Austria,75,68,71,81,65,67,83
+70497,Konstantinos Karetsas,Konstantinos,Karetsas,76,CAM,RM CM RW,Borussia Dortmund,Greece,77,68,75,80,27,49,88
+83748,Samuele Inácio,Samuele,Inácio,75,CAM,ST,Borussia Dortmund,Italy,74,58,63,75,37,51,86
+241050,Alexander Meyer,Alexander,Meyer,74,GK,,Borussia Dortmund,Germany,42,17,22,33,12,47,75
+210772,Patrick Drewes,Patrick,Drewes,71,GK,,Borussia Dortmund,Germany,30,22,23,37,17,55,73
+83751,Luca Reggiani,Luca,Reggiani,67,CB,,Borussia Dortmund,Italy,62,31,42,62,68,65,82
+83476,Kauã Prates,Kauã,Prates de Almeida,67,LB,CB LM,Borussia Dortmund,Brazil,76,40,55,64,61,65,85
+80873,Mathis Albert,Mathis,Albert,66,LM,CAM LW CM,Borussia Dortmund,United States,76,58,56,70,30,40,88

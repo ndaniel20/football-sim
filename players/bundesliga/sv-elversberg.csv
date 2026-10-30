@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+276660,Noel Futkeu,Noel,Futkeu,73,ST,,SV Elversberg,Germany,74,72,49,71,33,70,80
+260925,Lukas Petkov,Lukas,Petkov,73,RM,RW,SV Elversberg,Bulgaria,82,68,65,71,55,65,75
+269301,Nicolas Kristof,Nicolas,Kristof,72,GK,,SV Elversberg,Austria,28,16,28,32,14,37,74
+73135,Luca Sirch,Luca,Sirch,72,CB,CDM,SV Elversberg,Germany,70,42,61,63,72,73,75
+262978,Tom Zimmerschied,Tom,Zimmerschied,71,LM,LW,SV Elversberg,Germany,76,59,66,71,40,64,71
+262591,Lukas Pinckert,Lukas,Pinckert,71,CB,,SV Elversberg,Germany,74,40,51,61,69,79,73
+251320,Maximilian Rohr,Maximilian,Rohr,71,CB,,SV Elversberg,Germany,55,51,57,58,69,73,71
+246301,Łukasz Poręba,Łukasz,Poręba,71,CDM,CM,SV Elversberg,Poland,67,53,60,69,67,71,75
+70037,Francis Onyeka,Francis,Onyeka,70,CAM,ST CM,SV Elversberg,Germany,67,67,62,69,49,58,87
+270554,Felix Keidel,Felix,Keidel,70,LB,RB CM LM,SV Elversberg,Germany,74,49,71,73,62,66,79
+261745,Lasse Günther,Lasse,Günther,70,LB,LM,SV Elversberg,Germany,85,62,60,68,61,66,77
+234860,Amara Condé,Amara,Condé,69,CDM,CM,SV Elversberg,Guinea,62,57,66,73,63,70,69
+229200,Florian Le Joncour,Florian,Le Joncour,69,CB,,SV Elversberg,France,57,40,38,48,69,74,69
+216416,Jan Gyamerah,Jan,Gyamerah,69,RB,RM RW,SV Elversberg,Ghana,80,48,55,68,64,70,71
+76133,David Mokwa,David,Mokwa,69,ST,,SV Elversberg,France,68,66,49,65,33,57,76
+268916,Maurice Krattenmacher,Maurice,Krattenmacher,68,CAM,ST CM CDM,SV Elversberg,Germany,74,62,58,71,44,57,80
+73057,Cole Campbell,Cole,Campbell,68,RM,RW LM,SV Elversberg,United States,83,56,57,72,28,44,82
+275436,Noah Darvich,Noah,Darvich,67,RM,CAM RW ST,SV Elversberg,Germany,77,60,60,72,35,58,82
+238631,Luca Schnellbacher,Luca,Schnellbacher,67,ST,,SV Elversberg,Germany,66,66,49,68,44,73,69
+73002,Frederik Schmahl,Frederik,Schmahl,67,CM,CDM,SV Elversberg,Germany,64,59,65,69,57,67,74
+246858,Nicholas Mickelson,Nicholas,Mickelson,66,LB,RB LM RM,SV Elversberg,Thailand,72,35,47,60,60,70,69
+244233,Luca Pfeiffer,Luca,Pfeiffer,66,ST,CAM CM,SV Elversberg,Germany,35,66,47,54,36,74,71
+238489,Tim Boss,Tim,Boss,64,GK,,SV Elversberg,Germany,48,20,25,39,12,47,67
+82971,Raif Adam,Raif,Adam,62,RM,LM CAM RW,SV Elversberg,Germany,71,58,55,60,32,47,76
+189917,Frank Lehmann,Frank,Lehmann,61,GK,,SV Elversberg,Germany,34,21,24,40,13,45,62

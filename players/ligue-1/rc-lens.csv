@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+204970,Florian Thauvin,Florian,Thauvin,82,RW,ST RM CAM,RC Lens,France,70,80,82,81,48,70,84
+271918,Robin Risser,Robin,Risser,81,GK,,RC Lens,France,40,17,30,34,12,51,87
+229236,Matthieu Udol,Matthieu,Udol,81,LB,LM,RC Lens,France,70,62,73,77,78,85,81
+270997,Samson Baidoo,Samson,Baidoo,78,CB,,RC Lens,Austria,74,30,46,63,76,78,83
+233866,Odsonne Édouard,Odsonne,Édouard,78,ST,,RC Lens,France,68,76,67,74,47,73,78
+246688,Saud Abdulhamid,Saud,Abdulhamid,77,RB,RM CM RW,RC Lens,Saudi Arabia,86,54,63,75,70,72,78
+223597,Ruben Aguilar,Ruben,Aguilar,77,RB,RM,RC Lens,France,65,54,64,75,73,77,79
+221284,Jonathan Gradit,Jonathan,Gradit,77,CB,,RC Lens,France,64,35,55,70,77,77,78
+75320,Ismaëlo Ganiou,Ismaëlo,Ganiou,77,CB,,RC Lens,France,73,55,58,65,76,80,84
+245388,Jean-Clair Todibo,Jean-Clair,Todibo,76,CB,,RC Lens,France,74,47,57,65,76,74,80
+238463,Amadou Haidara,Amadou,Haidara,75,CM,CDM,RC Lens,Mali,62,67,73,77,68,69,80
+203486,Thorgan Hazard,Thorgan,Hazard,75,CAM,LW ST CM,RC Lens,Belgium,64,74,75,79,52,65,83
+74896,Franjo Ivanović,Franjo,Ivanović,75,ST,LW LM,RC Lens,Croatia,74,76,65,71,33,73,84
+259816,Abdallah Sima,Abdallah,Sima,74,LW,ST LM,RC Lens,Senegal,87,71,64,72,45,75,77
+227232,Florian Sotoca,Florian,Sotoca,74,ST,RW CAM RM,RC Lens,France,56,73,72,68,53,72,77
+239744,Michaël Cuisance,Michaël,Cuisance,73,CM,RM CAM RW,RC Lens,France,68,67,74,76,53,66,76
+77105,Andrija Bulatović,Andrija,Bulatović,73,CM,CDM,RC Lens,Montenegro,68,58,74,71,63,64,82
+73348,Yacine Titraoui,Yacine,Titraoui,73,CDM,CM,RC Lens,Algeria,64,58,68,74,67,68,82
+251633,Michał Skóraś,Michał,Skóraś,71,LW,LM,RC Lens,Poland,82,61,62,73,44,72,72
+77056,Nidal Čelik,Nidal,Čelik,71,CB,,RC Lens,Bosnia and Herzegovina,59,36,47,56,69,73,80
+259027,Jhoanner Chávez,Jhoanner,Chávez,70,LB,LM LW,RC Lens,Ecuador,82,59,59,69,64,67,76
+257083,Junior Kadile,Junior,Kadile,70,LW,RW LM RM,RC Lens,Congo DR,89,65,63,66,35,60,79
+255838,Maik Nawrocki,Maik,Nawrocki,70,CB,,RC Lens,Poland,71,50,52,63,70,70,76
+199721,Mathieu Gorgelin,Mathieu,Gorgelin,70,GK,,RC Lens,France,48,20,15,40,14,44,71
+75319,Kyllian Antonio,Kyllian,Antonio,70,CB,,RC Lens,France,63,36,49,62,71,66,81

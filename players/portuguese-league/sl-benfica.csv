@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+229391,Palhinha,João Maria,Palhinha Gonçalves,82,CDM,CM,Benfica,Portugal,51,66,71,68,84,84,85
+229188,Vangelis Pavlidis,Vangelis,Pavlidis,82,ST,,Benfica,Greece,79,81,70,78,50,83,83
+231913,Fredrik Aursnes,Fredrik,Aursnes,81,CM,CDM RM RW,Benfica,Norway,75,71,75,81,76,83,81
+260952,Andreas Schjelderup,Andreas,Schjelderup,80,LW,LM,Benfica,Norway,82,72,73,80,40,60,86
+250753,Anatoliy Trubin,Anatoliy,Trubin,80,GK,,Benfica,Ukraine,44,20,28,42,16,52,85
+231416,Dodi Lukébakio,Dodi,Lukébakio,80,RW,RM LW LM,Benfica,Belgium,85,79,75,79,33,64,82
+216547,Rafa,Rafael A.,Ferreira Silva,80,CAM,RW RM,Benfica,Portugal,87,73,75,83,47,60,83
+266096,Tomás Araújo,Tomás,Lemos Araújo,78,CB,RB,Benfica,Portugal,82,35,61,70,76,80,86
+259913,Georgiy Sudakov,Georgiy,Sudakov,78,CAM,LM LW,Benfica,Ukraine,80,76,76,78,60,74,85
+247172,Jhon Durán,Jhon,Durán,78,ST,,Benfica,Colombia,80,79,60,74,38,81,84
+245235,Alexander Bah,Alexander,Bah,78,RB,RM,Benfica,Denmark,88,64,72,75,73,81,79
+252495,Jakub Kamiński,Jakub,Kamiński,77,LM,CAM RM LB,Benfica,Poland,84,65,66,76,57,66,82
+246871,Enzo Barrenechea,Enzo,Barrenechea,77,CDM,CM,Benfica,Argentina,57,68,68,72,68,72,82
+245253,Leandro Barreiro,Leandro,Barreiro,77,CM,CDM CAM,Benfica,Luxembourg,80,66,65,80,70,73,80
+220440,Clément Lenglet,Clément,Lenglet,77,CB,,Benfica,France,53,47,62,67,77,75,86
+269292,Gianluca Prestianni,Gianluca,Prestianni,76,RW,CAM LW RM,Benfica,Argentina,87,62,67,82,41,60,88
+262473,Souffian El Karouani,Souffian,El Karouani,76,LB,LM,Benfica,Morocco,70,56,78,74,68,73,78
+277252,Samuel Dahl,Samuel,Dahl,75,LB,LM,Benfica,Sweden,83,52,64,76,66,72,82
+268913,Alessandro Circati,Alessandro,Circati,74,CB,,Benfica,Australia,49,43,58,54,74,77,78
+276528,Claudio Echeverri,Claudio,Echeverri,73,CAM,ST,Benfica,Argentina,86,65,71,80,38,52,85
+274105,Manu Silva,Manuel Jorge,Silva,72,CDM,CB CM,Benfica,Portugal,58,53,62,62,69,78,79
+270060,Samuel Soares,Samuel,Jumpe Soares,72,GK,,Benfica,Portugal,59,21,36,35,15,53,78
+81674,Gonçalo Moreira,Gonçalo,Carvalho Moreira,66,CAM,CM,Benfica,Portugal,70,59,61,77,35,50,83
+83401,Daniel Banjaqui,Daniel Armando,Banjaqui,65,RB,,Benfica,Portugal,83,44,54,62,59,68,87
+79686,Diogo Ferreira,Diogo José de,N. e Jesus Ferreira,64,GK,,Benfica,Portugal,43,13,19,32,9,46,81

@@ -1,0 +1,26 @@
+player_id,common_name,first_name,last_name,overall_rating,position,alternate_positions,club,nationality,pace,shooting,passing,dribbling,defending,physicality,potential
+230142,Oyarzabal,Mikel,Oyarzabal Ugarte,86,ST,,Real Sociedad,Spain,72,86,80,83,46,76,86
+227127,Álex Remiro,Alejandro,Remiro Gargallo,82,GK,,Real Sociedad,Spain,45,22,26,48,16,54,84
+237681,Takefusa Kubo,Takefusa,Kubo,82,RM,RW,Real Sociedad,Japan,86,72,76,82,45,67,83
+224411,Guedes,Gonçalo Manuel,Ganchinho Guedes,81,LW,RM LM RW,Real Sociedad,Portugal,82,81,75,78,41,69,83
+246672,Barrenetxea,Ander,Barrenetxea,80,LW,RM LM RW,Real Sociedad,Spain,84,73,74,81,38,74,84
+234153,Carlos Soler,Carlos,Soler Barragán,81,CM,CAM CDM,Real Sociedad,Spain,70,76,80,77,69,70,83
+277225,Jon Martín,Jon,Martín Vicente,79,CB,,Real Sociedad,Spain,68,34,47,67,78,78,87
+241811,Sergio Gómez,Sergio,Gómez Martín,79,LB,CM,Real Sociedad,Spain,80,75,79,80,68,71,81
+234060,Yangel Herrera,Yangel,Herrera,81,CM,CDM,Real Sociedad,Venezuela,68,72,72,76,79,80,82
+74091,Gorrotxa,Jon,Gorrotxategi,79,CDM,CM,Real Sociedad,Spain,70,58,67,72,73,80,84
+275507,Mamadou Sarr,Mamadou,Sarr,78,CB,,Real Sociedad,Senegal,67,40,52,59,77,74,84
+259848,Jon Mikel Aramburu,Jon Mikel,Aramburu,78,RB,,Real Sociedad,Venezuela,77,59,68,72,76,77,83
+233738,Zubeldia,Igor,Zubeldia Elorza,78,CB,,Real Sociedad,Spain,72,60,71,73,76,81,80
+262510,Turrientes,Beñat,Turrientes Imaz,77,CDM,CM,Real Sociedad,Spain,66,66,73,76,71,72,82
+258775,Luka Sučić,Luka,Sučić,77,CM,CAM ST,Real Sociedad,Croatia,78,76,74,75,67,73,80
+269186,Orri Óskarsson,Orri,Óskarsson,75,ST,,Real Sociedad,Iceland,74,73,60,70,36,75,80
+265520,Unai Marrero,Unai,Marrero Larrañaga,74,GK,,Real Sociedad,Spain,31,15,19,36,9,39,79
+255854,Pacheco,Jon,Pacheco Dozagarat,74,CB,,Real Sociedad,Spain,49,28,44,58,75,71,79
+272455,Pablo Marín,Pablo,Marín Tejada,73,CM,CDM LM CAM,Real Sociedad,Spain,71,67,69,72,62,62,81
+264701,Arsen Zakharyan,Arsen,Zakharyan,73,RM,CM LM RW,Real Sociedad,Russia,77,70,73,71,51,61,81
+246748,Aihen Muñoz,Aihen,Muñoz Capellán,73,LB,,Real Sociedad,Spain,73,60,64,71,70,71,75
+234035,Odriozola,Álvaro,Odriozola Arzalluz,73,RB,,Real Sociedad,Spain,72,58,66,72,71,67,80
+278923,Héctor Fort,Héctor,Fort García,72,RB,LB CM,Real Sociedad,Spain,84,56,62,70,66,69,83
+79189,Job Ochieng,Job,Ochieng,69,LW,RW LM RM,Real Sociedad,Kenya,87,66,59,66,30,70,76
+77528,Luken Beitia,Luken,Beitia,67,CB,,Real Sociedad,Spain,51,32,48,55,66,71,81

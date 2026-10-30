@@ -1,0 +1,22 @@
+{
+  "teams": [
+    { "team_id": 31, "name": "1. FC Köln", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/1-fc-koln.csv", "offensive_tendency": 50, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 113 },
+    { "team_id": 169, "name": "1. FSV Mainz 05", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/1-fsv-mainz-05.csv", "offensive_tendency": 50, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 110 },
+    { "team_id": 22, "name": "Borussia Dortmund", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/borussia-dortmund.csv", "offensive_tendency": 68, "home_advantage": 3, "away_advantage": 2, "ucl_default": true, "uefa_coefficient_rank": 11 },
+    { "team_id": 100409, "name": "FC Augsburg", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/fc-augsburg.csv", "offensive_tendency": 44, "home_advantage": 2, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 21, "name": "FC Bayern München", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/fc-bayern-munchen.csv", "offensive_tendency": 78, "home_advantage": 3, "away_advantage": 3, "ucl_default": true, "uefa_coefficient_rank": 1 },
+    { "team_id": 34, "name": "FC Schalke 04", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/fc-schalke-04.csv", "offensive_tendency": 45, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 1824, "name": "Frankfurt", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/frankfurt.csv", "offensive_tendency": 62, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 18 },
+    { "team_id": 28, "name": "Hamburger SV", "league": "germany", "formation": "4-3-3", "players_path": "players/bundesliga/hamburger-sv.csv", "offensive_tendency": 54, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 32, "name": "Leverkusen", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/leverkusen.csv", "offensive_tendency": 72, "home_advantage": 3, "away_advantage": 3, "uefa_coefficient_rank": 9 },
+    { "team_id": 23, "name": "M'gladbach", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/m-gladbach.csv", "offensive_tendency": 51, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 9999 },
+    { "team_id": 112172, "name": "RB Leipzig", "league": "germany", "formation": "4-3-3", "players_path": "players/bundesliga/rb-leipzig.csv", "offensive_tendency": 66, "home_advantage": 1, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 37 },
+    { "team_id": 25, "name": "SC Freiburg", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/sc-freiburg.csv", "offensive_tendency": 48, "home_advantage": 3, "away_advantage": 2, "uefa_coefficient_rank": 44 },
+    { "team_id": 10030, "name": "SC Paderborn 07", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/sc-paderborn-07.csv", "offensive_tendency": 53, "home_advantage": 2, "away_advantage": 2, "uefa_coefficient_rank": 9999 },
+    { "team_id": 580, "name": "SV Elversberg", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/sv-elversberg.csv", "offensive_tendency": 47, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 9999 },
+    { "team_id": 38, "name": "SV Werder Bremen", "league": "germany", "formation": "3-5-2", "players_path": "players/bundesliga/sv-werder-bremen.csv", "offensive_tendency": 52, "home_advantage": 2, "away_advantage": 3, "uefa_coefficient_rank": 9999 },
+    { "team_id": 10029, "name": "TSG Hoffenheim", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/tsg-hoffenheim.csv", "offensive_tendency": 58, "home_advantage": 1, "away_advantage": 1, "uefa_coefficient_rank": 112 },
+    { "team_id": 1831, "name": "Union Berlin", "league": "germany", "formation": "3-4-3", "players_path": "players/bundesliga/union-berlin.csv", "offensive_tendency": 38, "home_advantage": 3, "away_advantage": 1, "uefa_coefficient_rank": 90 },
+    { "team_id": 36, "name": "VfB Stuttgart", "league": "germany", "formation": "4-2-3-1", "players_path": "players/bundesliga/vfb-stuttgart.csv", "offensive_tendency": 66, "home_advantage": 3, "away_advantage": 1, "ucl_default": true, "uefa_coefficient_rank": 80 }
+  ]
+}
