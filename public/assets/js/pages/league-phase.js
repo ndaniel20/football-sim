@@ -156,7 +156,7 @@ function getDrawSignature(draw) {
 
 function saveLeaguePhase() {
   const serialized = JSON.stringify(leaguePhase, (key, value) => (
-    key === 'minuteStats' || key === 'playerStats' ? undefined : value
+    key === 'minuteStats' ? undefined : value
   ));
   window.localStorage.setItem(LEAGUE_PHASE_KEY, serialized);
 }
@@ -341,15 +341,25 @@ function showFormResultTooltip(badge, result) {
   const badgeRect = badge.getBoundingClientRect();
   const tooltipRect = tooltip.getBoundingClientRect();
   const edgePadding = 10;
+  const viewport = window.visualViewport;
+  const viewportLeft = viewport?.offsetLeft || 0;
+  const viewportTop = viewport?.offsetTop || 0;
+  const viewportWidth = viewport?.width || window.innerWidth;
+  const viewportHeight = viewport?.height || window.innerHeight;
   const left = Math.max(edgePadding, Math.min(
-    window.innerWidth - tooltipRect.width - edgePadding,
-    badgeRect.left + badgeRect.width / 2 - tooltipRect.width / 2,
+    viewportWidth - tooltipRect.width - edgePadding,
+    badgeRect.left - viewportLeft + badgeRect.width / 2 - tooltipRect.width / 2,
   ));
-  const above = badgeRect.top - tooltipRect.height - 8;
+  const above = badgeRect.top - viewportTop - tooltipRect.height - 8;
   tooltip.classList.toggle('is-below', above < edgePadding);
   const top = above >= edgePadding
     ? above
-    : Math.min(window.innerHeight - tooltipRect.height - edgePadding, badgeRect.bottom + 8);
+    : Math.min(viewportHeight - tooltipRect.height - edgePadding, badgeRect.bottom - viewportTop + 8);
+  const arrowLeft = Math.max(10, Math.min(
+    tooltipRect.width - 10,
+    badgeRect.left - viewportLeft + badgeRect.width / 2 - left,
+  ));
+  tooltip.style.setProperty('--tooltip-arrow-left', `${arrowLeft}px`);
   tooltip.style.left = `${left}px`;
   tooltip.style.top = `${Math.max(edgePadding, top)}px`;
 }

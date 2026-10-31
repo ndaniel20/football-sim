@@ -73,7 +73,7 @@
 .form-result.is-draw { color: #e0e5ec; background: #687486; }
 .form-result.is-loss { color: #fff; background: #d7606d; }
 .form-result-tooltip { position: fixed; z-index: 1000; display: grid; min-width: 150px; max-width: min(360px, calc(100vw - 20px)); gap: 4px; padding: 9px 13px 10px; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 10px; color: #f5f6f8; background: rgba(48, 49, 52, 0.97); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.26); pointer-events: none; text-align: center; animation: form-tooltip-in 120ms ease-out both; }
-.form-result-tooltip::after { position: absolute; bottom: -5px; left: calc(50% - 5px); width: 9px; height: 9px; border-right: 1px solid rgba(255, 255, 255, 0.08); border-bottom: 1px solid rgba(255, 255, 255, 0.08); background: rgba(48, 49, 52, 0.97); content: ''; transform: rotate(45deg); }
+.form-result-tooltip::after { position: absolute; bottom: -5px; left: calc(var(--tooltip-arrow-left, 50%) - 5px); width: 9px; height: 9px; border-right: 1px solid rgba(255, 255, 255, 0.08); border-bottom: 1px solid rgba(255, 255, 255, 0.08); background: rgba(48, 49, 52, 0.97); content: ''; transform: rotate(45deg); }
 .form-result-tooltip.is-below::after { top: -5px; bottom: auto; border: 0; border-top: 1px solid rgba(255, 255, 255, 0.08); border-left: 1px solid rgba(255, 255, 255, 0.08); }
 .form-result-tooltip-matchday { color: #d5d6d8; font-family: 'Space Grotesk', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.04em; }
 .form-result-tooltip-score { display: flex; min-width: 0; align-items: center; justify-content: center; gap: 7px; color: #fff; font-size: 13px; font-weight: 700; line-height: 1.35; }

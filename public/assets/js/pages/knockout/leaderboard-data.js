@@ -66,7 +66,7 @@ function getTournamentDataFingerprint(matches) {
 function readTournamentViewCache(fingerprint) {
   try {
     const cached = JSON.parse(window.localStorage.getItem(TOURNAMENT_VIEW_CACHE_KEY) || 'null');
-    if (cached?.version === 1 && cached.fingerprint === fingerprint
+    if (cached?.version === 2 && cached.fingerprint === fingerprint
       && Array.isArray(cached.leaders?.scorers)
       && Array.isArray(cached.leaders?.assists)
       && Array.isArray(cached.leaders?.cleanSheets)
@@ -98,23 +98,58 @@ function getTournamentDerivedData() {
     if (!hasCompletePlayerStats) {
       teamOfSeason = { status: 'unavailable' };
     } else {
-      const lineup = calculateTeamOfSeason(buildTournamentPlayerStats(leaders));
-      teamOfSeason = {
-        status: lineup.length === TEAM_OF_SEASON_ROLES.length ? 'ready' : 'incomplete',
-        lineup: [...lineup],
-        candidateRankings: lineup.candidateRankings || [],
-      };
+      teamOfSeason = { status: 'pending' };
     }
   }
 
-  const derived = { version: 1, fingerprint, leaders, teamOfSeason };
+  const derived = { version: 2, fingerprint, leaders, teamOfSeason };
   tournamentViewCache = derived;
-  if (knockout.champion) {
+  if (knockout.champion && teamOfSeason.status !== 'pending') {
     try {
       window.localStorage.setItem(TOURNAMENT_VIEW_CACHE_KEY, JSON.stringify(derived));
     } catch {
     }
   }
   return derived;
+}
+
+let scheduledTeamOfSeasonFingerprint = null;
+
+function scheduleTeamOfSeasonCalculation(derived) {
+  if (derived.teamOfSeason.status !== 'pending'
+    || scheduledTeamOfSeasonFingerprint === derived.fingerprint) return;
+  const fingerprint = derived.fingerprint;
+  scheduledTeamOfSeasonFingerprint = fingerprint;
+
+  window.setTimeout(() => {
+    const calculate = () => {
+      scheduledTeamOfSeasonFingerprint = null;
+      const matches = allTournamentResults();
+      if (!knockout.champion || getTournamentDataFingerprint(matches) !== fingerprint
+        || matches.some((match) => !Array.isArray(match.result.playerStats) || match.result.playerStats.length < 22)) return;
+
+      const leaders = buildLeaders();
+      const lineup = calculateTeamOfSeason(buildTournamentPlayerStats(leaders));
+      const teamOfSeason = {
+        status: lineup.length === TEAM_OF_SEASON_ROLES.length ? 'ready' : 'incomplete',
+        lineup: [...lineup],
+        candidateRankings: lineup.candidateRankings || [],
+      };
+      if (tournamentViewCache?.fingerprint !== fingerprint) return;
+
+      tournamentViewCache = { ...tournamentViewCache, teamOfSeason };
+      try {
+        window.localStorage.setItem(TOURNAMENT_VIEW_CACHE_KEY, JSON.stringify(tournamentViewCache));
+      } catch {
+      }
+      renderTeamOfSeason(tournamentViewCache);
+    };
+
+    if (typeof window.requestIdleCallback === 'function') {
+      window.requestIdleCallback(calculate, { timeout: 2500 });
+    } else {
+      window.setTimeout(calculate, 0);
+    }
+  }, 1200);
 }
 

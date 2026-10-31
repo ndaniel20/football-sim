@@ -1,22 +1,4 @@
 (() => {
-  const root = document.documentElement;
-  let viewportFrame = 0;
-  const updateVisualViewport = () => {
-    if (viewportFrame) window.cancelAnimationFrame(viewportFrame);
-    viewportFrame = window.requestAnimationFrame(() => {
-      viewportFrame = 0;
-      const viewport = window.visualViewport;
-      const bottom = viewport
-        ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop)
-        : 0;
-      root.style.setProperty('--visual-viewport-bottom', `${bottom}px`);
-    });
-  };
-  window.addEventListener('resize', updateVisualViewport, { passive: true });
-  window.visualViewport?.addEventListener('resize', updateVisualViewport, { passive: true });
-  window.visualViewport?.addEventListener('scroll', updateVisualViewport, { passive: true });
-  updateVisualViewport();
-
   const STORAGE_KEY = 'ucl-simulator-settings-v1';
   const DEFAULTS = Object.freeze({
     goalLikelihood: 'medium',

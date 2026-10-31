@@ -1,6 +1,6 @@
 const LEAGUE_PHASE_KEY = 'ucl-simulator-league-phase';
 const KNOCKOUT_KEY = 'ucl-simulator-knockout';
-const TOURNAMENT_VIEW_CACHE_KEY = 'ucl-simulator-knockout-view-cache-v1';
+const TOURNAMENT_VIEW_CACHE_KEY = 'ucl-simulator-knockout-view-cache-v2';
 const ROUND_KEYS = ['playoff', 'r16', 'qf', 'sf', 'final'];
 const ROUND_LABELS = {
   playoff: 'Round of 32 play-offs',

@@ -152,6 +152,15 @@ function renderTeamOfSeason(derivedData) {
     return;
   }
 
+  if (cachedTeamOfSeason.status === 'pending') {
+    const notice = document.createElement('p');
+    notice.className = 'team-of-season-empty';
+    notice.textContent = 'The final is complete. Team of the Season rankings are being calculated…';
+    elements.teamOfSeasonFormation.append(notice);
+    elements.teamOfSeason.hidden = false;
+    return;
+  }
+
   if (cachedTeamOfSeason.status !== 'ready') {
     const notice = document.createElement('p');
     notice.className = 'team-of-season-empty';
@@ -189,5 +198,6 @@ function renderAll() {
   renderLeaders(derivedData);
   renderTeamOfSeason(derivedData);
   renderRound();
+  scheduleTeamOfSeasonCalculation(derivedData);
 }
 
