@@ -12,6 +12,7 @@ async function simulateTies(ties, animated = false, forcedLegIndex = null) {
   if (!ready.length) return;
   simulationRunning = true;
   renderRound();
+  let simulationError = null;
   try {
     const aggregateBeforeByTie = new Map();
     const matches = ready.map((tie) => {
@@ -42,6 +43,11 @@ async function simulateTies(ties, animated = false, forcedLegIndex = null) {
     });
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || 'Could not simulate these matches.');
+    if (!Array.isArray(payload.results) || payload.results.length !== ready.length
+      || payload.results.some((result) => !result || !matches.some((match) => match.id === result.id))
+      || new Set(payload.results.map((result) => result.id)).size !== ready.length) {
+      throw new Error('The server returned incomplete match results. No fixtures were applied; please try again.');
+    }
     const resultById = new Map(payload.results.map((result) => [result.id, result]));
     for (const tie of ready) {
       const result = resultById.get(tie.id);
@@ -63,12 +69,13 @@ async function simulateTies(ties, animated = false, forcedLegIndex = null) {
     renderAll();
     if (knockout.champion && !knockout.celebrationShown) showChampionCelebration();
   } catch (error) {
-    elements.status.textContent = error.message;
+    simulationError = error.message;
   } finally {
-    if (!animationRun) {
+    if (!animationRun && simulationRunning) {
       simulationRunning = false;
       renderAll();
     }
+    if (simulationError) elements.status.textContent = simulationError;
   }
 }
 

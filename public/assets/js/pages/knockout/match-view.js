@@ -34,14 +34,26 @@ function countGoals(events) {
 let modalScrollY = 0;
 let renderedScoreboardFixture = null;
 function openKnockoutDialog(dialog) {
+  let lockedScroll = false;
   if (!dialog.open) {
     if (!document.querySelector('dialog[open]')) {
       modalScrollY = window.scrollY;
       document.documentElement.classList.add('league-modal-open');
       document.body.classList.add('league-modal-open');
       document.body.style.top = `-${modalScrollY}px`;
+      lockedScroll = true;
     }
-    dialog.showModal();
+    try {
+      dialog.showModal();
+    } catch (error) {
+      if (lockedScroll) {
+        document.documentElement.classList.remove('league-modal-open');
+        document.body.classList.remove('league-modal-open');
+        document.body.style.top = '';
+        window.scrollTo(0, modalScrollY);
+      }
+      throw error;
+    }
   }
   if (dialog === elements.matchModal) {
     const resetScroll = () => {
@@ -102,44 +114,49 @@ function renderKnockoutLiveStats(result, minute) {
   const snapshot = minute > 0 && result.minuteStats?.length
     ? result.minuteStats[Math.max(0, Math.min(minute - 1, result.minuteStats.length - 1))]
     : { homeXG: 0, awayXG: 0, homePossession: 50, awayPossession: 50 };
-  elements.liveMatchStats.replaceChildren();
-  for (const [label, left, right, suffix] of [
-    ['EXPECTED GOALS', Number(snapshot.homeXG || 0).toFixed(2), Number(snapshot.awayXG || 0).toFixed(2), 'xG'],
-    ['POSSESSION', `${Math.round(snapshot.homePossession ?? 50)}%`, `${Math.round(snapshot.awayPossession ?? 50)}%`, 'BALL'],
-  ]) {
-    const block = document.createElement('div');
-    block.className = 'match-stat-block';
-    const heading = document.createElement('span');
-    heading.className = 'match-stat-label';
-    heading.textContent = label;
-    const values = document.createElement('div');
-    values.className = 'match-stat-values';
-    const leftValue = document.createElement('div');
-    leftValue.className = 'stat-value-chip';
-    const leftNumber = document.createElement('strong');
-    leftNumber.textContent = left;
-    leftValue.append(leftNumber);
-    const separator = document.createElement('span');
-    separator.textContent = suffix;
-    const rightValue = document.createElement('div');
-    rightValue.className = 'stat-value-chip';
-    const rightNumber = document.createElement('strong');
-    rightNumber.textContent = right;
-    rightValue.append(rightNumber);
-    values.append(leftValue, separator, rightValue);
-    block.append(heading, values);
-    if (label === 'POSSESSION') {
-      const bar = document.createElement('div');
-      bar.className = 'possession-bar';
-      const leftBar = document.createElement('span');
-      leftBar.style.width = `${Number(snapshot.homePossession ?? 50)}%`;
-      const rightBar = document.createElement('span');
-      rightBar.style.width = `${Number(snapshot.awayPossession ?? 50)}%`;
-      bar.append(leftBar, rightBar);
-      block.append(bar);
+  if (elements.liveMatchStats.children.length !== 2) {
+    elements.liveMatchStats.replaceChildren();
+    for (const label of ['EXPECTED GOALS', 'POSSESSION']) {
+      const block = document.createElement('div');
+      block.className = 'match-stat-block';
+      const heading = document.createElement('span');
+      heading.className = 'match-stat-label';
+      heading.textContent = label;
+      const values = document.createElement('div');
+      values.className = 'match-stat-values';
+      for (let index = 0; index < 2; index += 1) {
+        const value = document.createElement('div');
+        value.className = 'stat-value-chip';
+        const number = document.createElement('strong');
+        value.append(number);
+        values.append(value);
+        if (index === 0) {
+          const separator = document.createElement('span');
+          separator.textContent = label === 'POSSESSION' ? 'BALL' : 'xG';
+          values.append(separator);
+        }
+      }
+      block.append(heading, values);
+      if (label === 'POSSESSION') {
+        const bar = document.createElement('div');
+        bar.className = 'possession-bar';
+        bar.append(document.createElement('span'), document.createElement('span'));
+        block.append(bar);
+      }
+      elements.liveMatchStats.append(block);
     }
-    elements.liveMatchStats.append(block);
   }
+
+  const [xgBlock, possessionBlock] = elements.liveMatchStats.children;
+  const xgValues = xgBlock.querySelectorAll('.stat-value-chip strong');
+  const possessionValues = possessionBlock.querySelectorAll('.stat-value-chip strong');
+  xgValues[0].textContent = Number(snapshot.homeXG || 0).toFixed(2);
+  xgValues[1].textContent = Number(snapshot.awayXG || 0).toFixed(2);
+  possessionValues[0].textContent = `${Math.round(snapshot.homePossession ?? 50)}%`;
+  possessionValues[1].textContent = `${Math.round(snapshot.awayPossession ?? 50)}%`;
+  const possessionBars = possessionBlock.querySelectorAll('.possession-bar span');
+  possessionBars[0].style.width = `${Number(snapshot.homePossession ?? 50)}%`;
+  possessionBars[1].style.width = `${Number(snapshot.awayPossession ?? 50)}%`;
 }
 
 function addKnockoutGoal(fixture, event) {
@@ -311,6 +328,34 @@ function updateKnockoutMatchView(run) {
   renderMatchAggregate(run.tie, run.roundKey, run.legIndex, run.fixture, run.aggregateBefore, run.homeGoals, run.awayGoals);
 }
 
+function recoverKnockoutAnimation(run, error) {
+  if (animationRun && animationRun !== run) return;
+  if (run.timer) window.clearInterval(run.timer);
+  run.timer = null;
+  animationRun = null;
+  simulationRunning = false;
+  console.error('Knockout match animation was interrupted.', error);
+
+  try {
+    if (run.tie.legs[run.legIndex]) {
+      if (run.roundKey === 'final' || run.legIndex === 1) finalizeTie(run.tie, run.roundKey);
+      advanceCompletedRound(run.roundKey);
+      saveKnockout();
+    }
+  } catch (recoveryError) {
+    console.error('Could not finalize the interrupted knockout match.', recoveryError);
+  }
+
+  if (elements.matchModal.open) elements.matchModal.close();
+  try {
+    renderAll();
+  } catch (renderError) {
+    console.error('Could not refresh the knockout page after an interrupted match.', renderError);
+    renderRound();
+  }
+  elements.status.textContent = 'The match result was saved, but its live view was interrupted. Use View match to review it.';
+}
+
 function configureMatchLegToggle(tie, roundKey, activeLegIndex) {
   matchReviewContext = { tie, roundKey, legIndex: activeLegIndex };
   elements.matchLegFirst.textContent = roundKey === 'final' ? 'Final' : 'First leg';
@@ -364,17 +409,22 @@ function startKnockoutAnimation(tie, roundKey, legIndex, homeTeam, awayTeam, res
   const events = [...(result.events || [])].sort((first, second) => first.minute - second.minute);
   const run = { tie, roundKey, legIndex, fixture, result, events, aggregateBefore, minute: 0, homeGoals: 0, awayGoals: 0, eventIndex: 0, totalMinutes: result.minuteStats?.length || 90, timer: null };
   animationRun = run;
-  renderBracket();
-  renderRound();
-  configureMatchLegToggle(tie, roundKey, legIndex);
-  elements.matchModalRound.textContent = `${ROUND_LABELS[roundKey].toLocaleUpperCase()} · ${roundKey === 'final' ? 'FINAL' : legIndex === 0 ? 'FIRST LEG' : 'SECOND LEG'}`;
-  elements.matchModalTitle.textContent = `${homeTeam.name} vs ${awayTeam.name}`;
-  elements.matchTimeline.replaceChildren();
-  addKnockoutKickoffEntry();
-  updateKnockoutMatchView(run);
-  elements.matchModal.querySelector('.match-modal-footer').hidden = false;
-  elements.skipToFullTime.disabled = false;
-  openKnockoutDialog(elements.matchModal);
+  try {
+    renderBracket();
+    renderRound();
+    configureMatchLegToggle(tie, roundKey, legIndex);
+    elements.matchModalRound.textContent = `${ROUND_LABELS[roundKey].toLocaleUpperCase()} · ${roundKey === 'final' ? 'FINAL' : legIndex === 0 ? 'FIRST LEG' : 'SECOND LEG'}`;
+    elements.matchModalTitle.textContent = `${homeTeam.name} vs ${awayTeam.name}`;
+    elements.matchTimeline.replaceChildren();
+    addKnockoutKickoffEntry();
+    updateKnockoutMatchView(run);
+    elements.matchModal.querySelector('.match-modal-footer').hidden = false;
+    elements.skipToFullTime.disabled = false;
+    openKnockoutDialog(elements.matchModal);
+  } catch (error) {
+    recoverKnockoutAnimation(run, error);
+    return;
+  }
 
   run.advance = () => {
     run.minute += 1;
@@ -434,12 +484,19 @@ function startKnockoutAnimation(tie, roundKey, legIndex, homeTeam, awayTeam, res
       window.setTimeout(showChampionCelebration, 180);
     }
   };
-  run.timer = window.setInterval(run.advance, window.appSettings.interval(160));
+  run.tick = () => {
+    try {
+      run.advance();
+    } catch (error) {
+      recoverKnockoutAnimation(run, error);
+    }
+  };
+  run.timer = window.setInterval(run.tick, window.appSettings.interval(160));
 }
 
 window.addEventListener('app-settings-change', () => {
   if (!animationRun?.timer) return;
   window.clearInterval(animationRun.timer);
-  animationRun.timer = window.setInterval(animationRun.advance, window.appSettings.interval(160));
+  animationRun.timer = window.setInterval(animationRun.tick, window.appSettings.interval(160));
 });
 

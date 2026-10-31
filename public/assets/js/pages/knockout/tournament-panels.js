@@ -1,7 +1,9 @@
 function finishKnockoutAnimationImmediately() {
   if (!animationRun) return;
-  window.clearInterval(animationRun.timer);
-  while (animationRun) animationRun.advance();
+  const run = animationRun;
+  window.clearInterval(run.timer);
+  run.timer = null;
+  while (animationRun === run) run.tick();
 }
 
 function createLeaderRow(entry, index, statistic, highlightWinner = false) {
