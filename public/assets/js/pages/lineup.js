@@ -366,6 +366,14 @@ function closeEditorClubOptions() {
   elements.editorClubSearch.setAttribute('aria-expanded', 'false');
 }
 
+function selectEditorClub(club) {
+  playerEditorDraft.clubKey = club.customizationKey;
+  elements.editorClubSearch.value = '';
+  elements.editorClubPicker.classList.remove('is-searching');
+  closeEditorClubOptions();
+  renderSelectedEditorClub();
+}
+
 function renderEditorClubOptions(query = '') {
   const normalizedQuery = normalizeSearchText(query.trim());
   const searchTokens = normalizedQuery.split(/\s+/).filter(Boolean);
@@ -397,13 +405,12 @@ function renderEditorClubOptions(query = '') {
       league.textContent = club.leagueName;
       copy.append(name, league);
       option.append(crest, copy);
-      option.addEventListener('click', () => {
-        playerEditorDraft.clubKey = club.customizationKey;
-        elements.editorClubSearch.value = '';
-        elements.editorClubPicker.classList.remove('is-searching');
-        closeEditorClubOptions();
-        renderSelectedEditorClub();
+      option.addEventListener('pointerdown', (event) => {
+        if (event.pointerType !== 'touch') return;
+        event.preventDefault();
+        selectEditorClub(club);
       });
+      option.addEventListener('click', () => selectEditorClub(club));
       elements.editorClubOptions.append(option);
     });
   }

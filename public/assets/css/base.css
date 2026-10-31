@@ -270,9 +270,11 @@ h1 span { color: var(--blue); background: linear-gradient(100deg, #9ac3ff 4%, #6
   .side-rail .nav-item svg { width: 20px; height: 20px; }
 }
 @media (max-width: 420px) {
-  .home-page .format-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .home-page .format-item:nth-child(odd) { border-left: 0; }
-  .home-page .format-item:nth-child(n + 3) { border-top: 1px solid rgba(167, 193, 225, .12); }
+  .home-page .format-steps { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .home-page .format-item { min-height: 65px; gap: 1px; padding: 5px 4px; }
+  .home-page .format-item small { display: none; }
+  .home-page .format-item > strong { font-size: 15px; }
+  .home-page .format-name { font-size: 6px; letter-spacing: .06em; }
   .home-page .format-index { right: 8px; }
 }
 

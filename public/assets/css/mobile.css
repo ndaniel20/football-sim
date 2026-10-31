@@ -1,6 +1,16 @@
-.setup-page .topbar-actions, .draw-page .topbar-actions { display: none; }
+.setup-page .topbar-actions, .draw-page .topbar-actions,
+.league-phase-page .topbar-actions, .knockout-page .topbar-actions { display: none; }
 
 @media (max-width: 760px) {
+  .topbar { gap: 8px; }
+  .topbar .brand { min-width: 0; gap: 7px; }
+  .topbar .brand-name { overflow: hidden; font-size: 10px; letter-spacing: .05em; text-overflow: ellipsis; white-space: nowrap; }
+  .topbar .brand-mark { width: 26px; height: 26px; }
+  .topbar-actions { gap: 5px; }
+  .home-topbar-trigger, .settings-topbar-trigger { width: 35px; height: 35px; }
+  .setup-season, .league-season, .season-callout { gap: 6px; margin-left: 6px; padding: 8px 9px; font-size: 9px; }
+  .setup-season span, .league-season span, .season-callout span { display: none; }
+
   .side-rail {
     z-index: 20;
     inset: auto 0 0;
@@ -40,9 +50,9 @@
 
   .mobile-navigation {
     position: fixed;
-    z-index: 20;
+    z-index: 30;
     right: 0;
-    bottom: 0;
+    bottom: var(--visual-viewport-bottom, 0px);
     left: 0;
     display: flex;
     height: calc(var(--mobile-navigation-height) + env(safe-area-inset-bottom));
@@ -80,10 +90,12 @@
   .league-phase-page .mobile-navigation,
   .knockout-page .mobile-navigation { display: none; }
 
-  .setup-page .topbar-actions, .draw-page .topbar-actions { display: flex; }
+  .setup-page .topbar-actions, .draw-page .topbar-actions,
+  .league-phase-page .topbar-actions, .knockout-page .topbar-actions { display: flex; }
 
   .selection-dock, .draw-dock, .league-phase-page .simulation-dock, .knockout-page .simulation-dock {
-    bottom: 0;
+    z-index: 30;
+    bottom: var(--visual-viewport-bottom, 0px);
     left: 0;
     right: 0;
     padding-bottom: calc(10px + env(safe-area-inset-bottom));
@@ -97,6 +109,7 @@
   .progress-copy strong { font-size: 13px; white-space: nowrap; }
 
   .change-log-status { right: 12px; bottom: calc(var(--mobile-navigation-height) + env(safe-area-inset-bottom) + 12px); }
+  .editor-club-picker input { font-size: 16px; }
 }
 
 @media (max-width: 560px) {
@@ -151,6 +164,12 @@
 }
 
 @media (max-width: 420px) {
-  .league-phase-page .league-season, .knockout-page .league-season { display: none; }
   .league-phase-page .main-column, .knockout-page .main-column { padding-right: 14px; padding-left: 14px; }
+}
+
+@supports (-webkit-touch-callout: none) {
+  @media (max-width: 760px) {
+    html, body { background: #070b14; }
+    body::before, body::after, .ambient { display: none; }
+  }
 }

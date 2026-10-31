@@ -108,6 +108,7 @@
 .editor-field-label small, .editor-field-hint { display: block; margin-top: 5px; color: #8493a9; font-size: 9px; font-weight: 500; line-height: 1.5; }
 .editor-field-label small { margin-top: 4px; font-size: 8px; letter-spacing: .1em; }
 .editor-club-picker, .editor-position-picker { position: relative; z-index: 3; }
+.editor-club-picker.is-searching { z-index: 20; }
 .editor-club-input-wrap { position: relative; }
 .editor-club-picker input { position: relative; z-index: 1; width: 100%; min-height: 41px; padding: 0 11px; border: 1px solid rgba(174, 200, 233, .17); border-radius: 7px; color: #e7eef9; background-color: #111c2c; font: inherit; font-size: 10px; }
 .editor-club-picker:not(.is-searching) input { color: transparent; caret-color: transparent; cursor: pointer; }

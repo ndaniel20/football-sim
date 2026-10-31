@@ -1,4 +1,22 @@
 (() => {
+  const root = document.documentElement;
+  let viewportFrame = 0;
+  const updateVisualViewport = () => {
+    if (viewportFrame) window.cancelAnimationFrame(viewportFrame);
+    viewportFrame = window.requestAnimationFrame(() => {
+      viewportFrame = 0;
+      const viewport = window.visualViewport;
+      const bottom = viewport
+        ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop)
+        : 0;
+      root.style.setProperty('--visual-viewport-bottom', `${bottom}px`);
+    });
+  };
+  window.addEventListener('resize', updateVisualViewport, { passive: true });
+  window.visualViewport?.addEventListener('resize', updateVisualViewport, { passive: true });
+  window.visualViewport?.addEventListener('scroll', updateVisualViewport, { passive: true });
+  updateVisualViewport();
+
   const STORAGE_KEY = 'ucl-simulator-settings-v1';
   const DEFAULTS = Object.freeze({
     goalLikelihood: 'medium',
@@ -63,9 +81,10 @@
       triggers.push(existing);
     }
 
-    const needsTopbarTrigger = !existing || document.body.matches('.setup-page, .draw-page');
     const topbar = document.querySelector('.topbar');
-    if (needsTopbarTrigger && topbar) {
+    const needsTopbarTrigger = !existing
+      || document.body.matches('.setup-page, .draw-page, .league-phase-page, .knockout-page');
+    if (needsTopbarTrigger && topbar && !topbar.querySelector('.topbar-actions')) {
       const button = document.createElement('button');
       button.className = 'settings-topbar-trigger';
       button.type = 'button';
@@ -76,17 +95,15 @@
       button.innerHTML = gearIcon;
       const actions = document.createElement('div');
       actions.className = 'topbar-actions';
-      if (!existing) {
-        const home = document.createElement('a');
-        home.className = 'home-topbar-trigger';
-        home.href = '/';
-        home.setAttribute('aria-label', 'Home');
-        home.setAttribute('title', 'Home');
-        home.innerHTML = homeIcon;
-        actions.append(home);
-      }
+      const home = document.createElement('a');
+      home.className = 'home-topbar-trigger';
+      home.href = '/';
+      home.setAttribute('aria-label', 'Home');
+      home.setAttribute('title', 'Home');
+      home.innerHTML = homeIcon;
+      actions.append(home);
       actions.append(button);
-      topbar.insertBefore(actions, topbar.querySelector('.league-season, .season-callout') || null);
+      topbar.insertBefore(actions, topbar.querySelector('.setup-season, .league-season, .season-callout') || null);
       triggers.push(button);
     }
     return triggers;

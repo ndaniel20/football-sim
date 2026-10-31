@@ -155,7 +155,10 @@ function getDrawSignature(draw) {
 }
 
 function saveLeaguePhase() {
-  window.localStorage.setItem(LEAGUE_PHASE_KEY, JSON.stringify(leaguePhase));
+  const serialized = JSON.stringify(leaguePhase, (key, value) => (
+    key === 'minuteStats' || key === 'playerStats' ? undefined : value
+  ));
+  window.localStorage.setItem(LEAGUE_PHASE_KEY, serialized);
 }
 
 function buildStandings() {
@@ -1121,11 +1124,28 @@ async function simulateCurrentMatchday() {
   renderMatchday();
   try {
     const results = await requestSimulation(fixtures);
+    const expectedIds = new Set(fixtures.map((fixture) => fixture.id));
+    if (!Array.isArray(results) || results.length !== fixtures.length
+      || results.some((result) => !result || !expectedIds.has(result.id)
+        || !Number.isInteger(result.homeGoals) || !Number.isInteger(result.awayGoals))
+      || new Set(results.map((result) => result.id)).size !== fixtures.length) {
+      throw new Error('The server returned an incomplete matchday. No results were saved; please try again.');
+    }
     const resultsById = new Map(results.map((result) => [result.id, result]));
     for (const fixture of fixtures) {
       const result = resultsById.get(fixture.id);
-      if (result) finishFixture(fixture, result);
+      fixture.homeGoals = result.homeGoals;
+      fixture.awayGoals = result.awayGoals;
+      fixture.result = result;
+      fixture.played = true;
+      fixture.status = 'completed';
+      activeFixtureIds.delete(fixture.id);
     }
+    updatePlayerLeaders();
+    renderStandings();
+    renderLeaders();
+    renderMatchday();
+    saveLeaguePhase();
   } catch (error) {
     elements.simulationStatus.textContent = error.message;
   } finally {
