@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://football-sim-rho.vercel.app/</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/start-tournament</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/draw</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/league-phase</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/knockout</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/lineup</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/changelog</loc></url>
-  <url><loc>https://football-sim-rho.vercel.app/match-simulator</loc></url>
+  <url><loc>https://www.ucl-simulator.com/</loc></url>
+  <url><loc>https://www.ucl-simulator.com/start-tournament</loc></url>
+  <url><loc>https://www.ucl-simulator.com/draw</loc></url>
+  <url><loc>https://www.ucl-simulator.com/league-phase</loc></url>
+  <url><loc>https://www.ucl-simulator.com/knockout</loc></url>
+  <url><loc>https://www.ucl-simulator.com/lineup</loc></url>
+  <url><loc>https://www.ucl-simulator.com/changelog</loc></url>
+  <url><loc>https://www.ucl-simulator.com/match-simulator</loc></url>
 </urlset>
