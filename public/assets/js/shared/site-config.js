@@ -8,4 +8,16 @@
   document.head.append(canonicalLink);
 
   window.siteConfig = Object.freeze({ siteOrigin, canonicalUrl });
+
+  // Initialize Vercel Web Analytics
+  // Create queue for analytics events
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+
+  // Load the analytics script
+  const analyticsScript = document.createElement('script');
+  analyticsScript.src = 'https://cdn.vercel-insights.com/v1/script.js';
+  analyticsScript.defer = true;
+  document.head.appendChild(analyticsScript);
 })();
