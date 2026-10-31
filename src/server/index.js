@@ -618,7 +618,7 @@ async function handleCustomizationCatalogRequest(request, response) {
   }
 }
 
-const server = http.createServer((request, response) => {
+function handleRequest(request, response) {
   let requestPath;
   try {
     requestPath = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
@@ -741,8 +741,12 @@ const server = http.createServer((request, response) => {
     });
     response.end(request.method === 'HEAD' ? undefined : content);
   });
-});
+}
 
-server.listen(port, '127.0.0.1', () => {
-  console.log(`UCL Simulator XI is running at http://localhost:${port}`);
-});
+module.exports = handleRequest;
+
+if (require.main === module) {
+  http.createServer(handleRequest).listen(port, '127.0.0.1', () => {
+    console.log(`UCL Simulator XI is running at http://localhost:${port}`);
+  });
+}

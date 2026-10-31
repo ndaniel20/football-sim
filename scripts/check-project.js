@@ -3,7 +3,7 @@ const path = require('node:path');
 const { spawnSync } = require('node:child_process');
 
 const projectRoot = path.resolve(__dirname, '..');
-const sourceRoots = ['src', 'scripts', 'public/assets/js'];
+const sourceRoots = ['api', 'src', 'scripts', 'public/assets/js'];
 const publicDirectory = path.join(projectRoot, 'public');
 const javascriptFiles = [];
 const missingAssets = [];

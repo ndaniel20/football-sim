@@ -1,4 +1,13 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "functions": {
+    "api/**/*.js": {
+      "includeFiles": [
+        "public/**",
+        "teams/**",
+        "players/**"
+      ]
+    }
+  }
 }
