@@ -225,7 +225,7 @@ function renderChanges(entries) {
     const copy = document.createElement('p');
     copy.textContent = 'Your squad is using its original clubs, positions, and ratings.';
     const link = document.createElement('a');
-    link.href = '/lineup.html';
+    link.href = '/lineup';
     link.textContent = 'Edit players';
     empty.append(icon, title, copy, link);
     elements.list.append(empty);

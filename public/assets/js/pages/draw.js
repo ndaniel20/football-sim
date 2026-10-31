@@ -343,7 +343,7 @@ async function initialize() {
   }
 
   if (!tournament || !Array.isArray(tournament.teams) || tournament.teams.length !== TEAM_COUNT) {
-    window.location.replace('/start-tournament.html');
+    window.location.replace('/start-tournament');
     return;
   }
 
@@ -352,7 +352,7 @@ async function initialize() {
   const saved = restoreDrawState(signature);
   if (saved) {
     if (saved.revealedFixtures.length === TOTAL_FIXTURES) {
-      window.location.replace('/league-phase.html');
+      window.location.replace('/league-phase');
       return;
     }
     drawState = saved;
@@ -400,6 +400,6 @@ async function initialize() {
 elements.next.addEventListener('click', drawNext);
 elements.play.addEventListener('click', () => (playTimer ? stopPlaying() : startPlaying()));
 elements.finalize.addEventListener('click', finalizeDraw);
-elements.continue.addEventListener('click', () => window.location.assign('/league-phase.html'));
+elements.continue.addEventListener('click', () => window.location.assign('/league-phase'));
 
 initialize();

@@ -35,6 +35,16 @@ Open <http://localhost:3000>.
 | `npm run simulate:tournaments -- 1000` | Simulate 1,000 tournaments. |
 | `npm run rosters:rebuild` | Run the roster rebuild utility. |
 
+## Hosting on Vercel
+
+The Vercel configuration enables clean URLs, so pages are available at routes such as `/lineup` and `/match-simulator` without an `.html` suffix. The local Node server supports the same routes and redirects old `.html` page URLs.
+
+When your custom domain is ready:
+
+1. Add it under **Project Settings → Domains** in Vercel and follow Vercel's DNS instructions. If this GitHub repository is connected to the Vercel project, pushes to `main` trigger deployments.
+2. Set `SITE_ORIGIN` in [public/assets/js/shared/site-config.js](public/assets/js/shared/site-config.js) to your canonical origin, for example `https://ucl.example.com` (no trailing slash). This is used for canonical page URLs; app navigation and API requests stay on the current host.
+3. Commit and push that configuration change so the deployment uses your canonical domain.
+
 ## Project structure
 
 ```text

@@ -61,12 +61,12 @@ function getResumeUrl() {
   if (isValidLeaguePhase(phase) && matchingDraw) {
     const knockout = readSavedState(tournamentStorageKeys.knockout);
     if (isValidKnockout(knockout, phase) && phase.matchdays.every((day) => day.fixtures.every((fixture) => fixture.played))) {
-      return '/knockout.html';
+      return '/knockout';
     }
-    return '/league-phase.html';
+    return '/league-phase';
   }
-  if (matchingDraw) return '/draw.html';
-  return '/draw.html';
+  if (matchingDraw) return '/draw';
+  return '/draw';
 }
 
 const startTournamentButton = document.querySelector('#start-tournament');
@@ -82,7 +82,7 @@ startTournamentButton.addEventListener('click', (event) => {
     } catch {
     }
   });
-  window.location.assign('/start-tournament.html');
+  window.location.assign('/start-tournament');
 });
 
 continueTournamentButton.addEventListener('click', () => {

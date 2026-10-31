@@ -675,8 +675,18 @@ const server = http.createServer((request, response) => {
     return;
   }
 
+  if (requestPath.endsWith('.html')) {
+    const cleanPath = requestPath === '/index.html' ? '/' : requestPath.slice(0, -'.html'.length);
+    response.writeHead(308, { Location: cleanPath });
+    response.end();
+    return;
+  }
+
   const relativePath = requestPath === '/' ? 'index.html' : requestPath.replace(/^\/+/, '');
-  const filePath = path.resolve(publicDirectory, relativePath);
+  const resolvedPath = path.resolve(publicDirectory, relativePath);
+  const filePath = path.extname(relativePath)
+    ? resolvedPath
+    : path.resolve(publicDirectory, `${relativePath}.html`);
 
   if (requestPath === '/api/teams') {
     Promise.all(leagueSources.map(async (league) => {

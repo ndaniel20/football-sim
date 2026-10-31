@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/images/ucl-icon.png">
   <meta name="theme-color" content="#070b14">
   <meta name="description" content="League phase standings, player leaders, and matchday fixtures.">
   <title>League phase · UCL Simulator XI</title>
@@ -40,7 +41,7 @@
         <div class="league-error" id="league-error" role="alert" hidden>
           <strong>League phase unavailable</strong>
           <span id="league-error-message"></span>
-          <a class="button button-secondary" href="/draw.html">Return to the draw</a>
+          <a class="button button-secondary" href="/draw">Return to the draw</a>
         </div>
 
         <section class="standings-section" aria-labelledby="standings-title">
@@ -120,6 +121,7 @@
     </div>
   </dialog>
 
+  <script src="/assets/js/shared/site-config.js" defer></script>
   <script src="/assets/js/shared/app-settings.js" defer></script>
   <script src="/assets/js/shared/player-customizations.js" defer></script>
   <script src="/assets/js/pages/league-phase.js" defer></script>

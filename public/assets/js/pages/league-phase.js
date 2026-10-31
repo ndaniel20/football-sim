@@ -1154,7 +1154,7 @@ function recoverSavedSimulations() {
 async function initialize() {
   const draw = readDraw();
   if (!draw) {
-    window.location.replace('/draw.html');
+    window.location.replace('/draw');
     return;
   }
 
@@ -1222,7 +1222,7 @@ elements.simulateSelected.addEventListener('click', simulateSelectedFixture);
 elements.simulateMatchday.addEventListener('click', simulateCurrentMatchday);
 elements.proceedKnockout.addEventListener('click', () => {
   if (leaguePhase?.matchdays.every((day) => day.fixtures.every((fixture) => fixture.played))) {
-    window.location.assign('/knockout.html');
+    window.location.assign('/knockout');
   }
 });
 elements.modalClose.addEventListener('click', () => elements.matchModal.close());

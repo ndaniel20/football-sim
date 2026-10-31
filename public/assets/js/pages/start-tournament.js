@@ -69,11 +69,11 @@ function getSavedTournamentDestination() {
   if (!Array.isArray(selection?.teams) || selection.teams.length !== TOTAL_TEAMS) return null;
   const hasMatchingDraw = Array.isArray(draw?.assignments) && draw.assignments.length === TOTAL_TEAMS
     && draw.signature === selectionSignature(selection.teams);
-  if (!hasMatchingDraw || !Array.isArray(draw.revealedFixtures) || draw.revealedFixtures.length !== TOTAL_FIXTURES) return '/draw.html';
+  if (!hasMatchingDraw || !Array.isArray(draw.revealedFixtures) || draw.revealedFixtures.length !== TOTAL_FIXTURES) return '/draw';
   const validPhase = phase?.signature && Array.isArray(phase.matchdays) && phase.matchdays.length === 8;
   const leagueComplete = validPhase && phase.matchdays.every((day) => day.fixtures?.every((fixture) => fixture.played));
-  if (leagueComplete && knockout?.signature === phase.signature && Array.isArray(knockout.rounds?.playoff)) return '/knockout.html';
-  return '/league-phase.html';
+  if (leagueComplete && knockout?.signature === phase.signature && Array.isArray(knockout.rounds?.playoff)) return '/knockout';
+  return '/league-phase';
 }
 
 function getBadgeUrl(team) {
@@ -272,7 +272,7 @@ function saveSelection() {
   };
   try {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(tournament));
-    window.location.assign('/draw.html');
+    window.location.assign('/draw');
   } catch {
     elements.status.textContent = 'Unable to save selection';
   }

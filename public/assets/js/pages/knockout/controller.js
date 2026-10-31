@@ -138,7 +138,7 @@ function initialize() {
     leaguePhase = JSON.parse(window.localStorage.getItem(LEAGUE_PHASE_KEY) || 'null');
     if (!leaguePhase || !Array.isArray(leaguePhase.matchdays) || leaguePhase.matchdays.length !== 8
       || leaguePhase.matchdays.some((day) => !day.fixtures?.every((fixture) => fixture.played))) {
-      window.location.replace('/league-phase.html');
+      window.location.replace('/league-phase');
       return;
     }
     knockout = JSON.parse(window.localStorage.getItem(KNOCKOUT_KEY) || 'null');
