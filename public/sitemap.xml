@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://football-sim-rho.vercel.app/</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/start-tournament</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/draw</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/league-phase</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/knockout</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/lineup</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/changelog</loc></url>
+  <url><loc>https://football-sim-rho.vercel.app/match-simulator</loc></url>
+</urlset>
