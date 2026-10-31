@@ -9,6 +9,7 @@
     "rosters:rebuild": "node scripts/data/rebuild-rosters-from-cmtracker.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "chalk": "^4.1.2",
     "edmonds-blossom": "^1.0.0",
     "javascript-lp-solver": "^1.0.3"
