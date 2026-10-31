@@ -175,7 +175,7 @@ function renderRound() {
   elements.simulateRound.disabled = simulationRunning || eligible.length === 0;
   const selectedTie = ties.find((tie) => tie.id === selectedTieId);
   const selectedLegIndex = selectedTie ? selectedTieLegIndex : null;
-  elements.simulateSelected.textContent = selectedLegIndex === 1 ? 'Simulate selected · 2nd leg' : 'Simulate selected match';
+  elements.simulateSelected.textContent = 'Simulate selected';
   elements.simulateSelected.disabled = simulationRunning || !selectedTie || selectedLegIndex === null
     || !canSimulateTie(selectedTie, roundKey, selectedLegIndex);
   elements.status.textContent = simulationRunning ? 'Simulating knockout fixtures…'
