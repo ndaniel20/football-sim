@@ -35,7 +35,9 @@ function makeBadge(team, className = '') {
 }
 
 function saveKnockout() {
-  window.localStorage.setItem(KNOCKOUT_KEY, JSON.stringify(knockout));
+  if (!window.tournamentStorage.save(KNOCKOUT_KEY, knockout)) {
+    elements.status.textContent = 'Browser storage is full. Your progress is still available until this page is closed.';
+  }
 }
 
 function getFinalStandings(phase) {

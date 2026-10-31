@@ -7,6 +7,8 @@ const tournamentStorageKeys = {
   draw: 'ucl-simulator-draw',
   leaguePhase: 'ucl-simulator-league-phase',
   knockout: 'ucl-simulator-knockout',
+  tournamentCacheV1: 'ucl-simulator-knockout-view-cache-v1',
+  tournamentCacheV2: 'ucl-simulator-knockout-view-cache-v2',
 };
 
 function readSavedState(key) {

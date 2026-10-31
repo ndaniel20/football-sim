@@ -127,7 +127,7 @@ function readDraw() {
 
 function readSavedLeaguePhase(signature) {
   try {
-    const saved = JSON.parse(window.localStorage.getItem(LEAGUE_PHASE_KEY) || 'null');
+    const saved = window.tournamentStorage.parse(window.localStorage.getItem(LEAGUE_PHASE_KEY) || 'null');
     if (saved?.signature !== signature || !Array.isArray(saved.matchdays) || saved.matchdays.length !== MATCHDAY_COUNT) return null;
     if (saved.matchdays.some((day) => !Array.isArray(day.fixtures) || day.fixtures.length !== TEAM_COUNT / 2)) return null;
     for (const day of saved.matchdays) {
@@ -155,10 +155,9 @@ function getDrawSignature(draw) {
 }
 
 function saveLeaguePhase() {
-  const serialized = JSON.stringify(leaguePhase, (key, value) => (
-    key === 'minuteStats' ? undefined : value
-  ));
-  window.localStorage.setItem(LEAGUE_PHASE_KEY, serialized);
+  if (!window.tournamentStorage.save(LEAGUE_PHASE_KEY, leaguePhase)) {
+    elements.simulationStatus.textContent = 'Browser storage is full. Your progress is still available until this page is closed.';
+  }
 }
 
 function buildStandings() {

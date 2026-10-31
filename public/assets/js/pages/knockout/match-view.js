@@ -111,9 +111,15 @@ function renderKnockoutScoreboard(fixture, homeGoals, awayGoals, minute, totalMi
 }
 
 function renderKnockoutLiveStats(result, minute) {
+  const totalPossessions = result.possessions || (result.homeStats?.possessions || 0) + (result.awayStats?.possessions || 0);
   const snapshot = minute > 0 && result.minuteStats?.length
     ? result.minuteStats[Math.max(0, Math.min(minute - 1, result.minuteStats.length - 1))]
-    : { homeXG: 0, awayXG: 0, homePossession: 50, awayPossession: 50 };
+    : {
+      homeXG: result.homeStats?.xG || 0,
+      awayXG: result.awayStats?.xG || 0,
+      homePossession: totalPossessions ? (result.homeStats?.possessions || 0) / totalPossessions * 100 : 50,
+      awayPossession: totalPossessions ? (result.awayStats?.possessions || 0) / totalPossessions * 100 : 50,
+    };
   if (elements.liveMatchStats.children.length !== 2) {
     elements.liveMatchStats.replaceChildren();
     for (const label of ['EXPECTED GOALS', 'POSSESSION']) {
