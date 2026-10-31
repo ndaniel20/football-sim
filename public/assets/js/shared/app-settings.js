@@ -9,6 +9,7 @@
   });
   const goalOptions = new Set(['low', 'medium', 'high']);
   const gearIcon = '<svg viewBox="0 0 512 512" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M487.4 315.7l-42.6-24.6c2.4-14 3.7-28.4 3.7-43.1s-1.3-29.1-3.7-43.1l42.6-24.6c8.5-4.9 11.4-15.8 6.5-24.3l-43-74.5c-4.9-8.5-15.8-11.4-24.3-6.5l-42.6 24.6c-22-18.2-47.6-32.9-75.3-42.7V8c0-9.9-8.1-18-18-18h-86c-9.9 0-18 8.1-18 18v49.2c-27.7 9.8-53.3 24.5-75.3 42.7L68.8 75.3c-8.5-4.9-19.4-2-24.3 6.5l-43 74.5c-4.9 8.5-2 19.4 6.5 24.3l42.6 24.6c-2.4 14-3.7 28.4-3.7 43.1s1.3 29.1 3.7 43.1L8 315.7c-8.5 4.9-11.4 15.8-6.5 24.3l43 74.5c4.9 8.5 15.8 11.4 24.3 6.5l42.6-24.6c22 18.2 47.6 32.9 75.3 42.7V488c0 9.9 8.1 18 18 18h86c9.9 0 18-8.1 18-18v-49.2c27.7-9.8 53.3-24.5 75.3-42.7l42.6 24.6c8.5 4.9 19.4 2 24.3-6.5l43-74.5c4.9-8.5 2-19.4-6.5-24.3zM256 336c-48.5 0-88-39.5-88-88s39.5-88 88-88 88 39.5 88 88-39.5 88-88 88z"/></svg>';
+  const homeIcon = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
   function normalize(value) {
     const source = value && typeof value === 'object' ? value : {};
@@ -53,25 +54,70 @@
 
   function createTrigger() {
     const existing = document.querySelector('.nav-settings');
+    const triggers = [];
     if (existing) {
       existing.removeAttribute('aria-disabled');
       existing.innerHTML = gearIcon;
       existing.setAttribute('aria-haspopup', 'dialog');
       existing.setAttribute('aria-controls', 'app-settings-dialog');
-      return existing;
+      triggers.push(existing);
     }
 
-    const button = document.createElement('button');
-    button.className = 'settings-topbar-trigger';
-    button.type = 'button';
-    button.setAttribute('aria-label', 'Settings');
-    button.setAttribute('title', 'Settings');
-    button.setAttribute('aria-haspopup', 'dialog');
-    button.setAttribute('aria-controls', 'app-settings-dialog');
-    button.innerHTML = gearIcon;
+    const needsTopbarTrigger = !existing || document.body.matches('.setup-page, .draw-page');
     const topbar = document.querySelector('.topbar');
-    if (topbar) topbar.insertBefore(button, topbar.querySelector('.league-season, .season-callout') || null);
-    return button;
+    if (needsTopbarTrigger && topbar) {
+      const button = document.createElement('button');
+      button.className = 'settings-topbar-trigger';
+      button.type = 'button';
+      button.setAttribute('aria-label', 'Settings');
+      button.setAttribute('title', 'Settings');
+      button.setAttribute('aria-haspopup', 'dialog');
+      button.setAttribute('aria-controls', 'app-settings-dialog');
+      button.innerHTML = gearIcon;
+      const actions = document.createElement('div');
+      actions.className = 'topbar-actions';
+      if (!existing) {
+        const home = document.createElement('a');
+        home.className = 'home-topbar-trigger';
+        home.href = '/';
+        home.setAttribute('aria-label', 'Home');
+        home.setAttribute('title', 'Home');
+        home.innerHTML = homeIcon;
+        actions.append(home);
+      }
+      actions.append(button);
+      topbar.insertBefore(actions, topbar.querySelector('.league-season, .season-callout') || null);
+      triggers.push(button);
+    }
+    return triggers;
+  }
+
+  function createMobileNavigation() {
+    if (document.querySelector('.side-rail')) return;
+    const items = [
+      ['/', 'Home', '<path d="m3.5 10.5 8.5-7 8.5 7v9a1 1 0 0 1-1 1h-5.2v-6.2H9.7v6.2H4.5a1 1 0 0 1-1-1v-9Z"/>'],
+      ['/lineup', 'Line-up', '<path d="M14.7 6.3a5 5 0 0 0-6.4-6.4l3.2 3.2-3.5 3.5-3.2-3.2a5 5 0 0 0 6.4 6.4l7.2 7.2a2 2 0 0 0 2.8-2.8l-6.5-6.5Z" transform="translate(1 1)"/>'],
+      ['/changelog', 'Change log', '<path d="M4.5 3.5h8l4.5 4.5v3.5m-12.5-8v17h9m-6-12h5m-5 4h3"/><path d="M17.5 13a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"/><path d="M17.5 15.2v2.2l1.4.9"/>'],
+      ['/match-simulator', 'Match simulator', '<circle cx="12" cy="12" r="9.25"/><path d="m12 7.4 3.1 2.2-1.2 3.7h-3.8l-1.2-3.7L12 7.4Zm0 0V2.8m3.1 6.8 4.4-1.4M13.9 13.3l2.8 4m-6.6-4-2.8 4M8.9 9.6 4.5 8.2"/>'],
+    ];
+    const navigation = document.createElement('nav');
+    navigation.className = 'mobile-navigation';
+    navigation.setAttribute('aria-label', 'Primary navigation');
+    const currentPath = window.location.pathname.replace(/\/+$/, '') || '/';
+    items.forEach(([href, label, icon]) => {
+      const link = document.createElement('a');
+      link.className = 'mobile-navigation-item';
+      link.href = href;
+      link.setAttribute('aria-label', label);
+      link.setAttribute('title', label);
+      if (currentPath === href || (href !== '/' && currentPath.startsWith(`${href}/`))) {
+        link.classList.add('is-active');
+        link.setAttribute('aria-current', 'page');
+      }
+      link.innerHTML = `<svg viewBox="0 0 24 24" fill="none" aria-hidden="true" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${icon}</svg>`;
+      navigation.append(link);
+    });
+    document.body.append(navigation);
   }
 
   function createDialog() {
@@ -126,7 +172,8 @@
     return dialog;
   }
 
-  const trigger = createTrigger();
+  const triggers = createTrigger();
+  createMobileNavigation();
   const dialog = createDialog();
   const speedInput = dialog.querySelector('#settings-game-speed');
   const speedOutput = dialog.querySelector('#settings-game-speed-value');
@@ -144,13 +191,14 @@
     speedOutput.textContent = `${(settings.gameSpeed / 100).toFixed(2).replace(/0+$/, '').replace(/\.$/, '')}×`;
   }
 
-  trigger.addEventListener('click', () => {
+  const openSettings = () => {
     renderControls();
     if (!dialog.open) {
       document.documentElement.classList.add('app-settings-open');
       dialog.showModal();
     }
-  });
+  };
+  triggers.forEach((trigger) => trigger.addEventListener('click', openSettings));
   dialog.querySelector('.app-settings-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => document.documentElement.classList.remove('app-settings-open'));
   dialog.querySelector('.app-settings-reset').addEventListener('click', () => save(DEFAULTS));

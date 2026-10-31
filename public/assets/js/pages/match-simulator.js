@@ -51,6 +51,7 @@ let teamsByLeague = new Map();
 let teamsByName = new Map();
 const selections = { home: { leagueKey: '', teamName: '' }, away: { leagueKey: '', teamName: '' } };
 let currentMatch = null;
+let renderedScoreboardMatch = null;
 let playback = null;
 let modalScrollY = 0;
 let activePicker = null;
@@ -363,35 +364,39 @@ function releaseDialogScroll() {
 }
 
 function renderScore(homeGoals, awayGoals, minute, totalMinutes) {
-  elements.scoreboard.replaceChildren();
-  const home = currentMatch.homeTeam;
-  const away = currentMatch.awayTeam;
-  const createSide = (team) => {
-    const side = document.createElement('div');
-    side.className = 'scoreboard-team';
-    const badge = document.createElement('img');
-    setCrest(badge, team);
-    side.append(badge);
-    const name = document.createElement('span');
-    name.textContent = team.name;
-    side.append(name);
-    return side;
-  };
-  const center = document.createElement('div');
-  center.className = 'scoreboard-center';
-  const score = document.createElement('strong');
-  score.className = 'scoreboard-score';
+  if (renderedScoreboardMatch !== currentMatch) {
+    elements.scoreboard.replaceChildren();
+    const createSide = (team) => {
+      const side = document.createElement('div');
+      side.className = 'scoreboard-team';
+      const badge = document.createElement('img');
+      setCrest(badge, team);
+      side.append(badge);
+      const name = document.createElement('span');
+      name.textContent = team.name;
+      side.append(name);
+      return side;
+    };
+    const center = document.createElement('div');
+    center.className = 'scoreboard-center';
+    const score = document.createElement('strong');
+    score.className = 'scoreboard-score';
+    const clock = document.createElement('span');
+    clock.className = 'scoreboard-clock';
+    center.append(score, clock);
+    elements.scoreboard.append(createSide(currentMatch.homeTeam), center, createSide(currentMatch.awayTeam));
+    renderedScoreboardMatch = currentMatch;
+  }
+
+  const score = elements.scoreboard.querySelector('.scoreboard-score');
+  const clock = elements.scoreboard.querySelector('.scoreboard-clock');
   score.textContent = `${homeGoals}–${awayGoals}`;
-  const clock = document.createElement('span');
-  clock.className = 'scoreboard-clock';
   clock.textContent = minute >= totalMinutes ? 'FULL TIME'
     : minute === 45 ? 'HALF-TIME'
       : totalMinutes === 120 && minute === 90 ? 'EXTRA TIME'
         : totalMinutes === 120 && minute === 105 ? 'ET HALF-TIME'
       : minute > 45 ? `${minute}′ · SECOND HALF`
         : minute ? `${minute}′ · FIRST HALF` : 'KICK-OFF';
-  center.append(score, clock);
-  elements.scoreboard.append(createSide(home), center, createSide(away));
 }
 
 function renderStats(result, minute) {

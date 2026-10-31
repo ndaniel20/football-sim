@@ -32,6 +32,7 @@ function countGoals(events) {
 }
 
 let modalScrollY = 0;
+let renderedScoreboardFixture = null;
 function openKnockoutDialog(dialog) {
   if (!dialog.open) {
     if (!document.querySelector('dialog[open]')) {
@@ -62,23 +63,31 @@ function releaseKnockoutDialogScroll() {
 }
 
 function renderKnockoutScoreboard(fixture, homeGoals, awayGoals, minute, totalMinutes, penaltyScore = null) {
-  elements.liveScoreboard.replaceChildren();
-  const createSide = (team) => {
-    const side = document.createElement('div');
-    side.className = 'scoreboard-team';
-    side.append(makeBadge(team));
-    const name = document.createElement('span');
-    name.textContent = team.name;
-    side.append(name);
-    return side;
-  };
-  const center = document.createElement('div');
-  center.className = 'scoreboard-center';
-  const score = document.createElement('strong');
-  score.className = 'scoreboard-score';
+  if (renderedScoreboardFixture !== fixture) {
+    elements.liveScoreboard.replaceChildren();
+    const createSide = (team) => {
+      const side = document.createElement('div');
+      side.className = 'scoreboard-team';
+      side.append(makeBadge(team));
+      const name = document.createElement('span');
+      name.textContent = team.name;
+      side.append(name);
+      return side;
+    };
+    const center = document.createElement('div');
+    center.className = 'scoreboard-center';
+    const score = document.createElement('strong');
+    score.className = 'scoreboard-score';
+    const clock = document.createElement('span');
+    clock.className = 'scoreboard-clock';
+    center.append(score, clock);
+    elements.liveScoreboard.append(createSide(fixture.home.team), center, createSide(fixture.away.team));
+    renderedScoreboardFixture = fixture;
+  }
+
+  const score = elements.liveScoreboard.querySelector('.scoreboard-score');
+  const clock = elements.liveScoreboard.querySelector('.scoreboard-clock');
   score.textContent = `${homeGoals}–${awayGoals}`;
-  const clock = document.createElement('span');
-  clock.className = 'scoreboard-clock';
   if (penaltyScore) clock.textContent = `PENALTIES (${penaltyScore.home}–${penaltyScore.away})`;
   else if (minute >= totalMinutes) clock.textContent = 'FULL TIME';
   else if (minute === 90 && totalMinutes > 90) clock.textContent = 'FULL TIME · 90′';
@@ -87,8 +96,6 @@ function renderKnockoutScoreboard(fixture, homeGoals, awayGoals, minute, totalMi
   else if (minute === 45) clock.textContent = 'HALF-TIME';
   else if (minute > 45) clock.textContent = `${minute}′ · SECOND HALF`;
   else clock.textContent = minute ? `${minute}′ · FIRST HALF` : 'KICK-OFF';
-  center.append(score, clock);
-  elements.liveScoreboard.append(createSide(fixture.home.team), center, createSide(fixture.away.team));
 }
 
 function renderKnockoutLiveStats(result, minute) {

@@ -1,0 +1,156 @@
+.setup-page .topbar-actions, .draw-page .topbar-actions { display: none; }
+
+@media (max-width: 760px) {
+  .side-rail {
+    z-index: 20;
+    inset: auto 0 0;
+    width: 100%;
+    height: calc(var(--mobile-navigation-height) + env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
+    border: 0;
+    border-top: 1px solid rgba(183, 205, 232, 0.12);
+    background: rgba(5, 9, 16, 0.94);
+  }
+
+  .side-navigation {
+    height: var(--mobile-navigation-height);
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4px;
+    padding: 6px 10px;
+  }
+
+  .side-rail .nav-item {
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+  }
+
+  .side-rail .nav-item svg { width: 21px; height: 21px; }
+  .side-rail .nav-item.is-active::before { top: auto; right: 10px; bottom: -5px; left: 10px; width: auto; height: 2px; }
+  .side-rail .nav-settings { margin: 0; }
+
+  .main-column {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 18px;
+    padding-bottom: calc(94px + env(safe-area-inset-bottom));
+    padding-left: 18px;
+  }
+
+  .mobile-navigation {
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    height: calc(var(--mobile-navigation-height) + env(safe-area-inset-bottom));
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 4px;
+    padding: 6px 10px env(safe-area-inset-bottom);
+    border-top: 1px solid rgba(183, 205, 232, 0.12);
+    background: rgba(5, 9, 16, 0.94);
+    backdrop-filter: blur(16px);
+  }
+
+  .mobile-navigation-item {
+    position: relative;
+    display: grid;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    color: #758399;
+    text-decoration: none;
+  }
+
+  .mobile-navigation-item svg { width: 21px; height: 21px; }
+  .mobile-navigation-item.is-active { color: #b9d3ff; border-color: rgba(117, 168, 255, 0.2); background: linear-gradient(145deg, rgba(67, 111, 180, 0.25), rgba(30, 53, 88, 0.18)); }
+  .mobile-navigation-item.is-active::before { position: absolute; right: 10px; bottom: -5px; left: 10px; height: 2px; border-radius: 2px; background: var(--cyan); content: ''; }
+
+  .home-page main { padding-bottom: 12px; }
+  .lineup-column, .change-log-column, .match-simulator-column { padding-bottom: calc(104px + env(safe-area-inset-bottom)); }
+
+  .setup-page .side-rail,
+  .draw-page .side-rail,
+  .league-phase-page .mobile-navigation,
+  .knockout-page .mobile-navigation { display: none; }
+
+  .setup-page .topbar-actions, .draw-page .topbar-actions { display: flex; }
+
+  .selection-dock, .draw-dock, .league-phase-page .simulation-dock, .knockout-page .simulation-dock {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom));
+  }
+
+  .selection-dock { padding-right: 14px; padding-left: 14px; }
+  .draw-dock { padding-right: 10px; padding-left: 10px; }
+  .setup-page { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
+  .draw-page { padding-bottom: calc(150px + env(safe-area-inset-bottom)); }
+  .league-main, .knockout-main { padding-bottom: calc(150px + env(safe-area-inset-bottom)); }
+  .progress-copy strong { font-size: 13px; white-space: nowrap; }
+
+  .change-log-status { right: 12px; bottom: calc(var(--mobile-navigation-height) + env(safe-area-inset-bottom) + 12px); }
+}
+
+@media (max-width: 560px) {
+  .app-settings-dialog {
+    height: calc(100vh - 24px);
+    height: calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  }
+
+  .app-settings-shell {
+    height: 100%;
+    max-height: 100%;
+    min-height: 0;
+  }
+
+  .app-settings-content { min-height: 0; }
+
+  .match-modal {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 24px);
+    max-height: calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  }
+
+  .match-modal-shell { min-height: 0; max-height: 100%; }
+  .match-timeline { min-height: 0; padding-right: 12px; padding-left: 12px; }
+  .timeline-goal { grid-template-columns: 28px 30px minmax(0, 1fr) minmax(68px, 27%); gap: 5px; }
+  .event-face { width: 30px; height: 30px; }
+  .goal-assist { grid-column: auto; width: 100%; margin: 0; justify-self: stretch; gap: 4px; }
+  .assist-face { width: 23px; height: 23px; }
+  .goal-assist small { font-size: 6px; letter-spacing: 0.04em; }
+  .goal-assist strong { max-width: 100%; font-size: 8px; }
+
+  .timeline-period {
+    grid-template-columns: 22px max-content minmax(0, 1fr);
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .timeline-period > strong { font-size: 8px; letter-spacing: 0.04em; white-space: nowrap; }
+  .timeline-period .period-score { grid-column: auto; justify-self: end; min-width: 0; max-width: 100%; overflow: hidden; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
+  .timeline-period.is-penalty { grid-template-columns: 22px max-content minmax(0, 1fr); }
+  .timeline-period.is-penalty .period-score { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .league-phase-page .topbar, .knockout-page .topbar { gap: 8px; }
+  .league-phase-page .brand-name, .knockout-page .brand-name { font-size: 10px; letter-spacing: 0.06em; }
+  .league-phase-page .topbar-actions, .knockout-page .topbar-actions { gap: 5px; }
+  .setup-page .topbar-actions, .draw-page .topbar-actions { gap: 5px; }
+  .league-phase-page .home-topbar-trigger, .league-phase-page .settings-topbar-trigger,
+  .knockout-page .home-topbar-trigger, .knockout-page .settings-topbar-trigger,
+  .setup-page .settings-topbar-trigger, .draw-page .settings-topbar-trigger { width: 35px; height: 35px; }
+}
+
+@media (max-width: 420px) {
+  .league-phase-page .league-season, .knockout-page .league-season { display: none; }
+  .league-phase-page .main-column, .knockout-page .main-column { padding-right: 14px; padding-left: 14px; }
+}

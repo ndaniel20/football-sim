@@ -43,6 +43,7 @@ let selectedFixtureId = null;
 let batchSimulationRunning = false;
 let animationRun = null;
 let viewedFixtureId = null;
+let renderedScoreboardFixture = null;
 const activeFixtureIds = new Set();
 let modalScrollY = 0;
 
@@ -889,29 +890,31 @@ function renderFixtureTimeline(fixture, events, { halftimeReached = true, fullTi
 }
 
 function renderScoreboard(fixture, homeGoals, awayGoals, minute) {
-  elements.liveScoreboard.replaceChildren();
-  const home = document.createElement('div');
-  home.className = 'scoreboard-team';
-  appendBadge(home, fixture.home.team, '');
-  const homeName = document.createElement('span');
-  homeName.textContent = fixture.home.team.name;
-  home.append(homeName);
-  const away = document.createElement('div');
-  away.className = 'scoreboard-team';
-  appendBadge(away, fixture.away.team, '');
-  const awayName = document.createElement('span');
-  awayName.textContent = fixture.away.team.name;
-  away.append(awayName);
-  const center = document.createElement('div');
-  center.className = 'scoreboard-center';
-  const score = document.createElement('strong');
-  score.className = 'scoreboard-score';
-  score.textContent = `${homeGoals}–${awayGoals}`;
-  const clock = document.createElement('span');
-  clock.className = 'scoreboard-clock';
-  clock.textContent = minute >= 90 ? 'FULL TIME' : minute === 45 ? 'HALF-TIME' : minute > 45 ? `${minute}′ · SECOND HALF` : `${minute}′ · FIRST HALF`;
-  center.append(score, clock);
-  elements.liveScoreboard.append(home, center, away);
+  if (renderedScoreboardFixture !== fixture) {
+    elements.liveScoreboard.replaceChildren();
+    const createSide = (team) => {
+      const side = document.createElement('div');
+      side.className = 'scoreboard-team';
+      appendBadge(side, team, '');
+      const name = document.createElement('span');
+      name.textContent = team.name;
+      side.append(name);
+      return side;
+    };
+    const center = document.createElement('div');
+    center.className = 'scoreboard-center';
+    const score = document.createElement('strong');
+    score.className = 'scoreboard-score';
+    const clock = document.createElement('span');
+    clock.className = 'scoreboard-clock';
+    center.append(score, clock);
+    elements.liveScoreboard.append(createSide(fixture.home.team), center, createSide(fixture.away.team));
+    renderedScoreboardFixture = fixture;
+  }
+
+  elements.liveScoreboard.querySelector('.scoreboard-score').textContent = `${homeGoals}–${awayGoals}`;
+  elements.liveScoreboard.querySelector('.scoreboard-clock').textContent = minute >= 90
+    ? 'FULL TIME' : minute === 45 ? 'HALF-TIME' : minute > 45 ? `${minute}′ · SECOND HALF` : `${minute}′ · FIRST HALF`;
 }
 
 function getSnapshot(result, minute) {
