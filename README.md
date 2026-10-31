@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000> or check https://www.ucl-simulator.com/ to see a live demo of the website
 
 ## Useful commands
 
