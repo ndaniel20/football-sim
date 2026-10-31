@@ -1,7 +1,5 @@
 (() => {
-  // Set this to the canonical production origin after attaching your domain in Vercel.
-  // Example: 'https://ucl.example.com' (no trailing slash).
-  const SITE_ORIGIN = '';
+  const SITE_ORIGIN = 'https://football-sim-rho.vercel.app/';
   const siteOrigin = SITE_ORIGIN.trim().replace(/\/+$/, '') || window.location.origin;
   const canonicalUrl = `${siteOrigin}${window.location.pathname}`;
   const canonicalLink = document.createElement('link');
