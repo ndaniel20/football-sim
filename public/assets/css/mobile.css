@@ -1,5 +1,4 @@
-.setup-page .topbar-actions, .draw-page .topbar-actions,
-.league-phase-page .topbar-actions, .knockout-page .topbar-actions { display: none; }
+.setup-page .topbar-actions, .draw-page .topbar-actions { display: none; }
 
 @media (max-width: 760px) {
   .topbar { gap: 8px; }
