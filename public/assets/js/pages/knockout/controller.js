@@ -33,13 +33,14 @@ async function simulateTies(ties, animated = false, forcedLegIndex = null) {
         awayGoalsEligible: roundKey !== 'final',
         resolveTie: roundKey === 'final' || legIndex === 1,
         neutral: roundKey === 'final',
+        leg: legIndex + 1,
       };
     });
     const customizations = await window.playerCustomizations.load();
     const response = await fetch('/api/simulate-matches', {
       method: 'POST',
       headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ matches, customizations, settings: window.appSettings.get() }),
+      body: JSON.stringify({ matches, customizations, settings: window.appSettings.get(), stage: roundKey }),
     });
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || 'Could not simulate these matches.');

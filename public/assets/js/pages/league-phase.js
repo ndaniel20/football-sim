@@ -1062,7 +1062,7 @@ function finishAnimationImmediately() {
   while (animationRun) animationRun.advance();
 }
 
-async function requestSimulation(fixtures) {
+async function requestSimulation(fixtures, matchday) {
   const customizations = await window.playerCustomizations.load();
   const response = await fetch('/api/simulate-matches', {
     method: 'POST',
@@ -1070,6 +1070,8 @@ async function requestSimulation(fixtures) {
     body: JSON.stringify({
       customizations,
       settings: window.appSettings.get(),
+      stage: 'league_phase',
+      matchday,
       matches: fixtures.map((fixture) => ({
         id: fixture.id,
         homeTeamName: fixture.home.team.name,
@@ -1109,7 +1111,7 @@ async function simulateSelectedFixture() {
   renderMatchday();
 
   try {
-    const [result] = await requestSimulation([fixture]);
+    const [result] = await requestSimulation([fixture], day.matchday);
     fixture.result = result;
     saveLeaguePhase();
     startMatchAnimation(fixture, result);
@@ -1132,7 +1134,7 @@ async function simulateCurrentMatchday() {
   selectedFixtureId = null;
   renderMatchday();
   try {
-    const results = await requestSimulation(fixtures);
+    const results = await requestSimulation(fixtures, day.matchday);
     const expectedIds = new Set(fixtures.map((fixture) => fixture.id));
     if (!Array.isArray(results) || results.length !== fixtures.length
       || results.some((result) => !result || !expectedIds.has(result.id)

@@ -883,6 +883,7 @@ async function simulateMatch() {
           knockout: true,
           resolveTie: true,
         }],
+        stage: 'friendly',
         customizations,
         settings: window.appSettings.get(),
       }),

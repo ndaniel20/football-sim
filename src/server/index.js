@@ -102,6 +102,51 @@ function readJsonBody(request, maximumSize) {
   });
 }
 
+const ENGAGEMENT_PAGES = new Set([
+  '/', '/start-tournament', '/draw', '/league-phase', '/knockout',
+  '/lineup', '/changelog', '/match-simulator',
+]);
+const ENGAGEMENT_EVENTS = new Set(['page_view', 'button_click']);
+
+function logEngagement(event, details = {}) {
+  console.info(`[engagement] ${JSON.stringify({
+    timestamp: new Date().toISOString(),
+    event,
+    ...details,
+  })}`);
+}
+
+async function handleEngagementRequest(request, response) {
+  try {
+    const payload = await readJsonBody(request, 16 * 1024);
+    if (!Array.isArray(payload.events) || payload.events.length < 1 || payload.events.length > 20) {
+      throw new Error('Engagement requests must contain between 1 and 20 events.');
+    }
+    let logged = 0;
+    for (const entry of payload.events) {
+      const page = typeof entry?.page === 'string' ? entry.page.slice(0, 60) : '';
+      if (!ENGAGEMENT_EVENTS.has(entry?.event) || !ENGAGEMENT_PAGES.has(page)) continue;
+      if (entry.event === 'page_view') {
+        logEngagement('page_view', { page });
+        logged += 1;
+        continue;
+      }
+      const label = typeof entry.label === 'string'
+        ? entry.label.replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 80)
+        : '';
+      const buttonId = typeof entry.buttonId === 'string'
+        ? entry.buttonId.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 60)
+        : '';
+      if (!label && !buttonId) continue;
+      logEngagement('button_click', { page, label, ...(buttonId ? { buttonId } : {}) });
+      logged += 1;
+    }
+    sendJson(response, 202, { accepted: logged });
+  } catch (error) {
+    sendJson(response, error.statusCode || 400, { error: error.message || 'Unable to record engagement events.' });
+  }
+}
+
 function handleDrawRequest(request, response) {
   let requestBody = '';
   let bodySize = 0;
@@ -252,6 +297,12 @@ function handlePlayerCustomizationRequest(request, response) {
       const result = await customizationStore.savePlayerCustomization(
         edit, customizations, normalizeSimulationSettings(settings),
       );
+      const editedFields = ['clubKey', 'position', 'alternatePositions', 'ratingStars']
+        .filter((field) => Object.hasOwn(edit, field));
+      logEngagement('player_edit', {
+        playerKey: typeof edit.playerKey === 'string' ? edit.playerKey.slice(0, 100) : 'unknown',
+        fields: editedFields,
+      });
       const { changes, ...player } = result;
       sendJson(response, 200, { player, customizations: changes });
     })
@@ -576,6 +627,20 @@ function handleSimulationRequest(request, response) {
           possessions,
         };
       });
+      const stages = new Set(['league_phase', 'friendly', 'playoff', 'r16', 'qf', 'sf', 'final']);
+      const stage = stages.has(payload.stage) ? payload.stage
+        : payload.matches.some((match) => match?.knockout === true) ? 'knockout' : 'league_phase';
+      const matchday = Number.isInteger(payload.matchday) && payload.matchday >= 1 && payload.matchday <= 8
+        ? payload.matchday : undefined;
+      logEngagement('simulation', {
+        stage,
+        ...(matchday ? { matchday } : {}),
+        matches: payload.matches.map((match) => ({
+          home: match.homeTeamName,
+          away: match.awayTeamName,
+          ...(Number.isInteger(match.leg) && match.leg >= 1 && match.leg <= 2 ? { leg: match.leg } : {}),
+        })),
+      });
       sendJson(response, 200, { results });
     } catch (error) {
       sendJson(response, 422, { error: error.message || 'Unable to simulate the requested matches.' });
@@ -630,6 +695,11 @@ function handleRequest(request, response) {
 
   if (requestPath === '/api/draw' && request.method === 'POST') {
     handleDrawRequest(request, response);
+    return;
+  }
+
+  if (requestPath === '/api/engagement' && request.method === 'POST') {
+    handleEngagementRequest(request, response);
     return;
   }
 
