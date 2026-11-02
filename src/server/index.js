@@ -297,12 +297,12 @@ function handlePlayerCustomizationRequest(request, response) {
       const result = await customizationStore.savePlayerCustomization(
         edit, customizations, normalizeSimulationSettings(settings),
       );
-      const editedFields = ['clubKey', 'position', 'alternatePositions', 'ratingStars']
-        .filter((field) => Object.hasOwn(edit, field));
-      logEngagement('player_edit', {
-        playerKey: typeof edit.playerKey === 'string' ? edit.playerKey.slice(0, 100) : 'unknown',
-        fields: editedFields,
-      });
+      if (result.changedFields.length) {
+        logEngagement('player_edit', {
+          player: result.playerName,
+          fields: result.changedFields,
+        });
+      }
       const { changes, ...player } = result;
       sendJson(response, 200, { player, customizations: changes });
     })

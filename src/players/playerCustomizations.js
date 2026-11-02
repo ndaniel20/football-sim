@@ -236,6 +236,18 @@ class PlayerCustomizationStore {
     const effectiveAlternatePositions = alternatePositions
       .filter((position) => position !== input.position)
       .sort();
+    const previousPosition = currentEdit.position || sourcePlayer.position;
+    const previousAlternatePositions = (currentEdit.alternatePositions || sourcePlayer.alternatePositions)
+      .filter((position) => position !== previousPosition)
+      .sort();
+    const changedFields = [];
+    if (previousClubKey !== targetClub.customizationKey) changedFields.push('club');
+    if (previousPosition !== input.position) changedFields.push('position');
+    if (previousAlternatePositions.length !== effectiveAlternatePositions.length
+      || previousAlternatePositions.some((position, index) => position !== effectiveAlternatePositions[index])) {
+      changedFields.push('alternatePositions');
+    }
+    if (currentRating !== rating) changedFields.push('rating');
     const baseAlternatePositions = sourcePlayer.alternatePositions
       .filter((position) => position !== sourcePlayer.position)
       .sort();
@@ -284,6 +296,8 @@ class PlayerCustomizationStore {
     const currentClub = byKey.get(targetClub.customizationKey);
     return {
       playerKey: sourcePlayer.playerKey,
+      playerName: sourcePlayer.name,
+      changedFields,
       rating,
       ratingStars: starsForRating(rating),
       clubKey: currentClub.customizationKey,
